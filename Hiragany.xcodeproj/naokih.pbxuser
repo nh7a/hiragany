@@ -1,0 +1,617 @@
+// !$*UTF8*$!
+{
+	089C165DFE840E0CC02AAC07 /* English */ = {
+		uiCtxt = {
+			sepNavIntBoundsRect = "{{0, 0}, {990, 572}}";
+			sepNavSelRange = "{0, 0}";
+			sepNavVisRange = "{0, 45}";
+		};
+	};
+	29B97313FDCFA39411CA2CEA /* Project object */ = {
+		activeBuildConfigurationName = Release;
+		activeExecutable = BE0CAB370FA9741C005CB1CA /* Hiragany */;
+		activeTarget = 8D1107260486CEB800E47090 /* Hiragany */;
+		addToTargets = (
+			8D1107260486CEB800E47090 /* Hiragany */,
+		);
+		codeSenseManager = BE0CAB430FA9742A005CB1CA /* Code sense */;
+		executables = (
+			BE0CAB370FA9741C005CB1CA /* Hiragany */,
+		);
+		perUserDictionary = {
+			PBXConfiguration.PBXFileTableDataSource3.PBXExecutablesDataSource = {
+				PBXFileTableDataSourceColumnSortingDirectionKey = "-1";
+				PBXFileTableDataSourceColumnSortingKey = PBXExecutablesDataSource_NameID;
+				PBXFileTableDataSourceColumnWidthsKey = (
+					22,
+					300,
+					354,
+				);
+				PBXFileTableDataSourceColumnsKey = (
+					PBXExecutablesDataSource_ActiveFlagID,
+					PBXExecutablesDataSource_NameID,
+					PBXExecutablesDataSource_CommentsID,
+				);
+			};
+			PBXConfiguration.PBXFileTableDataSource3.PBXFileTableDataSource = {
+				PBXFileTableDataSourceColumnSortingDirectionKey = "-1";
+				PBXFileTableDataSourceColumnSortingKey = PBXFileDataSource_Filename_ColumnID;
+				PBXFileTableDataSourceColumnWidthsKey = (
+					20,
+					812,
+					20,
+					48,
+					43,
+					43,
+					20,
+				);
+				PBXFileTableDataSourceColumnsKey = (
+					PBXFileDataSource_FiletypeID,
+					PBXFileDataSource_Filename_ColumnID,
+					PBXFileDataSource_Built_ColumnID,
+					PBXFileDataSource_ObjectSize_ColumnID,
+					PBXFileDataSource_Errors_ColumnID,
+					PBXFileDataSource_Warnings_ColumnID,
+					PBXFileDataSource_Target_ColumnID,
+				);
+			};
+			PBXPerProjectTemplateStateSaveDate = 264227142;
+			PBXWorkspaceStateSaveDate = 264227142;
+		};
+		perUserProjectItems = {
+			BE418BF80FBFC6A00006365B = BE418BF80FBFC6A00006365B /* PBXTextBookmark */;
+			BE418BF90FBFC6A00006365B = BE418BF90FBFC6A00006365B /* PBXTextBookmark */;
+			BE418BFA0FBFC6A00006365B = BE418BFA0FBFC6A00006365B /* PBXTextBookmark */;
+			BE418BFB0FBFC6A00006365B = BE418BFB0FBFC6A00006365B /* PBXTextBookmark */;
+			BE418C010FBFC7260006365B = BE418C010FBFC7260006365B /* PBXTextBookmark */;
+			BE42761A0FAC28EE00F38434 = BE42761A0FAC28EE00F38434 /* PBXBookmark */;
+			BE42761B0FAC28EE00F38434 = BE42761B0FAC28EE00F38434 /* PBXTextBookmark */;
+			BE42761D0FAC28EE00F38434 = BE42761D0FAC28EE00F38434 /* PBXTextBookmark */;
+			BE42761E0FAC28EE00F38434 = BE42761E0FAC28EE00F38434 /* PBXTextBookmark */;
+			BE42761F0FAC28EE00F38434 = BE42761F0FAC28EE00F38434 /* PBXTextBookmark */;
+			BE6ADFCC0FA9AB0000F3349F = BE6ADFCC0FA9AB0000F3349F /* PBXTextBookmark */;
+			BE6ADFCE0FA9AB0000F3349F = BE6ADFCE0FA9AB0000F3349F /* PBXBookmark */;
+			BE81112C0FAAB23300930CC6 = BE81112C0FAAB23300930CC6 /* PlistBookmark */;
+			BEA455190FB5DBAA0056A8D9 = BEA455190FB5DBAA0056A8D9 /* PlistBookmark */;
+			BEA4551A0FB5DBAA0056A8D9 = BEA4551A0FB5DBAA0056A8D9 /* PBXTextBookmark */;
+			BEA4551B0FB5DBAA0056A8D9 = BEA4551B0FB5DBAA0056A8D9 /* PBXTextBookmark */;
+			BEA4551C0FB5DBAA0056A8D9 = BEA4551C0FB5DBAA0056A8D9 /* PlistBookmark */;
+			BEA4551D0FB5DBAA0056A8D9 = BEA4551D0FB5DBAA0056A8D9 /* PBXTextBookmark */;
+			BEA4551E0FB5DBAA0056A8D9 = BEA4551E0FB5DBAA0056A8D9 /* PBXTextBookmark */;
+			BEA4551F0FB5DBAA0056A8D9 = BEA4551F0FB5DBAA0056A8D9 /* PBXTextBookmark */;
+			BEA455200FB5DBAA0056A8D9 = BEA455200FB5DBAA0056A8D9 /* PBXTextBookmark */;
+			BEA455210FB5DBAA0056A8D9 = BEA455210FB5DBAA0056A8D9 /* PBXTextBookmark */;
+			BEA455220FB5DBAA0056A8D9 = BEA455220FB5DBAA0056A8D9 /* PBXTextBookmark */;
+			BEA455230FB5DBAA0056A8D9 = BEA455230FB5DBAA0056A8D9 /* PBXTextBookmark */;
+			BEBE16350FBFC95600EFA6E7 /* PBXTextBookmark */ = BEBE16350FBFC95600EFA6E7 /* PBXTextBookmark */;
+			BEBE163A0FBFCA6000EFA6E7 /* PBXTextBookmark */ = BEBE163A0FBFCA6000EFA6E7 /* PBXTextBookmark */;
+			BEC99CCC0FA986160036B73F = BEC99CCC0FA986160036B73F /* PBXTextBookmark */;
+			BEC99CD50FA986160036B73F = BEC99CD50FA986160036B73F /* PBXTextBookmark */;
+			BEC99CD60FA986160036B73F = BEC99CD60FA986160036B73F /* PBXTextBookmark */;
+			BEC99CD70FA986160036B73F = BEC99CD70FA986160036B73F /* PBXTextBookmark */;
+			BEC99CD90FA986160036B73F = BEC99CD90FA986160036B73F /* PBXTextBookmark */;
+			BEC99CDA0FA986160036B73F = BEC99CDA0FA986160036B73F /* PBXTextBookmark */;
+			BEC99CDC0FA986160036B73F = BEC99CDC0FA986160036B73F /* PBXTextBookmark */;
+			BEC99CDE0FA986160036B73F = BEC99CDE0FA986160036B73F /* PlistBookmark */;
+			BEC99CDF0FA986160036B73F = BEC99CDF0FA986160036B73F /* PBXTextBookmark */;
+			BEC99CE70FA986160036B73F = BEC99CE70FA986160036B73F /* PBXTextBookmark */;
+			BEC99D0B0FA986DE0036B73F = BEC99D0B0FA986DE0036B73F /* PlistBookmark */;
+		};
+		sourceControlManager = BE0CAB420FA9742A005CB1CA /* Source Control */;
+		userBuildSettings = {
+		};
+	};
+	29B97316FDCFA39411CA2CEA /* main.m */ = {
+		isa = PBXFileReference;
+		fileEncoding = 4;
+		lastKnownFileType = sourcecode.c.objc;
+		name = main.m;
+		path = /Users/naokih/work/Hiragany/main.m;
+		sourceTree = "<absolute>";
+		uiCtxt = {
+			sepNavIntBoundsRect = "{{0, 0}, {915, 480}}";
+			sepNavSelRange = "{0, 0}";
+			sepNavVisRange = "{0, 1033}";
+		};
+	};
+	8D1107260486CEB800E47090 /* Hiragany */ = {
+		activeExec = 0;
+		executables = (
+			BE0CAB370FA9741C005CB1CA /* Hiragany */,
+		);
+	};
+	BE0CAB370FA9741C005CB1CA /* Hiragany */ = {
+		isa = PBXExecutable;
+		activeArgIndices = (
+		);
+		argumentStrings = (
+		);
+		autoAttachOnCrash = 1;
+		breakpointsEnabled = 0;
+		configStateDict = {
+		};
+		customDataFormattersEnabled = 1;
+		debuggerPlugin = GDBDebugging;
+		disassemblyDisplayState = 0;
+		dylibVariantSuffix = "";
+		enableDebugStr = 1;
+		environmentEntries = (
+		);
+		executableSystemSymbolLevel = 0;
+		executableUserSymbolLevel = 0;
+		libgmallocEnabled = 0;
+		name = Hiragany;
+		sourceDirectories = (
+		);
+	};
+	BE0CAB420FA9742A005CB1CA /* Source Control */ = {
+		isa = PBXSourceControlManager;
+		fallbackIsa = XCSourceControlManager;
+		isSCMEnabled = 0;
+		scmConfiguration = {
+		};
+	};
+	BE0CAB430FA9742A005CB1CA /* Code sense */ = {
+		isa = PBXCodeSenseManager;
+		indexTemplatePath = "";
+	};
+	BE0CAB520FA9747D005CB1CA /* HiraganyController.m */ = {
+		isa = PBXFileReference;
+		fileEncoding = 4;
+		lastKnownFileType = sourcecode.c.objc;
+		name = HiraganyController.m;
+		path = /Users/naokih/work/Hiragany/HiraganyController.m;
+		sourceTree = "<absolute>";
+		uiCtxt = {
+			sepNavIntBoundsRect = "{{0, 0}, {990, 2624}}";
+			sepNavSelRange = "{781, 0}";
+			sepNavVisRange = "{1517, 935}";
+		};
+	};
+	BE0CAB530FA9747D005CB1CA /* HiraganyApplicationDelegate.h */ = {
+		isa = PBXFileReference;
+		fileEncoding = 4;
+		lastKnownFileType = sourcecode.c.h;
+		name = HiraganyApplicationDelegate.h;
+		path = /Users/naokih/work/Hiragany/HiraganyApplicationDelegate.h;
+		sourceTree = "<absolute>";
+		uiCtxt = {
+			sepNavIntBoundsRect = "{{0, 0}, {990, 572}}";
+			sepNavSelRange = "{0, 0}";
+			sepNavVisRange = "{0, 201}";
+		};
+	};
+	BE0CAB540FA9747D005CB1CA /* HiraganyApplicationDelegate.m */ = {
+		isa = PBXFileReference;
+		fileEncoding = 4;
+		lastKnownFileType = sourcecode.c.objc;
+		name = HiraganyApplicationDelegate.m;
+		path = /Users/naokih/work/Hiragany/HiraganyApplicationDelegate.m;
+		sourceTree = "<absolute>";
+		uiCtxt = {
+			sepNavIntBoundsRect = "{{0, 0}, {990, 572}}";
+			sepNavSelRange = "{162, 0}";
+			sepNavVisRange = "{0, 162}";
+		};
+	};
+	BE0CAB550FA9747D005CB1CA /* HiraganyController.h */ = {
+		isa = PBXFileReference;
+		fileEncoding = 4;
+		lastKnownFileType = sourcecode.c.h;
+		name = HiraganyController.h;
+		path = /Users/naokih/work/Hiragany/HiraganyController.h;
+		sourceTree = "<absolute>";
+		uiCtxt = {
+			sepNavIntBoundsRect = "{{0, 0}, {990, 572}}";
+			sepNavSelRange = "{0, 0}";
+			sepNavVisRange = "{0, 508}";
+		};
+	};
+	BE0CAB560FA9747D005CB1CA /* ConversionEngine.h */ = {
+		isa = PBXFileReference;
+		fileEncoding = 4;
+		lastKnownFileType = sourcecode.c.h;
+		name = ConversionEngine.h;
+		path = /Users/naokih/work/Hiragany/ConversionEngine.h;
+		sourceTree = "<absolute>";
+		uiCtxt = {
+			sepNavIntBoundsRect = "{{0, 0}, {990, 572}}";
+			sepNavSelRange = "{23, 0}";
+			sepNavVisRange = "{0, 198}";
+		};
+	};
+	BE0CAB570FA9747D005CB1CA /* ConversionEngine.m */ = {
+		isa = PBXFileReference;
+		fileEncoding = 4;
+		lastKnownFileType = sourcecode.c.objc;
+		name = ConversionEngine.m;
+		path = /Users/naokih/work/Hiragany/ConversionEngine.m;
+		sourceTree = "<absolute>";
+		uiCtxt = {
+			sepNavIntBoundsRect = "{{0, 0}, {990, 991}}";
+			sepNavSelRange = "{1931, 0}";
+			sepNavVisRange = "{872, 1452}";
+		};
+	};
+	BE418BF80FBFC6A00006365B /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = BE0CAB570FA9747D005CB1CA /* ConversionEngine.m */;
+		name = "ConversionEngine.m: 48";
+		rLen = 0;
+		rLoc = 1931;
+		rType = 0;
+		vrLen = 1452;
+		vrLoc = 872;
+	};
+	BE418BF90FBFC6A00006365B /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = BE0CAB520FA9747D005CB1CA /* HiraganyController.m */;
+		name = "HiraganyController.m: 136";
+		rLen = 54;
+		rLoc = 4172;
+		rType = 0;
+		vrLen = 879;
+		vrLoc = 3743;
+	};
+	BE418BFA0FBFC6A00006365B /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = BE0CAB570FA9747D005CB1CA /* ConversionEngine.m */;
+		name = "ConversionEngine.m: 48";
+		rLen = 0;
+		rLoc = 1931;
+		rType = 0;
+		vrLen = 1452;
+		vrLoc = 872;
+	};
+	BE418BFB0FBFC6A00006365B /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = BE0CAB520FA9747D005CB1CA /* HiraganyController.m */;
+		name = "HiraganyController.m: 110";
+		rLen = 0;
+		rLoc = 3280;
+		rType = 0;
+		vrLen = 1099;
+		vrLoc = 3033;
+	};
+	BE418C010FBFC7260006365B /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = BE0CAB520FA9747D005CB1CA /* HiraganyController.m */;
+		name = "HiraganyController.m: 110";
+		rLen = 0;
+		rLoc = 3260;
+		rType = 0;
+		vrLen = 1099;
+		vrLoc = 3033;
+	};
+	BE42761A0FAC28EE00F38434 /* PBXBookmark */ = {
+		isa = PBXBookmark;
+		fRef = BEC99CBC0FA97E420036B73F /* hiragany.tiff */;
+	};
+	BE42761B0FAC28EE00F38434 /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = BE0CAB560FA9747D005CB1CA /* ConversionEngine.h */;
+		name = "ConversionEngine.h: 1";
+		rLen = 0;
+		rLoc = 23;
+		rType = 0;
+		vrLen = 198;
+		vrLoc = 0;
+	};
+	BE42761D0FAC28EE00F38434 /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = BE0CAB550FA9747D005CB1CA /* HiraganyController.h */;
+		name = "HiraganyController.h: 1";
+		rLen = 0;
+		rLoc = 0;
+		rType = 0;
+		vrLen = 508;
+		vrLoc = 0;
+	};
+	BE42761E0FAC28EE00F38434 /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = BE0CAB540FA9747D005CB1CA /* HiraganyApplicationDelegate.m */;
+		name = "HiraganyApplicationDelegate.m: 11";
+		rLen = 0;
+		rLoc = 162;
+		rType = 0;
+		vrLen = 162;
+		vrLoc = 0;
+	};
+	BE42761F0FAC28EE00F38434 /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = BE0CAB530FA9747D005CB1CA /* HiraganyApplicationDelegate.h */;
+		name = "HiraganyApplicationDelegate.h: 1";
+		rLen = 0;
+		rLoc = 0;
+		rType = 0;
+		vrLen = 201;
+		vrLoc = 0;
+	};
+	BE6ADFCC0FA9AB0000F3349F /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = 089C165DFE840E0CC02AAC07 /* English */;
+		name = "InfoPlist.strings: 1";
+		rLen = 0;
+		rLoc = 0;
+		rType = 0;
+		vrLen = 45;
+		vrLoc = 0;
+	};
+	BE6ADFCE0FA9AB0000F3349F /* PBXBookmark */ = {
+		isa = PBXBookmark;
+		fRef = BEC99CBC0FA97E420036B73F /* hiragany.tiff */;
+	};
+	BE81112C0FAAB23300930CC6 /* PlistBookmark */ = {
+		isa = PlistBookmark;
+		fRef = BEC391180FA99FC200EA11CE /* RomaKana.plist */;
+		fallbackIsa = PBXBookmark;
+		isK = 0;
+		kPath = (
+		);
+		name = /Users/naokih/work/Hiragany/RomaKana.plist;
+		rLen = 0;
+		rLoc = 2147483647;
+	};
+	BEA455190FB5DBAA0056A8D9 /* PlistBookmark */ = {
+		isa = PlistBookmark;
+		fRef = BEC391180FA99FC200EA11CE /* RomaKana.plist */;
+		fallbackIsa = PBXBookmark;
+		isK = 0;
+		kPath = (
+			XW,
+		);
+		name = /Users/naokih/work/Hiragany/RomaKana.plist;
+		rLen = 0;
+		rLoc = 2147483647;
+	};
+	BEA4551A0FB5DBAA0056A8D9 /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = BE0CAB520FA9747D005CB1CA /* HiraganyController.m */;
+		name = "HiraganyController.m: 136";
+		rLen = 54;
+		rLoc = 4172;
+		rType = 0;
+		vrLen = 879;
+		vrLoc = 3743;
+	};
+	BEA4551B0FB5DBAA0056A8D9 /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = BE0CAB570FA9747D005CB1CA /* ConversionEngine.m */;
+		name = "ConversionEngine.m: 40";
+		rLen = 0;
+		rLoc = 1477;
+		rType = 0;
+		vrLen = 1376;
+		vrLoc = 872;
+	};
+	BEA4551C0FB5DBAA0056A8D9 /* PlistBookmark */ = {
+		isa = PlistBookmark;
+		fRef = BEC391180FA99FC200EA11CE /* RomaKana.plist */;
+		fallbackIsa = PBXBookmark;
+		isK = 0;
+		kPath = (
+			XW,
+		);
+		name = /Users/naokih/work/Hiragany/RomaKana.plist;
+		rLen = 0;
+		rLoc = 2147483647;
+	};
+	BEA4551D0FB5DBAA0056A8D9 /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = BE0CAB570FA9747D005CB1CA /* ConversionEngine.m */;
+		name = "ConversionEngine.m: 41";
+		rLen = 0;
+		rLoc = 1628;
+		rType = 0;
+		vrLen = 1350;
+		vrLoc = 450;
+	};
+	BEA4551E0FB5DBAA0056A8D9 /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = BE0CAB520FA9747D005CB1CA /* HiraganyController.m */;
+		name = "HiraganyController.m: 136";
+		rLen = 17;
+		rLoc = 4177;
+		rType = 0;
+		vrLen = 879;
+		vrLoc = 3743;
+	};
+	BEA4551F0FB5DBAA0056A8D9 /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = BE0CAB570FA9747D005CB1CA /* ConversionEngine.m */;
+		name = "ConversionEngine.m: 42";
+		rLen = 0;
+		rLoc = 1521;
+		rType = 0;
+		vrLen = 1366;
+		vrLoc = 450;
+	};
+	BEA455200FB5DBAA0056A8D9 /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = BE0CAB520FA9747D005CB1CA /* HiraganyController.m */;
+		name = "HiraganyController.m: 136";
+		rLen = 17;
+		rLoc = 4177;
+		rType = 0;
+		vrLen = 879;
+		vrLoc = 3743;
+	};
+	BEA455210FB5DBAA0056A8D9 /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = BE0CAB570FA9747D005CB1CA /* ConversionEngine.m */;
+		name = "ConversionEngine.m: 40";
+		rLen = 0;
+		rLoc = 1477;
+		rType = 0;
+		vrLen = 1376;
+		vrLoc = 872;
+	};
+	BEA455220FB5DBAA0056A8D9 /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = BE0CAB520FA9747D005CB1CA /* HiraganyController.m */;
+		name = "HiraganyController.m: 136";
+		rLen = 54;
+		rLoc = 4172;
+		rType = 0;
+		vrLen = 879;
+		vrLoc = 3743;
+	};
+	BEA455230FB5DBAA0056A8D9 /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = BE0CAB570FA9747D005CB1CA /* ConversionEngine.m */;
+		name = "ConversionEngine.m: 48";
+		rLen = 0;
+		rLoc = 1931;
+		rType = 0;
+		vrLen = 1452;
+		vrLoc = 872;
+	};
+	BEBE16350FBFC95600EFA6E7 /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = BE0CAB520FA9747D005CB1CA /* HiraganyController.m */;
+		name = "HiraganyController.m: 109";
+		rLen = 0;
+		rLoc = 3260;
+		rType = 0;
+		vrLen = 1072;
+		vrLoc = 3014;
+	};
+	BEBE163A0FBFCA6000EFA6E7 /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = BE0CAB520FA9747D005CB1CA /* HiraganyController.m */;
+		name = "HiraganyController.m: 24";
+		rLen = 0;
+		rLoc = 781;
+		rType = 0;
+		vrLen = 935;
+		vrLoc = 1517;
+	};
+	BEC391180FA99FC200EA11CE /* RomaKana.plist */ = {
+		isa = PBXFileReference;
+		fileEncoding = 4;
+		lastKnownFileType = text.plist.xml;
+		name = RomaKana.plist;
+		path = /Users/naokih/work/Hiragany/RomaKana.plist;
+		sourceTree = "<absolute>";
+	};
+	BEC99CBC0FA97E420036B73F /* hiragany.tiff */ = {
+		isa = PBXFileReference;
+		lastKnownFileType = image.tiff;
+		name = hiragany.tiff;
+		path = /Users/naokih/work/Hiragany/hiragany.tiff;
+		sourceTree = "<absolute>";
+	};
+	BEC99CCC0FA986160036B73F /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = 29B97316FDCFA39411CA2CEA /* main.m */;
+		name = "main.m: 1";
+		rLen = 0;
+		rLoc = 0;
+		rType = 0;
+		vrLen = 1033;
+		vrLoc = 0;
+	};
+	BEC99CD50FA986160036B73F /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = BE0CAB520FA9747D005CB1CA /* HiraganyController.m */;
+		name = "HiraganyController.m: 1";
+		rLen = 0;
+		rLoc = 0;
+		rType = 0;
+		vrLen = 1375;
+		vrLoc = 1531;
+	};
+	BEC99CD60FA986160036B73F /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = BE0CAB540FA9747D005CB1CA /* HiraganyApplicationDelegate.m */;
+		name = "HiraganyApplicationDelegate.m: 1";
+		rLen = 0;
+		rLoc = 0;
+		rType = 0;
+		vrLen = 162;
+		vrLoc = 0;
+	};
+	BEC99CD70FA986160036B73F /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = BE0CAB570FA9747D005CB1CA /* ConversionEngine.m */;
+		name = "ConversionEngine.m: 1";
+		rLen = 0;
+		rLoc = 0;
+		rType = 0;
+		vrLen = 0;
+		vrLoc = 1338;
+	};
+	BEC99CD90FA986160036B73F /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = BE0CAB530FA9747D005CB1CA /* HiraganyApplicationDelegate.h */;
+		name = "HiraganyApplicationDelegate.h: 1";
+		rLen = 0;
+		rLoc = 0;
+		rType = 0;
+		vrLen = 201;
+		vrLoc = 0;
+	};
+	BEC99CDA0FA986160036B73F /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = BE0CAB560FA9747D005CB1CA /* ConversionEngine.h */;
+		name = "ConversionEngine.h: 1";
+		rLen = 0;
+		rLoc = 0;
+		rType = 0;
+		vrLen = 617;
+		vrLoc = 0;
+	};
+	BEC99CDC0FA986160036B73F /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = BE0CAB550FA9747D005CB1CA /* HiraganyController.h */;
+		name = "HiraganyController.h: 1";
+		rLen = 0;
+		rLoc = 0;
+		rType = 0;
+		vrLen = 508;
+		vrLoc = 0;
+	};
+	BEC99CDE0FA986160036B73F /* PlistBookmark */ = {
+		isa = PlistBookmark;
+		fRef = 8D1107310486CEB800E47090 /* Info.plist */;
+		fallbackIsa = PBXBookmark;
+		isK = 0;
+		kPath = (
+		);
+		name = /Users/naokih/work/Hiragany/Info.plist;
+		rLen = 0;
+		rLoc = 2147483647;
+	};
+	BEC99CDF0FA986160036B73F /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = 29B97316FDCFA39411CA2CEA /* main.m */;
+		name = "main.m: 1";
+		rLen = 0;
+		rLoc = 0;
+		rType = 0;
+		vrLen = 1033;
+		vrLoc = 0;
+	};
+	BEC99CE70FA986160036B73F /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = 089C165DFE840E0CC02AAC07 /* English */;
+		name = "InfoPlist.strings: 1";
+		rLen = 0;
+		rLoc = 0;
+		rType = 0;
+		vrLen = 45;
+		vrLoc = 0;
+	};
+	BEC99D0B0FA986DE0036B73F /* PlistBookmark */ = {
+		isa = PlistBookmark;
+		fRef = 8D1107310486CEB800E47090 /* Info.plist */;
+		fallbackIsa = PBXBookmark;
+		isK = 0;
+		kPath = (
+			tsInputMethodCharacterRepertoireKey,
+		);
+		name = /Users/naokih/work/Hiragany/Info.plist;
+		rLen = 0;
+		rLoc = 2147483647;
+	};
+}
