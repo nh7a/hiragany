@@ -1,6 +1,7 @@
-Hiragany.app is not an ordinary application that you can run by yourself.
-Copy Hiragany.app to /Library/Input Methods/ and open System Preferences to enable.
+Copy Hiragany.app to /Library/Input Methods/ and open System Preferences to enable it.
 
-Follow @Hiragany if you like.
+Should you have any questions or suggestions, please follow and ask @Hiragany.
+
+Enjoy ひらがなせいかつ!
 
 Copyright 2009 Naoki Hiroshima
