@@ -277,8 +277,8 @@
 							<key>PBXSmartGroupTreeModuleOutlineStateSelectionKey</key>
 							<array>
 								<array>
-									<integer>17</integer>
-									<integer>11</integer>
+									<integer>21</integer>
+									<integer>20</integer>
 									<integer>0</integer>
 								</array>
 							</array>
@@ -302,7 +302,7 @@
 							<real>251</real>
 						</array>
 						<key>RubberWindowFrame</key>
-						<string>875 87 1324 759 0 0 1440 878 </string>
+						<string>111 75 1324 759 0 0 1440 878 </string>
 					</dict>
 					<key>Module</key>
 					<string>PBXSmartGroupTreeModule</string>
@@ -318,13 +318,19 @@
 								<key>PBXProjectModuleGUID</key>
 								<string>1CE0B20306471E060097A5F4</string>
 								<key>PBXProjectModuleLabel</key>
-								<string>&lt;No Editor&gt;</string>
+								<string>main.m</string>
 								<key>PBXSplitModuleInNavigatorKey</key>
 								<dict>
 									<key>Split0</key>
 									<dict>
 										<key>PBXProjectModuleGUID</key>
 										<string>1CE0B20406471E060097A5F4</string>
+										<key>PBXProjectModuleLabel</key>
+										<string>main.m</string>
+										<key>_historyCapacity</key>
+										<integer>0</integer>
+										<key>bookmark</key>
+										<string>BEBE16540FBFCD9400EFA6E7</string>
 										<key>history</key>
 										<array>
 											<string>BEC99CCC0FA986160036B73F</string>
@@ -336,6 +342,7 @@
 											<string>BE42761E0FAC28EE00F38434</string>
 											<string>BE42761F0FAC28EE00F38434</string>
 											<string>BE418BF80FBFC6A00006365B</string>
+											<string>BEBE16530FBFCD9400EFA6E7</string>
 										</array>
 										<key>prevStack</key>
 										<array>
@@ -361,7 +368,7 @@
 								<key>Frame</key>
 								<string>{{0, 0}, {1051, 604}}</string>
 								<key>RubberWindowFrame</key>
-								<string>875 87 1324 759 0 0 1440 878 </string>
+								<string>111 75 1324 759 0 0 1440 878 </string>
 							</dict>
 							<key>Module</key>
 							<string>PBXNavigatorGroup</string>
@@ -381,7 +388,7 @@
 								<key>Frame</key>
 								<string>{{0, 609}, {1051, 109}}</string>
 								<key>RubberWindowFrame</key>
-								<string>875 87 1324 759 0 0 1440 878 </string>
+								<string>111 75 1324 759 0 0 1440 878 </string>
 							</dict>
 							<key>Module</key>
 							<string>XCDetailModule</string>
@@ -541,11 +548,12 @@
 	<integer>5</integer>
 	<key>WindowOrderList</key>
 	<array>
+		<string>BEC99D010FA986160036B73F</string>
 		<string>1CD10A99069EF8BA00B06720</string>
 		<string>/Users/naokih/work/Hiragany/Hiragany.xcodeproj</string>
 	</array>
 	<key>WindowString</key>
-	<string>875 87 1324 759 0 0 1440 878 </string>
+	<string>111 75 1324 759 0 0 1440 878 </string>
 	<key>WindowToolsV3</key>
 	<array>
 		<dict>
@@ -583,8 +591,6 @@
 							<string>218pt</string>
 						</dict>
 						<dict>
-							<key>BecomeActive</key>
-							<true/>
 							<key>ContentConfiguration</key>
 							<dict>
 								<key>PBXProjectModuleGUID</key>
@@ -624,7 +630,7 @@
 			<key>TableOfContents</key>
 			<array>
 				<string>BEC99D010FA986160036B73F</string>
-				<string>BE418BFE0FBFC6A00006365B</string>
+				<string>BEBE16550FBFCD9400EFA6E7</string>
 				<string>1CD0528F0623707200166675</string>
 				<string>XCMainBuildResultsModuleGUID</string>
 			</array>

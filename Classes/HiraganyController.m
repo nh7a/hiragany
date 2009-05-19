@@ -21,21 +21,6 @@
   unichar lastChar = [string characterAtIndex:[string length]-1];
   NSLog(@"inputText: [%@/%d] (%d)", string, [string length], lastChar);
   
-#if 0
-  NSLog(@"composedBuffer: [%@]", [self composedBuffer]);
-  NSLog(@"originalBuffer: [%@]", [self originalBuffer]);
-  switch (lastChar) {
-    case ',':
-    case '.':
-    case '[':
-    case ']':
-    case '{':
-    case '}':
-      [self commitComposition:sender];
-      [self originalBufferAppend:string client:sender];
-      return [self convert:string client:sender];
-  }
-#endif
   unichar firstChar = [string characterAtIndex:0];
   if ('A' <= firstChar && firstChar <= 'Z') {  // kludge!
     [[NSApp delegate] conversionEngine].katakana = YES;
