@@ -1138,7 +1138,6 @@
 <key>きょうつう</key><string>共通</string>
 <key>きょうてき</key><string>強敵</string>
 <key>きょうてん</key><string>経典</string>
-<key>きょうと</key><string>教徒</string>
 <key>きょうどうたい</key><string>共同体</string>
 <key>きょうはん</key><string>共犯</string>
 <key>きょうばい</key><string>競売</string>
@@ -4558,8 +4557,6 @@
 <key>どようび</key><string>土曜日</string>
 <key>どりょう</key><string>度量</string>
 <key>どりょく</key><string>努力</string>
-<key>ないか</key><string>内科</string>
-<key>ないかい</key><string>内科医</string>
 <key>ないがい</key><string>内外</string>
 <key>ないきょく</key><string>内局</string>
 <key>ないきん</key><string>内勤</string>
@@ -6798,9 +6795,7 @@
 <key>わさい</key><string>和裁</string>
 <key>わしき</key><string>和式</string>
 <key>わしつ</key><string>和室</string>
-<key>わしゃ</key><string>話者</string>
 <key>わしょく</key><string>和食</string>
-<key>わせい</key><string>和声</string>
 <key>わせん</key><string>和戦</string>
 <key>わたくしごと</key><string>私事</string>
 <key>わたくしたち</key><string>私達</string>
