@@ -112,7 +112,6 @@
                     return NO;
                 }
                 [self commitComposition:sender];
-                [sender insertText:@"\n" replacementRange:NSMakeRange(NSNotFound, NSNotFound)];
                 break;
             case 0x31:  // space
                 [self appendString:@" " sender:sender];
