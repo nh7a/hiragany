@@ -30,6 +30,8 @@
 	<string>Hiragany_Connection</string>
 	<key>InputMethodServerControllerClass</key>
 	<string>HiraganyController</string>
+	<key>InputMethodServerDelegateClass</key>
+	<string>HiraganyController</string>
 	<key>tsInputMethodIconFileKey</key>
 	<string>hiragany.tiff</string>
 	<key>tsInputMethodCharacterRepertoireKey</key>

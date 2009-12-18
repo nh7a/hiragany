@@ -22,8 +22,6 @@
 	<string>エ</string>
 	<key>O</key>
 	<string>オ</string>
-	<key>k</key>
-	<string></string>
 	<key>ka</key>
 	<string>か</string>
 	<key>ki</key>
@@ -34,8 +32,6 @@
 	<string>け</string>
 	<key>ko</key>
 	<string>こ</string>
-	<key>K</key>
-	<string></string>
 	<key>KA</key>
 	<string>カ</string>
 	<key>KI</key>
@@ -46,8 +42,6 @@
 	<string>ケ</string>
 	<key>KO</key>
 	<string>コ</string>
-	<key>ky</key>
-	<string></string>
 	<key>kya</key>
 	<string>きゃ</string>
 	<key>kyi</key>
@@ -58,8 +52,6 @@
 	<string>きぇ</string>
 	<key>kyo</key>
 	<string>きょ</string>
-	<key>KY</key>
-	<string></string>
 	<key>KYA</key>
 	<string>キャ</string>
 	<key>KYI</key>
@@ -70,8 +62,6 @@
 	<string>キェ</string>
 	<key>KYO</key>
 	<string>キョ</string>
-	<key>g</key>
-	<string></string>
 	<key>ga</key>
 	<string>が</string>
 	<key>gi</key>
@@ -82,8 +72,6 @@
 	<string>げ</string>
 	<key>go</key>
 	<string>ご</string>
-	<key>G</key>
-	<string></string>
 	<key>GA</key>
 	<string>ガ</string>
 	<key>GI</key>
@@ -94,8 +82,6 @@
 	<string>ゲ</string>
 	<key>GO</key>
 	<string>ゴ</string>
-	<key>gy</key>
-	<string></string>
 	<key>gya</key>
 	<string>ぎゃ</string>
 	<key>gyi</key>
@@ -106,8 +92,6 @@
 	<string>ぎぇ</string>
 	<key>gyo</key>
 	<string>ぎょ</string>
-	<key>GY</key>
-	<string></string>
 	<key>GYA</key>
 	<string>ギャ</string>
 	<key>GYI</key>
@@ -118,8 +102,6 @@
 	<string>ギェ</string>
 	<key>GYO</key>
 	<string>ギョ</string>
-	<key>s</key>
-	<string></string>
 	<key>sa</key>
 	<string>さ</string>
 	<key>si</key>
@@ -130,8 +112,6 @@
 	<string>せ</string>
 	<key>so</key>
 	<string>そ</string>
-	<key>S</key>
-	<string></string>
 	<key>SA</key>
 	<string>サ</string>
 	<key>SI</key>
@@ -142,8 +122,6 @@
 	<string>セ</string>
 	<key>SO</key>
 	<string>ソ</string>
-	<key>z</key>
-	<string></string>
 	<key>za</key>
 	<string>ざ</string>
 	<key>zi</key>
@@ -154,8 +132,6 @@
 	<string>ぜ</string>
 	<key>zo</key>
 	<string>ぞ</string>
-	<key>Z</key>
-	<string></string>
 	<key>ZA</key>
 	<string>ザ</string>
 	<key>ZI</key>
@@ -166,8 +142,6 @@
 	<string>ゼ</string>
 	<key>ZO</key>
 	<string>ゾ</string>
-	<key>sy</key>
-	<string></string>
 	<key>sya</key>
 	<string>しゃ</string>
 	<key>syi</key>
@@ -178,8 +152,6 @@
 	<string>しぇ</string>
 	<key>syo</key>
 	<string>しょ</string>
-	<key>SY</key>
-	<string></string>
 	<key>SYA</key>
 	<string>シャ</string>
 	<key>SYI</key>
@@ -190,8 +162,6 @@
 	<string>シェ</string>
 	<key>SYO</key>
 	<string>ショ</string>
-	<key>sh</key>
-	<string></string>
 	<key>sha</key>
 	<string>しゃ</string>
 	<key>shi</key>
@@ -202,8 +172,6 @@
 	<string>しぇ</string>
 	<key>sho</key>
 	<string>しょ</string>
-	<key>SH</key>
-	<string></string>
 	<key>SHA</key>
 	<string>シャ</string>
 	<key>SHI</key>
@@ -214,8 +182,6 @@
 	<string>シェ</string>
 	<key>SHO</key>
 	<string>ショ</string>
-	<key>zy</key>
-	<string></string>
 	<key>zya</key>
 	<string>じゃ</string>
 	<key>zyi</key>
@@ -226,8 +192,6 @@
 	<string>じぇ</string>
 	<key>zyo</key>
 	<string>じょ</string>
-	<key>ZY</key>
-	<string></string>
 	<key>ZYA</key>
 	<string>ジャ</string>
 	<key>ZYI</key>
@@ -238,8 +202,6 @@
 	<string>ジェ</string>
 	<key>ZYO</key>
 	<string>ジョ</string>
-	<key>j</key>
-	<string></string>
 	<key>ja</key>
 	<string>じゃ</string>
 	<key>ji</key>
@@ -250,8 +212,6 @@
 	<string>じぇ</string>
 	<key>jo</key>
 	<string>じょ</string>
-	<key>J</key>
-	<string></string>
 	<key>JA</key>
 	<string>ジャ</string>
 	<key>JI</key>
@@ -262,8 +222,6 @@
 	<string>ジェ</string>
 	<key>JO</key>
 	<string>ジョ</string>
-	<key>jy</key>
-	<string></string>
 	<key>jya</key>
 	<string>じゃ</string>
 	<key>jyi</key>
@@ -274,8 +232,6 @@
 	<string>じぇ</string>
 	<key>jyo</key>
 	<string>じょ</string>
-	<key>JY</key>
-	<string></string>
 	<key>JYA</key>
 	<string>ジャ</string>
 	<key>JYI</key>
@@ -286,20 +242,18 @@
 	<string>ジェ</string>
 	<key>JYO</key>
 	<string>ジョ</string>
-	<key>t</key>
-	<string></string>
 	<key>ta</key>
 	<string>た</string>
 	<key>ti</key>
 	<string>ち</string>
 	<key>tu</key>
 	<string>つ</string>
+	<key>tsu</key>
+	<string>つ</string>
 	<key>te</key>
 	<string>て</string>
 	<key>to</key>
 	<string>と</string>
-	<key>T</key>
-	<string></string>
 	<key>TA</key>
 	<string>タ</string>
 	<key>TI</key>
@@ -310,8 +264,6 @@
 	<string>テ</string>
 	<key>TO</key>
 	<string>ト</string>
-	<key>d</key>
-	<string></string>
 	<key>da</key>
 	<string>だ</string>
 	<key>di</key>
@@ -322,8 +274,6 @@
 	<string>で</string>
 	<key>do</key>
 	<string>ど</string>
-	<key>D</key>
-	<string></string>
 	<key>DA</key>
 	<string>ダ</string>
 	<key>DI</key>
@@ -334,8 +284,6 @@
 	<string>デ</string>
 	<key>DO</key>
 	<string>ド</string>
-	<key>th</key>
-	<string></string>
 	<key>tha</key>
 	<string>た゜</string>
 	<key>thi</key>
@@ -346,8 +294,6 @@
 	<string>て゜</string>
 	<key>tho</key>
 	<string>と゜</string>
-	<key>TH</key>
-	<string></string>
 	<key>THA</key>
 	<string>タ゜</string>
 	<key>THI</key>
@@ -358,8 +304,6 @@
 	<string>テ゜</string>
 	<key>THO</key>
 	<string>ト゜</string>
-	<key>ty</key>
-	<string></string>
 	<key>tya</key>
 	<string>ちゃ</string>
 	<key>tyi</key>
@@ -370,8 +314,6 @@
 	<string>ちぇ</string>
 	<key>tyo</key>
 	<string>ちょ</string>
-	<key>TY</key>
-	<string></string>
 	<key>TYA</key>
 	<string>チャ</string>
 	<key>TYI</key>
@@ -382,8 +324,6 @@
 	<string>チェ</string>
 	<key>TYO</key>
 	<string>チョ</string>
-	<key>cy</key>
-	<string></string>
 	<key>cya</key>
 	<string>ちゃ</string>
 	<key>cyi</key>
@@ -394,8 +334,6 @@
 	<string>ちぇ</string>
 	<key>cyo</key>
 	<string>ちょ</string>
-	<key>CY</key>
-	<string></string>
 	<key>CYA</key>
 	<string>チャ</string>
 	<key>CYI</key>
@@ -406,8 +344,6 @@
 	<string>チェ</string>
 	<key>CYO</key>
 	<string>チョ</string>
-	<key>n</key>
-	<string></string>
 	<key>na</key>
 	<string>な</string>
 	<key>ni</key>
@@ -418,8 +354,6 @@
 	<string>ね</string>
 	<key>no</key>
 	<string>の</string>
-	<key>N</key>
-	<string></string>
 	<key>NA</key>
 	<string>ナ</string>
 	<key>NI</key>
@@ -430,8 +364,6 @@
 	<string>ネ</string>
 	<key>NO</key>
 	<string>ノ</string>
-	<key>ny</key>
-	<string></string>
 	<key>nya</key>
 	<string>にゃ</string>
 	<key>nyi</key>
@@ -442,8 +374,6 @@
 	<string>にぇ</string>
 	<key>nyo</key>
 	<string>にょ</string>
-	<key>NY</key>
-	<string></string>
 	<key>NYA</key>
 	<string>ニャ</string>
 	<key>NYI</key>
@@ -454,8 +384,6 @@
 	<string>ニェ</string>
 	<key>NYO</key>
 	<string>ニョ</string>
-	<key>h</key>
-	<string></string>
 	<key>ha</key>
 	<string>は</string>
 	<key>hi</key>
@@ -466,8 +394,6 @@
 	<string>へ</string>
 	<key>ho</key>
 	<string>ほ</string>
-	<key>H</key>
-	<string></string>
 	<key>HA</key>
 	<string>ハ</string>
 	<key>HI</key>
@@ -478,8 +404,6 @@
 	<string>ヘ</string>
 	<key>HO</key>
 	<string>ホ</string>
-	<key>b</key>
-	<string></string>
 	<key>ba</key>
 	<string>ば</string>
 	<key>bi</key>
@@ -490,8 +414,6 @@
 	<string>べ</string>
 	<key>bo</key>
 	<string>ぼ</string>
-	<key>B</key>
-	<string></string>
 	<key>BA</key>
 	<string>バ</string>
 	<key>BI</key>
@@ -502,8 +424,6 @@
 	<string>ベ</string>
 	<key>BO</key>
 	<string>ボ</string>
-	<key>v</key>
-	<string></string>
 	<key>va</key>
 	<string>ゔぁ</string>
 	<key>vi</key>
@@ -514,8 +434,6 @@
 	<string>ゔぇ</string>
 	<key>vo</key>
 	<string>ゔぉ</string>
-	<key>V</key>
-	<string></string>
 	<key>VA</key>
 	<string>ヴァ</string>
 	<key>VI</key>
@@ -526,8 +444,6 @@
 	<string>ヴェ</string>
 	<key>VO</key>
 	<string>ヴォ</string>
-	<key>p</key>
-	<string></string>
 	<key>pa</key>
 	<string>ぱ</string>
 	<key>pi</key>
@@ -538,8 +454,6 @@
 	<string>ぺ</string>
 	<key>po</key>
 	<string>ぽ</string>
-	<key>P</key>
-	<string></string>
 	<key>PA</key>
 	<string>パ</string>
 	<key>PI</key>
@@ -550,8 +464,6 @@
 	<string>ペ</string>
 	<key>PO</key>
 	<string>ポ</string>
-	<key>f</key>
-	<string></string>
 	<key>fa</key>
 	<string>ふぁ</string>
 	<key>fi</key>
@@ -562,8 +474,6 @@
 	<string>ふぇ</string>
 	<key>fo</key>
 	<string>ふぉ</string>
-	<key>F</key>
-	<string></string>
 	<key>FA</key>
 	<string>ファ</string>
 	<key>FI</key>
@@ -574,8 +484,6 @@
 	<string>フェ</string>
 	<key>FO</key>
 	<string>フォ</string>
-	<key>hy</key>
-	<string></string>
 	<key>hya</key>
 	<string>ひゃ</string>
 	<key>hyi</key>
@@ -586,8 +494,6 @@
 	<string>ひぇ</string>
 	<key>hyo</key>
 	<string>ひょ</string>
-	<key>HY</key>
-	<string></string>
 	<key>HYA</key>
 	<string>ヒャ</string>
 	<key>HYI</key>
@@ -598,8 +504,6 @@
 	<string>ヒェ</string>
 	<key>HYO</key>
 	<string>ヒョ</string>
-	<key>fy</key>
-	<string></string>
 	<key>fya</key>
 	<string>ひゃ</string>
 	<key>fyi</key>
@@ -610,8 +514,6 @@
 	<string>ひぇ</string>
 	<key>fyo</key>
 	<string>ひょ</string>
-	<key>FY</key>
-	<string></string>
 	<key>FYA</key>
 	<string>ヒャ</string>
 	<key>FYI</key>
@@ -622,8 +524,6 @@
 	<string>ヒェ</string>
 	<key>FYO</key>
 	<string>ヒョ</string>
-	<key>by</key>
-	<string></string>
 	<key>bya</key>
 	<string>びゃ</string>
 	<key>byi</key>
@@ -634,8 +534,6 @@
 	<string>びぇ</string>
 	<key>byo</key>
 	<string>びょ</string>
-	<key>BY</key>
-	<string></string>
 	<key>BYA</key>
 	<string>ビャ</string>
 	<key>BYI</key>
@@ -646,8 +544,6 @@
 	<string>ビェ</string>
 	<key>BYO</key>
 	<string>ビョ</string>
-	<key>py</key>
-	<string></string>
 	<key>pya</key>
 	<string>ぴゃ</string>
 	<key>pyi</key>
@@ -658,8 +554,6 @@
 	<string>ぴぇ</string>
 	<key>pyo</key>
 	<string>ぴょ</string>
-	<key>PY</key>
-	<string></string>
 	<key>PYA</key>
 	<string>ピャ</string>
 	<key>PYI</key>
@@ -670,8 +564,6 @@
 	<string>ピェ</string>
 	<key>PYO</key>
 	<string>ピョ</string>
-	<key>m</key>
-	<string></string>
 	<key>ma</key>
 	<string>ま</string>
 	<key>mi</key>
@@ -682,8 +574,6 @@
 	<string>め</string>
 	<key>mo</key>
 	<string>も</string>
-	<key>M</key>
-	<string></string>
 	<key>MA</key>
 	<string>マ</string>
 	<key>MI</key>
@@ -694,8 +584,6 @@
 	<string>メ</string>
 	<key>MO</key>
 	<string>モ</string>
-	<key>my</key>
-	<string></string>
 	<key>mya</key>
 	<string>みゃ</string>
 	<key>myi</key>
@@ -706,8 +594,6 @@
 	<string>みぇ</string>
 	<key>myo</key>
 	<string>みょ</string>
-	<key>MY</key>
-	<string></string>
 	<key>MYA</key>
 	<string>ミャ</string>
 	<key>MYI</key>
@@ -718,8 +604,6 @@
 	<string>ミェ</string>
 	<key>MYO</key>
 	<string>ミョ</string>
-	<key>y</key>
-	<string></string>
 	<key>ya</key>
 	<string>や</string>
 	<key>yi</key>
@@ -730,8 +614,6 @@
 	<string>え</string>
 	<key>yo</key>
 	<string>よ</string>
-	<key>Y</key>
-	<string></string>
 	<key>YA</key>
 	<string>ヤ</string>
 	<key>YI</key>
@@ -742,8 +624,6 @@
 	<string>エ</string>
 	<key>YO</key>
 	<string>ヨ</string>
-	<key>r</key>
-	<string></string>
 	<key>ra</key>
 	<string>ら</string>
 	<key>ri</key>
@@ -754,8 +634,6 @@
 	<string>れ</string>
 	<key>ro</key>
 	<string>ろ</string>
-	<key>R</key>
-	<string></string>
 	<key>RA</key>
 	<string>ラ</string>
 	<key>RI</key>
@@ -766,8 +644,6 @@
 	<string>レ</string>
 	<key>RO</key>
 	<string>ロ</string>
-	<key>ry</key>
-	<string></string>
 	<key>rya</key>
 	<string>りゃ</string>
 	<key>ryi</key>
@@ -778,8 +654,6 @@
 	<string>りぇ</string>
 	<key>ryo</key>
 	<string>りょ</string>
-	<key>RY</key>
-	<string></string>
 	<key>RYA</key>
 	<string>リャ</string>
 	<key>RYI</key>
@@ -790,8 +664,6 @@
 	<string>リェ</string>
 	<key>RYO</key>
 	<string>リョ</string>
-	<key>w</key>
-	<string></string>
 	<key>wa</key>
 	<string>わ</string>
 	<key>wi</key>
@@ -802,8 +674,6 @@
 	<string>ゑ</string>
 	<key>wo</key>
 	<string>を</string>
-	<key>W</key>
-	<string></string>
 	<key>WA</key>
 	<string>ワ</string>
 	<key>WI</key>
@@ -814,8 +684,6 @@
 	<string>ヱ</string>
 	<key>WO</key>
 	<string>ヲ</string>
-	<key>wy</key>
-	<string></string>
 	<key>wya</key>
 	<string>ゐゃ</string>
 	<key>wyi</key>
@@ -826,8 +694,6 @@
 	<string>ゐぇ</string>
 	<key>wyo</key>
 	<string>ゐょ</string>
-	<key>WY</key>
-	<string></string>
 	<key>WYA</key>
 	<string>ヰァ</string>
 	<key>WYI</key>
@@ -842,8 +708,6 @@
 	<string>ん</string>
 	<key>NN</key>
 	<string>ン</string>
-	<key>l</key>
-	<string></string>
 	<key>la</key>
 	<string>ぁ</string>
 	<key>li</key>
@@ -854,8 +718,6 @@
 	<string>ぇ</string>
 	<key>lo</key>
 	<string>ぉ</string>
-	<key>L</key>
-	<string></string>
 	<key>LA</key>
 	<string>ァ</string>
 	<key>LI</key>
@@ -866,40 +728,26 @@
 	<string>ェ</string>
 	<key>LO</key>
 	<string>ォ</string>
-	<key>lt</key>
-	<string></string>
 	<key>ltu</key>
 	<string>っ</string>
-	<key>LT</key>
-	<string></string>
 	<key>LTU</key>
 	<string>ッ</string>
-	<key>ly</key>
-	<string></string>
 	<key>lya</key>
 	<string>ゃ</string>
 	<key>lyu</key>
 	<string>ゅ</string>
 	<key>lyo</key>
 	<string>ょ</string>
-	<key>LY</key>
-	<string></string>
 	<key>LYA</key>
 	<string>ャ</string>
 	<key>LYU</key>
 	<string>ュ</string>
 	<key>LYO</key>
 	<string>ョ</string>
-	<key>lw</key>
-	<string></string>
 	<key>lwa</key>
 	<string>ゎ</string>
-	<key>LW</key>
-	<string></string>
 	<key>LWA</key>
 	<string>ヮ</string>
-	<key>x</key>
-	<string></string>
 	<key>xa</key>
 	<string>ぁ</string>
 	<key>xi</key>
@@ -910,8 +758,6 @@
 	<string>ぇ</string>
 	<key>xo</key>
 	<string>ぉ</string>
-	<key>X</key>
-	<string></string>
 	<key>XA</key>
 	<string>ァ</string>
 	<key>XI</key>
@@ -922,36 +768,24 @@
 	<string>ェ</string>
 	<key>XO</key>
 	<string>ォ</string>
-	<key>xt</key>
-	<string></string>
 	<key>xtu</key>
 	<string>っ</string>
-	<key>XT</key>
-	<string></string>
 	<key>XTU</key>
 	<string>ッ</string>
-	<key>xy</key>
-	<string></string>
 	<key>xya</key>
 	<string>ゃ</string>
 	<key>xyu</key>
 	<string>ゅ</string>
 	<key>xyo</key>
 	<string>ょ</string>
-	<key>XY</key>
-	<string></string>
 	<key>XYA</key>
 	<string>ャ</string>
 	<key>XYU</key>
 	<string>ュ</string>
 	<key>XYO</key>
 	<string>ョ</string>
-	<key>xw</key>
-	<string></string>
 	<key>xwa</key>
 	<string>ゎ</string>
-	<key>XW</key>
-	<string></string>
 	<key>XWA</key>
 	<string>ヮ</string>
 	<key>,</key>

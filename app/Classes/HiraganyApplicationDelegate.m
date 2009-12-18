@@ -4,7 +4,7 @@
 @implementation HiraganyApplicationDelegate
 
 -(ConversionEngine*)conversionEngine {
-  return conversionEngine_;
+    return conversionEngine_;
 }
 
 @end
