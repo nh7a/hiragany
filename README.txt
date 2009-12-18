@@ -9,7 +9,7 @@ Since you don't worry about Kanji conversion at all, you don't hit Space or Ente
 
 
 * Install
-Copy Hiragany.app to /Library/Input Methods/ and open System Preferences to enable it. If this is the first time, you would need to logout the system and login.
+Copy Hiragany.app to /Library/Input Methods/ and open System Preferences to enable it.  If this is your first installation, you would need to logout the system and login, after copying the file.
 
 
 * Katakana
