@@ -1,6 +1,8 @@
 #import "HiraganyGlobal.h"
 #import "ConversionEngine.h"
 
+#define kMaxParticleLength 2
+
 @interface ConversionEngine(Private)
 -(id)loadPlist:(NSString*)name;
 -(void)testForDebug;
@@ -15,7 +17,7 @@
     romakanaDic_ = [self loadPlist:@"RomaKana"];
     kanakanjiDic_ = [self loadPlist:@"KanaKanji"];
     symbolDic_ = [self loadPlist:@"Symbol"];
-    particles_ = [[NSArray arrayWithObjects:@"は", @"が", @"で", @"の", @"を", @"に", @"な", @"へ", @"と", @"とは", @"では", @"には", @"へは", nil] retain];
+
 #ifdef DEBUG
     [self testForDebug];
 #endif
@@ -25,7 +27,6 @@
     [romakanaDic_ release];
     [kanakanjiDic_ release];
     [symbolDic_ release];
-    [particles_ release];
     [super dealloc];
 }
 
@@ -99,15 +100,12 @@
     if (converted) {
         return [NSArray arrayWithObject:converted];
     }
-    for (NSString* particle in particles_) {
-        NSUInteger len = [string length] - [particle length];
-        if (len > 0) {
-            if ([string hasSuffix:particle]) {
-                converted = [kanakanjiDic_ objectForKey:[string substringToIndex:len]];
-                if (converted) {
-                    return [NSArray arrayWithObjects:converted, particle, nil];
-                }
-            }
+    for (int i = 1; i <= kMaxParticleLength; i++) {
+        NSInteger len = [string length] - i;
+        if (len <= 0) break;
+        converted = [kanakanjiDic_ objectForKey:[string substringToIndex:len]];
+        if (converted) {
+            return [NSArray arrayWithObjects:converted, [string substringFromIndex:len], nil];
         }
     }
     return [NSArray arrayWithObjects:@"", string, nil];
@@ -174,31 +172,28 @@
 
 -(void)testForDebug {
     verbosity_ = 9;
-    [self convert:@"a"];
-    [self convert:@"kyaku"];
-    [self convert:@"gashisuru"];
-    [self convert:@"kyouto"];
-    [self convert:@"kenkou"];
-    [self convert:@"kennkou"];
+    [self convert:@"d"];
+    [self convert:@"do"];
+    [self convert:@"dok"];
+    [self convert:@"dokk"];
+    [self convert:@"dokkin"];
+    [self convert:@"dokkinho"];
+    [self convert:@"dokkinhou"];
     [self convert:@"gassyuku"];
-    [self convert:@"dattai"];
-    [self convert:@"gakkari"];
     [self convert:@"keppaku"];
-    [self convert:@"utsurundesu"];
-    [self convert:@"aima"];
-    [self convert:@"aimai"];
-    [self convert:@"aikagi"];
-    [self convert:@"aikagiw"];
-    [self convert:@"aikagiwo"];
-    [self convert:@"aikagih"];
-    [self convert:@"aikagiha"];
+    [self convert:@"misshi"];
+    [self convert:@"misshiha"];
+    [self convert:@"misshitoha"];
+    [self convert:@"misshitohana"];
+    [self convert:@"misshitsu"];
+    [self convert:@"misshitsudemo"];
     [self convert:@"runrun"];
     [self convert:@"runrun "];
     [self convert:@"runnrun"];
-    [self convert:@"gunkan"];
-    [self convert:@"gunkan."];
-    [self convert:@"gunkann"];
-    [self convert:@"gunkann."];
+    [self convert:@"ronten"];
+    [self convert:@"ronten."];
+    [self convert:@"rontenn"];
+    [self convert:@"rontenn."];
     [self convert:@"w."];
     [self convert:@"ww."];
     [self convert:@"www."];
