@@ -3,10 +3,10 @@
 #import "ConversionEngine.h"
 #import "HiraganyApplicationDelegate.h"
 
-#define IMPL_METHOD 2
 
 @interface HiraganyController(Private)
-- (NSString*)getMarkedText;
+- (NSString*)getPreedit;
+- (void)showPreedit:(id)sender;
 - (BOOL)appendString:(NSString*)string sender:(id)sender;
 - (void)deleteBackward:(id)sender;
 - (BOOL)convert:(NSString*)trigger client:(id)sender;
@@ -36,28 +36,6 @@
 #pragma mark IMKServerInput
 @implementation HiraganyController (IMKServerInput)
 
-#if (IMPL_METHOD == 1)
-- (BOOL)inputText:(NSString*)string client:(id)sender {
-    return [self inputText:string key:0 modifiers:0 client:sender];
-}
-
--(BOOL)didCommandBySelector:(SEL)aSelector client:(id)sender {
-    DebugLog(@"didCommandBySelector: %s", sel_getName(aSelector));
-    if ([self respondsToSelector:aSelector]) {
-        if ([[self getMarkedText] length] > 0) {
-            if (aSelector == @selector(insertNewline:) ||
-                aSelector == @selector(insertTab:) ||
-                aSelector == @selector(deleteBackward:) ) {
-                [self performSelector:aSelector withObject:sender];
-                return YES; 
-            }
-        }
-    }
-    return NO;
-}
-#endif
-
-#if (IMPL_METHOD == 1 || IMPL_METHOD == 2)
 - (BOOL)appendString:(NSString*)string sender:(id)sender {
     ConversionEngine* converter = [[NSApp delegate] conversionEngine];
     
@@ -114,10 +92,10 @@
                 [self commitComposition:sender];
                 break;
             case 0x31:  // space
-                [self appendString:@" " sender:sender];
-                [self commitComposition:sender];
-                return YES;
-                break;
+                if ([romanBuffer_ isEqualToString:@"n"] || [romanBuffer_ isEqualToString:@"N"]) {
+                    [self appendString:romanBuffer_ sender:sender];
+                }
+                // Do not break
             default:
                 DebugLog(@"flush: control char: %X %X", keyCode, flags);
                 [self commitComposition:sender];
@@ -147,24 +125,13 @@
         converter.katakana = NO;
         [self commitComposition:sender];
     } else {
-        NSString* text = [self getMarkedText];
-        [sender setMarkedText:text
-               selectionRange:NSMakeRange(0, [text length])
-             replacementRange:NSMakeRange(NSNotFound, NSNotFound)];
+        [self showPreedit:sender];
     }
     return YES;
 }
-#endif
-
-#if (IMPL_METHOD == 3)
-- (BOOL)handleEvent:(NSEvent*)event client:(id)sender {
-    DebugLog(@"handleEvent: %@", event);
-    return YES;
-}
-#endif
 
 -(void)commitComposition:(id)sender {
-    NSString* text = [self getMarkedText];
+    NSString* text = [self getPreedit];
     if ([text length]) {
         DebugLog(@"commit: \"%@\"", text);
         [sender insertText:text replacementRange:NSMakeRange(NSNotFound, NSNotFound)];
@@ -176,16 +143,6 @@
 }
 
 #pragma mark -
-
-- (void)insertNewline:(id)sender {
-    [self commitComposition:sender];
-    [[NSApp delegate] conversionEngine].katakana = NO;
-}
-
-- (void)insertTab:(id)sender {
-    [self commitComposition:sender];
-    [[NSApp delegate] conversionEngine].katakana = NO;
-}
 
 - (void)deleteBackward:(id)sender {
     if ([romanBuffer_ length] > 0) {
@@ -204,10 +161,7 @@
     } else {
         [kanjiBuffer_ setString:@""];
     }
-    NSString* text = [self getMarkedText];
-    [sender setMarkedText:text
-           selectionRange:NSMakeRange(0, [text length])
-         replacementRange:NSMakeRange(NSNotFound, NSNotFound)];
+    [self showPreedit:sender];
 }
 
 @end
@@ -230,7 +184,7 @@
     [[NSUserDefaults standardUserDefaults] setBool:kakamanyMode_ forKey:@"kakamany"];
 }
 
--(NSString*)getMarkedText {
+-(NSString*)getPreedit {
     DebugLog(@"buffer: %@/%@/%@", romanBuffer_, kanaBuffer_, kanjiBuffer_);
     NSString* text = @"";
     if ([kanjiBuffer_ length]) {
@@ -248,8 +202,23 @@
     } else {
         text = romanBuffer_;
     }
-    DebugLog(@"marked: \"%@\"", text);
+    DebugLog(@"preedit: \"%@\"", text);
     return text;
+}
+
+-(void)showPreedit:(id)sender {
+    NSString* text = [self getPreedit];
+    NSLog(@"preedit(%@) length(%d)", text, [text length]);
+    
+    NSInteger style = NSUnderlineStyleNone;
+    NSDictionary* attr = [NSDictionary dictionaryWithObjectsAndKeys:
+                          [NSNumber numberWithInt:style], NSUnderlineStyleAttributeName, nil];
+    NSMutableAttributedString* buf = [[NSAttributedString alloc] initWithString:text
+                                                                     attributes:attr];
+    [sender setMarkedText:buf
+           selectionRange:NSMakeRange([text length], 0)
+         replacementRange:NSMakeRange(NSNotFound, NSNotFound)];
+    [buf release];
 }
 
 @end
