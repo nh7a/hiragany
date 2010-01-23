@@ -3,7 +3,6 @@
 #import "ConversionEngine.h"
 #import "HiraganyApplicationDelegate.h"
 
-
 @interface HiraganyController(Private)
 - (NSString*)getPreedit;
 - (void)showPreedit:(id)sender;
@@ -92,6 +91,11 @@
                 [self commitComposition:sender];
                 break;
             case 0x31:  // space
+                if (flags & NSShiftKeyMask) {
+                    [kanjiBuffer_ setString:@""];
+                }
+                // do not break
+            case 0x30:  // tab key
                 if ([romanBuffer_ isEqualToString:@"n"] || [romanBuffer_ isEqualToString:@"N"]) {
                     [self appendString:romanBuffer_ sender:sender];
                 }
@@ -208,7 +212,7 @@
 
 -(void)showPreedit:(id)sender {
     NSString* text = [self getPreedit];
-    NSLog(@"preedit(%@) length(%d)", text, [text length]);
+    DebugLog(@"preedit(%@) length(%d)", text, [text length]);
     
     NSInteger style = NSUnderlineStyleNone;
     NSDictionary* attr = [NSDictionary dictionaryWithObjectsAndKeys:
