@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>は</key>
+	<true/>
+	<key>が</key>
+	<true/>
+	<key>で</key>
+	<true/>
+	<key>の</key>
+	<true/>
+	<key>を</key>
+	<true/>
+	<key>に</key>
+	<true/>
+	<key>な</key>
+	<true/>
+	<key>へ</key>
+	<true/>
+	<key>と</key>
+	<true/>
+	<key>とは</key>
+	<true/>
+	<key>では</key>
+	<true/>
+	<key>には</key>
+	<true/>
+	<key>へは</key>
+	<true/>
+</dict>
+</plist>
