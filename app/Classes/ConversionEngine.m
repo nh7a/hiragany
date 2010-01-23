@@ -17,6 +17,7 @@
     romakanaDic_ = [self loadPlist:@"RomaKana"];
     kanakanjiDic_ = [self loadPlist:@"KanaKanji"];
     symbolDic_ = [self loadPlist:@"Symbol"];
+    particleDic_ = [self loadPlist:@"Particle"];
 
 #ifdef DEBUG
     [self testForDebug];
@@ -27,6 +28,7 @@
     [romakanaDic_ release];
     [kanakanjiDic_ release];
     [symbolDic_ release];
+    [particleDic_ release];
     [super dealloc];
 }
 
@@ -103,9 +105,12 @@
     for (int i = 1; i <= kMaxParticleLength; i++) {
         NSInteger len = [string length] - i;
         if (len <= 0) break;
-        converted = [kanakanjiDic_ objectForKey:[string substringToIndex:len]];
-        if (converted) {
-            return [NSArray arrayWithObjects:converted, [string substringFromIndex:len], nil];
+        NSString* particle = [string substringFromIndex:len];
+        if ([particleDic_ objectForKey:particle]) {
+            converted = [kanakanjiDic_ objectForKey:[string substringToIndex:len]];
+            if (converted) {
+                return [NSArray arrayWithObjects:converted, particle, nil];
+            }
         }
     }
     return [NSArray arrayWithObjects:@"", string, nil];

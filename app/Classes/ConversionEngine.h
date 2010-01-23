@@ -5,6 +5,7 @@
     NSDictionary* romakanaDic_;
     NSDictionary* kanakanjiDic_;
     NSDictionary* symbolDic_;
+    NSDictionary* particleDic_;
     int verbosity_;
 }
 
