@@ -81,6 +81,14 @@
             return NO;
         }
         switch (keyCode) {
+            case 0x28:  // 'k'
+            {
+                NSLog(@"Force Katakanization");
+                ConversionEngine* converter = [[NSApp delegate] conversionEngine];
+                [kanaBuffer_  setString:[converter convertHiraToKata:kanaBuffer_]];
+                [kanjiBuffer_ setString:@""];
+                break;
+            }
             case 0x33:  // delete key
                 [self deleteBackward:sender];
                 return YES;
@@ -88,23 +96,24 @@
                 if (![romanBuffer_ length] && ![kanaBuffer_ length]) {
                     return NO;
                 }
-                [self commitComposition:sender];
                 break;
             case 0x31:  // space
                 if (flags & NSShiftKeyMask) {
                     [kanjiBuffer_ setString:@""];
                 }
-                // do not break
+                break;
             case 0x30:  // tab key
                 if ([romanBuffer_ isEqualToString:@"n"] || [romanBuffer_ isEqualToString:@"N"]) {
                     [self appendString:romanBuffer_ sender:sender];
                 }
-                // Do not break
+                break;
             default:
-                DebugLog(@"flush: control char: %X %X", keyCode, flags);
-                [self commitComposition:sender];
+                NSLog(@"Unexpected Input: keyCode(%X) flags(%X)", keyCode, flags);
                 break;
         }
+        DebugLog(@"flush: control char: %X %X", keyCode, flags);
+        [self commitComposition:sender];
+        
         if (flags & NSShiftKeyMask) {
             return YES;
         }

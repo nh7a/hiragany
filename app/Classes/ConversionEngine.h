@@ -14,6 +14,7 @@
 -(NSArray*)convert:(NSString*)string;
 -(NSArray*)convertRomanToKana:(NSString*)string;
 -(NSArray*)convertKanaToKanji:(NSString*)string;
+-(NSString*)convertHiraToKata:(NSString*)string;
 -(BOOL)isSymbol:(NSString*)string;
 
 @end

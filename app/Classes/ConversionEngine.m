@@ -116,6 +116,13 @@
     return [NSArray arrayWithObjects:@"", string, nil];
 }
 
+-(NSString*)convertHiraToKata:(NSString*)string {
+    CFMutableStringRef buf = CFStringCreateMutableCopy(kCFAllocatorDefault, 0, (CFStringRef)string);
+    CFRange range = CFRangeMake(0, [string length]);
+    CFStringTransform(buf, &range, kCFStringTransformHiraganaKatakana, NO);
+    return (NSString*)buf;
+}
+
 -(NSArray*)convert:(NSString*)string {
     NSArray* results;
     NSArray* kana = [self convertRomanToKana:string];
