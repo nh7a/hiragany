@@ -43,6 +43,7 @@
 		BEBE164E0FBFCB9900EFA6E7 /* hiragany.tiff */ = {isa = PBXFileReference; lastKnownFileType = image.tiff; name = hiragany.tiff; path = Resources/hiragany.tiff; sourceTree = "<group>"; };
 		BEC623B3110BB40200286831 /* Particles.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; name = Particles.plist; path = Resources/Particles.plist; sourceTree = "<group>"; };
 		BEC623CC110BB80F00286831 /* Symbols.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; name = Symbols.plist; path = Resources/Symbols.plist; sourceTree = "<group>"; };
+		BED5E4C1110E623B00573B8D /* HiraganyGlobal.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = HiraganyGlobal.h; path = Classes/HiraganyGlobal.h; sourceTree = "<group>"; };
 		BEFD59AA10CE351800C3E862 /* KanaKanji.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; name = KanaKanji.plist; path = Resources/KanaKanji.plist; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
@@ -62,6 +63,7 @@
 		080E96DDFE201D6D7F000001 /* Classes */ = {
 			isa = PBXGroup;
 			children = (
+				BED5E4C1110E623B00573B8D /* HiraganyGlobal.h */,
 				BEBE16440FBFCB6B00EFA6E7 /* HiraganyApplicationDelegate.h */,
 				BEBE16450FBFCB6B00EFA6E7 /* HiraganyApplicationDelegate.m */,
 				BEBE16420FBFCB6B00EFA6E7 /* ConversionEngine.h */,

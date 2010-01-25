@@ -76,7 +76,8 @@
     NSScanner* scanner = [NSScanner scannerWithString:string];
     NSString* scanned;
     if (![scanner scanCharactersFromSet:[NSCharacterSet alphanumericCharacterSet] intoString:&scanned] &&
-        ![scanner scanCharactersFromSet:[NSCharacterSet punctuationCharacterSet] intoString:&scanned]) {
+        ![scanner scanCharactersFromSet:[NSCharacterSet punctuationCharacterSet] intoString:&scanned] &&
+        ![scanner scanCharactersFromSet:[NSCharacterSet symbolCharacterSet] intoString:&scanned]) {
         if (![romanBuffer_ length] && ![kanaBuffer_ length]) {
             return NO;
         }
