@@ -101,7 +101,7 @@
                 if (flags & NSShiftKeyMask) {
                     [kanjiBuffer_ setString:@""];
                 }
-                break;
+                // do not break to handle /n$/i
             case 0x30:  // tab key
                 if ([romanBuffer_ isEqualToString:@"n"] || [romanBuffer_ isEqualToString:@"N"]) {
                     [self appendString:romanBuffer_ sender:sender];
