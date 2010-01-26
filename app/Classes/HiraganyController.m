@@ -1,3 +1,4 @@
+#define DEBUG
 #import "HiraganyGlobal.h"
 #import "HiraganyController.h"
 #import "ConversionEngine.h"
@@ -100,10 +101,13 @@
                 break;
             case 0x31:  // space
                 if (flags & NSShiftKeyMask) {
-                    [kanjiBuffer_ setString:@""];
+                    [self appendString:@" " sender:sender];
                 }
                 // do not break to handle /n$/i
             case 0x30:  // tab key
+                if (flags & NSShiftKeyMask) {
+                    [kanjiBuffer_ setString:@""];
+                }
                 if ([romanBuffer_ isEqualToString:@"n"] || [romanBuffer_ isEqualToString:@"N"]) {
                     [self appendString:romanBuffer_ sender:sender];
                 }
