@@ -119,7 +119,7 @@
         DebugLog(@"flush: control char: %X %X", keyCode, flags);
         [self commitComposition:sender];
         
-        if (flags & NSShiftKeyMask) {
+        if (flags & (NSShiftKeyMask | NSControlKeyMask)) {
             return YES;
         }
         return NO;
