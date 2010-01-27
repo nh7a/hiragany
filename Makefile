@@ -4,8 +4,7 @@ all:
 	cd app && xcodebuild
 
 install:
-	killall Hiragany
-	cp -R  app/build/Release/Hiragany.app /Library/Input\ Methods/
+	killall Hiragany || cp -R  app/build/Release/Hiragany.app /Library/Input\ Methods/
 
 release:
 	rm -rf dist/Hiragany-${VERSION}
