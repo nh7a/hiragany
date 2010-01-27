@@ -98,7 +98,9 @@ end
 def read_blacklist(filename = 'hiragany.blacklist')
   blacklist = []
   File.open(filename, 'r').each_line do |i|
-    blacklist << i.chop
+    next if i[0].chr == '#'
+    arr = i.split " "
+    blacklist << arr[0] if arr[0]
   end
   blacklist
 end
