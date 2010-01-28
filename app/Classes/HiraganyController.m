@@ -10,6 +10,7 @@
 - (BOOL)appendString:(NSString*)string sender:(id)sender;
 - (void)deleteBackward:(id)sender;
 - (BOOL)convert:(NSString*)trigger client:(id)sender;
+- (void)fixTrailingN:(id)sender;
 @end
 
 @implementation HiraganyController
@@ -82,13 +83,15 @@
         if (![romanBuffer_ length] && ![kanaBuffer_ length]) {
             return NO;
         }
+        BOOL handled = NO;
         switch (keyCode) {
             case 0x28:  // 'k'
             {
                 NSLog(@"Force Katakanization");
                 ConversionEngine* converter = [[NSApp delegate] conversionEngine];
+                [self fixTrailingN:sender];
                 [kanaBuffer_  setString:[converter convertHiraToKata:kanaBuffer_]];
-                [kanjiBuffer_ setString:@""];
+                handled = YES;
                 break;
             }
             case 0x33:  // delete key
@@ -100,29 +103,23 @@
                 }
                 break;
             case 0x31:  // space
-                if (flags & NSShiftKeyMask) {
-                    [self appendString:@" " sender:sender];
-                }
-                // do not break to handle /n$/i
+                [self appendString:@" " sender:sender];
+                handled = YES;
+                break;
             case 0x30:  // tab key
-                if (flags & NSShiftKeyMask) {
-                    [kanjiBuffer_ setString:@""];
-                }
-                if ([romanBuffer_ isEqualToString:@"n"] || [romanBuffer_ isEqualToString:@"N"]) {
-                    [self appendString:romanBuffer_ sender:sender];
-                }
+                [self fixTrailingN:sender];
+                handled = YES;
                 break;
             default:
                 NSLog(@"Unexpected Input: keyCode(%X) flags(%X)", keyCode, flags);
                 break;
         }
         DebugLog(@"flush: control char: %X %X", keyCode, flags);
-        [self commitComposition:sender];
-        
         if (flags & (NSShiftKeyMask | NSControlKeyMask)) {
-            return YES;
+            [kanjiBuffer_ setString:@""];
         }
-        return NO;
+        [self commitComposition:sender];
+        return handled;
     }
     
     ConversionEngine* converter = [[NSApp delegate] conversionEngine];
@@ -237,6 +234,12 @@
            selectionRange:NSMakeRange([text length], 0)
          replacementRange:NSMakeRange(NSNotFound, NSNotFound)];
     [buf release];
+}
+
+- (void)fixTrailingN:(id)sender {
+    if ([romanBuffer_ isEqualToString:@"n"] || [romanBuffer_ isEqualToString:@"N"]) {
+        [self appendString:romanBuffer_ sender:sender];
+    }
 }
 
 @end
