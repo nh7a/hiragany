@@ -17,7 +17,7 @@
     romakanaDic_ = [self loadPlist:@"RomaKana"];
     kanakanjiDic_ = [self loadPlist:@"KanaKanji"];
     symbolDic_ = [self loadPlist:@"Symbol"];
-    particleDic_ = [self loadPlist:@"Particle"];
+    particleDic_ = [self loadPlist:@"Particles"];
 
 #ifdef DEBUG
     [self testForDebug];
