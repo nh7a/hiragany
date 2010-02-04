@@ -5,7 +5,8 @@
 
 @interface ConversionEngine(Private)
 -(id)loadPlist:(NSString*)name;
--(void)testForDebug;
+-(void)testRomanToKana;
+-(void)testConvert;
 @end
 
 @implementation ConversionEngine
@@ -20,7 +21,8 @@
     particleDic_ = [self loadPlist:@"Particles"];
 
 #ifdef DEBUG
-    [self testForDebug];
+    [self testRomanToKana];
+    [self testConvert];
 #endif
 }
 
@@ -41,19 +43,21 @@
     range.length = 0;
     
     NSString* key = katakana_ ? [string uppercaseString] : [string lowercaseString];
-    for (int i = 0; i < [key length]; i++) {
+    while (range.location + range.length < [key length]) {
         range.length += 1;
         NSString* k = [key substringWithRange: range];
         NSString* converted = [romakanaDic_ objectForKey:k];
         if (converted) {
-            DebugLog(@"conversion: %@", converted);
-            if ([self isSymbol:k]) {
-                return [NSArray arrayWithObjects:buf, converted, nil];
-            }                
+            [buf appendString:converted];
             range.location += range.length;
             range.length = 0;
-            [buf appendString:converted];
-        } else if ([k length] > 1) {
+        } else if (range.length >= 3) {
+            range.length = 1;
+            NSString* k = [key substringWithRange: range];
+            [buf appendString:k];
+            range.location += 1;
+            range.length = 0;
+        } else if (range.length == 2) {
             unichar firstChar = [k characterAtIndex:0];
             unichar secondChar = [k characterAtIndex:1];
             if (firstChar == secondChar) {
@@ -140,17 +144,17 @@
     if (verbosity_) {
         if ([kana count] == 1) {
             if ([results count] == 1)
-                NSLog(@"convert: %@ -> %@ -> %@", string,
+                NSLog(@"convert1: %@ -> %@ -> %@", string,
                       [kana objectAtIndex:0], [results objectAtIndex:0]);
             else
-                NSLog(@"convert: %@ -> %@ -> %@/%@",
+                NSLog(@"convert2: %@ -> %@ -> %@/%@",
                       string, [kana objectAtIndex:0], [results objectAtIndex:0], [results objectAtIndex:1]);
         } else {
             if ([results count] == 1)
-                NSLog(@"convert: %@ -> %@/%@ -> %@", string,
+                NSLog(@"convert3: %@ -> %@/%@ -> %@", string,
                       [kana objectAtIndex:0], [kana objectAtIndex:1], [results objectAtIndex:0]);
             else
-                NSLog(@"convert: %@ -> %@/%@ -> %@/%@",
+                NSLog(@"convert4: %@ -> %@/%@ -> %@/%@",
                       string, [kana objectAtIndex:0], [kana objectAtIndex:1], [results objectAtIndex:0], [results objectAtIndex:1]);
         }
     }
@@ -182,34 +186,70 @@
     return plist;
 }
 
--(void)testForDebug {
-    verbosity_ = 9;
-    [self convert:@"d"];
-    [self convert:@"do"];
-    [self convert:@"dok"];
-    [self convert:@"dokk"];
-    [self convert:@"dokkin"];
-    [self convert:@"dokkinho"];
-    [self convert:@"dokkinhou"];
-    [self convert:@"gassyuku"];
-    [self convert:@"keppaku"];
-    [self convert:@"misshi"];
-    [self convert:@"misshiha"];
-    [self convert:@"misshitoha"];
-    [self convert:@"misshitohana"];
-    [self convert:@"misshitsu"];
-    [self convert:@"misshitsudemo"];
-    [self convert:@"runrun"];
-    [self convert:@"runrun "];
-    [self convert:@"runnrun"];
-    [self convert:@"ronten"];
-    [self convert:@"ronten."];
-    [self convert:@"rontenn"];
-    [self convert:@"rontenn."];
-    [self convert:@"w."];
-    [self convert:@"ww."];
-    [self convert:@"www."];
-    verbosity_ = 0;
+#define TEST_CONVERTER(sel,a,b,c,d) {\
+    NSArray* arr = [self sel:a];\
+    assert([arr count]==b);\
+    assert([[arr objectAtIndex:0] isEqualToString:c]);\
+    if (b==2) {\
+        assert([[arr objectAtIndex:1] isEqualToString:d]);\
+        NSLog(@"OK: %@ -> %@ %@", a,c,d);\
+    } else {\
+        NSLog(@"OK: %@ -> %@",a,c);\
+    }\
+}
+
+-(void)testRomanToKana {
+    TEST_CONVERTER(convertRomanToKana, @"a", 1, @"あ", nil);
+    TEST_CONVERTER(convertRomanToKana, @"d", 2, @"", @"d");
+    TEST_CONVERTER(convertRomanToKana, @"da", 1, @"だ", nil);
+    TEST_CONVERTER(convertRomanToKana, @"dag", 2, @"だ", @"g");
+    TEST_CONVERTER(convertRomanToKana, @"gy", 2, @"", @"gy");
+    TEST_CONVERTER(convertRomanToKana, @"gya", 1, @"ぎゃ", nil);
+    TEST_CONVERTER(convertRomanToKana, @"kk", 2, @"っ", @"k");
+    TEST_CONVERTER(convertRomanToKana, @"batta", 1, @"ばった", nil);
+    TEST_CONVERTER(convertRomanToKana, @"gakki", 1, @"がっき", nil);
+    TEST_CONVERTER(convertRomanToKana, @"up", 2, @"う", @"p");
+    TEST_CONVERTER(convertRomanToKana, @"upd", 2, @"う", @"pd");
+    TEST_CONVERTER(convertRomanToKana, @"upde", 1, @"うpで", nil);
+    TEST_CONVERTER(convertRomanToKana, @"upde-", 1, @"うpでー", nil);
+    TEST_CONVERTER(convertRomanToKana, @"upde-t", 2, @"うpでー", @"t");
+    TEST_CONVERTER(convertRomanToKana, @"upde-ta", 1, @"うpでーた", nil);
+    TEST_CONVERTER(convertRomanToKana, @"upde-tann", 1, @"うpでーたん", nil);
+    TEST_CONVERTER(convertRomanToKana, @"n", 2, @"", @"n");
+    TEST_CONVERTER(convertRomanToKana, @"nn", 1, @"ん", nil);
+    TEST_CONVERTER(convertRomanToKana, @"ng", 2, @"ん", @"g");
+    TEST_CONVERTER(convertRomanToKana, @"nga", 1, @"んが", nil);
+    TEST_CONVERTER(convertRomanToKana, @"nky", 2, @"ん", @"ky");
+    TEST_CONVERTER(convertRomanToKana, @"nkyo", 1, @"んきょ", nil);
+    TEST_CONVERTER(convertRomanToKana, @"npde", 1, @"んpで", nil);
+    TEST_CONVERTER(convertRomanToKana, @"runrun", 2, @"るんる", @"n");
+    TEST_CONVERTER(convertRomanToKana, @"runrun ", 2, @"るんるん", @" ");
+    TEST_CONVERTER(convertRomanToKana, @"runrun.", 2, @"るんるん", @"。");
+    TEST_CONVERTER(convertRomanToKana, @"runnrun", 2, @"るんる", @"n");
+    TEST_CONVERTER(convertRomanToKana, @"runnrunn", 1, @"るんるん", nil);
+    NSLog(@"convertRomanToKana: done");
+}
+
+-(void)testConvert {
+    TEST_CONVERTER(convert, @"j", 2, @"", @"j");
+    TEST_CONVERTER(convert, @"ji", 2, @"", @"じ");
+    TEST_CONVERTER(convert, @"jik", 2, @"", @"じk");
+    TEST_CONVERTER(convert, @"jikk", 2, @"", @"じっk");
+    TEST_CONVERTER(convert, @"jikky", 2, @"", @"じっky");
+    TEST_CONVERTER(convert, @"jikkyo", 2, @"", @"じっきょ");
+    TEST_CONVERTER(convert, @"jikkyou", 1, @"実況", nil);
+    TEST_CONVERTER(convert, @"jikkyout", 2, @"実況", @"t");
+    TEST_CONVERTER(convert, @"jikkyouto", 2, @"実況", @"と");
+    TEST_CONVERTER(convert, @"jikkyoutoh", 2, @"実況", @"とh");
+    TEST_CONVERTER(convert, @"jikkyoutoha", 2, @"実況", @"とは");
+    TEST_CONVERTER(convert, @"shindan", 2, @"", @"しんだn");
+    TEST_CONVERTER(convert, @"shindans", 2, @"診断", @"s");
+    TEST_CONVERTER(convert, @"shindansh", 2, @"診断", @"sh");
+    TEST_CONVERTER(convert, @"shindansho", 1, @"診断書", nil);
+    TEST_CONVERTER(convert, @"w", 2, @"", @"w");
+    TEST_CONVERTER(convert, @"ww", 2, @"", @"っw");
+    TEST_CONVERTER(convert, @"www", 2, @"", @"っっw");
+    NSLog(@"convert: done");
 }
 
 @end
