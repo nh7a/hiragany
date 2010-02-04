@@ -37,7 +37,9 @@
 -(NSArray*)convertRomanToKana:(NSString*)string {
     if (!romakanaDic_) return [NSArray arrayWithObjects:@"", string, nil];
     
-    NSMutableString* buf = [[NSMutableString new] autorelease];
+    NSMutableString* buf1 = [[NSMutableString new] autorelease];
+    NSMutableString* buf2 = [[NSMutableString new] autorelease];
+    NSMutableString* buf = buf1;
     NSRange range;
     range.location = 0;
     range.length = 0;
@@ -45,58 +47,46 @@
     NSString* key = katakana_ ? [string uppercaseString] : [string lowercaseString];
     while (range.location + range.length < [key length]) {
         range.length += 1;
-        NSString* k = [key substringWithRange: range];
+        NSString* k = [key substringWithRange:range];
         NSString* converted = [romakanaDic_ objectForKey:k];
         if (converted) {
-            [buf appendString:converted];
-            range.location += range.length;
-            range.length = 0;
-        } else if (range.length >= 3) {
-            range.length = 1;
-            NSString* k = [key substringWithRange: range];
-            [buf appendString:k];
-            range.location += 1;
-            range.length = 0;
-        } else if (range.length == 2) {
+            if ([self isSymbol:k]) {
+                [buf2 appendString:converted];
+                return [NSArray arrayWithObjects:buf1, buf2, nil];
+            }
+        } else {
+            if ([k length] == 1 ||
+                [romakanaDic_ objectForKey:[NSString stringWithFormat:@"%@%@", k, katakana_ ? @"A" : @"a"]]) {
+                continue;  // The next letter may solve.
+            }
             unichar firstChar = [k characterAtIndex:0];
-            unichar secondChar = [k characterAtIndex:1];
-            if (firstChar == secondChar) {
-                [buf appendString:(katakana_ ? @"ッ" : @"っ")];
-                range.location++;
-                range.length--;
-                continue;
-            }
             if (firstChar == 'n') {  // n is special
-                NSString* n = [romakanaDic_ objectForKey:[NSString stringWithFormat:@"%@a", k]];
-                if (!n) {
-                    [buf appendString:@"ん"];
-                    range.location++;
-                    range.length--;
-                }
+                converted = @"ん";
             } else if (firstChar == 'N') {  // N is awesome
-                NSString* n = [romakanaDic_ objectForKey:[NSString stringWithFormat:@"%@A", k]];
-                if (!n) {
-                    [buf appendString:@"ン"];
-                    range.location++;
-                    range.length--;
+                converted = @"ン";
+            } else {
+                if (firstChar == [k characterAtIndex:1]) {
+                    converted = katakana_ ? @"ッ" : @"っ";
+                } else {
+                    converted = [NSString stringWithCharacters:&firstChar length:1];
+                    buf = buf2;  // Switch the target buffer
                 }
             }
-            NSString* symbol = [NSString stringWithCharacters:&secondChar length:1];
-            if ([self isSymbol:symbol]) {
-                if (firstChar != 'n' && firstChar != 'N') {
-                    [buf appendString:[NSString stringWithCharacters:&firstChar length:1]];
-                    range.location++;
-                }
-                NSString* converted = [romakanaDic_ objectForKey:symbol];
-                return [NSArray arrayWithObjects:buf, converted, nil];
-            }
+            range.length = 1;  // Advance one letter
         }
+        [buf appendString:converted];
+        range.location += range.length;
+        range.length = 0;        
     }
     
     if (range.length) {
-        return [NSArray arrayWithObjects:buf, [key substringWithRange:range], nil];
+        [buf2 appendString:[key substringWithRange:range]];
     }
-    return [NSArray arrayWithObjects:buf, nil];
+    if ([buf2 length] > 0) {
+        return [NSArray arrayWithObjects:buf1, buf2, nil];
+    } else {
+        return [NSArray arrayWithObjects:buf1, nil];
+    }
 }
 
 -(NSArray*)convertKanaToKanji:(NSString*)string {
@@ -210,23 +200,29 @@
     TEST_CONVERTER(convertRomanToKana, @"gakki", 1, @"がっき", nil);
     TEST_CONVERTER(convertRomanToKana, @"up", 2, @"う", @"p");
     TEST_CONVERTER(convertRomanToKana, @"upd", 2, @"う", @"pd");
-    TEST_CONVERTER(convertRomanToKana, @"upde", 1, @"うpで", nil);
-    TEST_CONVERTER(convertRomanToKana, @"upde-", 1, @"うpでー", nil);
-    TEST_CONVERTER(convertRomanToKana, @"upde-t", 2, @"うpでー", @"t");
-    TEST_CONVERTER(convertRomanToKana, @"upde-ta", 1, @"うpでーた", nil);
-    TEST_CONVERTER(convertRomanToKana, @"upde-tann", 1, @"うpでーたん", nil);
+    TEST_CONVERTER(convertRomanToKana, @"upde", 2, @"う", @"pで");
+    TEST_CONVERTER(convertRomanToKana, @"upde-", 2, @"う", @"pでー");
+    TEST_CONVERTER(convertRomanToKana, @"upde-t", 2, @"う", @"pでーt");
+    TEST_CONVERTER(convertRomanToKana, @"upde-ta", 2, @"う", @"pでーた");
+    TEST_CONVERTER(convertRomanToKana, @"upde-tann", 2, @"う", @"pでーたん");
     TEST_CONVERTER(convertRomanToKana, @"n", 2, @"", @"n");
     TEST_CONVERTER(convertRomanToKana, @"nn", 1, @"ん", nil);
     TEST_CONVERTER(convertRomanToKana, @"ng", 2, @"ん", @"g");
     TEST_CONVERTER(convertRomanToKana, @"nga", 1, @"んが", nil);
+    TEST_CONVERTER(convertRomanToKana, @"ny", 2, @"", @"ny");
+    TEST_CONVERTER(convertRomanToKana, @"nya", 1, @"にゃ", nil);
     TEST_CONVERTER(convertRomanToKana, @"nky", 2, @"ん", @"ky");
     TEST_CONVERTER(convertRomanToKana, @"nkyo", 1, @"んきょ", nil);
-    TEST_CONVERTER(convertRomanToKana, @"npde", 1, @"んpで", nil);
+    TEST_CONVERTER(convertRomanToKana, @"nyg", 2, @"ん", @"yg");
+    TEST_CONVERTER(convertRomanToKana, @"npde", 2, @"ん", @"pで");
     TEST_CONVERTER(convertRomanToKana, @"runrun", 2, @"るんる", @"n");
     TEST_CONVERTER(convertRomanToKana, @"runrun ", 2, @"るんるん", @" ");
     TEST_CONVERTER(convertRomanToKana, @"runrun.", 2, @"るんるん", @"。");
     TEST_CONVERTER(convertRomanToKana, @"runnrun", 2, @"るんる", @"n");
     TEST_CONVERTER(convertRomanToKana, @"runnrunn", 1, @"るんるん", nil);
+    TEST_CONVERTER(convertRomanToKana, @"n!", 2, @"ん", @"！");
+    TEST_CONVERTER(convertRomanToKana, @"ny!", 2, @"ん", @"y！");
+    TEST_CONVERTER(convertRomanToKana, @"nya!u", 2, @"にゃ", @"！");
     NSLog(@"convertRomanToKana: done");
 }
 
