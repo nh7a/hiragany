@@ -140,8 +140,13 @@ puts '<plist version="1.0">'
 puts '<dict>'
 results.keys.sort.each {|k|
   if k =~ /^(.+)(?:は|が|で|の|を|に|な|へ|と|も|とは|では|には|へは|って)$/
-   next if entries[$1]
+    skip = entries[$1]
+  else
+    ['は','が','で','の','を','に','な','へ','と','も','って'].each {|p|
+      break if skip = entries["#{k}#{p}"]
+    }
   end
+  next if skip
   v = results[k]
   print '<key>'
   print k
