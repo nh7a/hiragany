@@ -223,7 +223,6 @@
 <key>いやくきん</key><string>違約金</string>
 <key>いやけ</key><string>嫌気</string>
 <key>いゆう</key><string>畏友</string>
-<key>いよう</key><string>威容</string>
 <key>いらい</key><string>依頼</string>
 <key>いりえ</key><string>入江</string>
 <key>いりょく</key><string>威力</string>
@@ -384,7 +383,6 @@
 <key>おうぶん</key><string>欧文</string>
 <key>おうへい</key><string>横柄</string>
 <key>おうぼ</key><string>応募</string>
-<key>おうむ</key><string>鸚鵡</string>
 <key>おえつ</key><string>嗚咽</string>
 <key>おおいそ</key><string>大磯</string>
 <key>おおいまちせん</key><string>大井町線</string>
@@ -704,7 +702,6 @@
 <key>かんるい</key><string>感涙</string>
 <key>かんれき</key><string>還暦</string>
 <key>かんろく</key><string>貫禄</string>
-<key>かんろに</key><string>甘露煮</string>
 <key>かんわきゅうだい</key><string>閑話休題</string>
 <key>がいかつ</key><string>概括</string>
 <key>がいきょう</key><string>概況</string>
@@ -863,7 +860,6 @@
 <key>きょうあく</key><string>凶悪</string>
 <key>きょうえつ</key><string>恐悦</string>
 <key>きょうかつ</key><string>恐喝</string>
-<key>きょうが</key><string>恭賀</string>
 <key>きょうがい</key><string>境涯</string>
 <key>きょうきゃく</key><string>橋脚</string>
 <key>きょうきん</key><string>胸襟</string>
@@ -1037,7 +1033,6 @@
 <key>くりやま</key><string>栗山</string>
 <key>くりょ</key><string>苦慮</string>
 <key>くるみ</key><string>胡桃</string>
-<key>くろうと</key><string>玄人</string>
 <key>くろかみ</key><string>黒髪</string>
 <key>くわはら</key><string>桑原</string>
 <key>くんかい</key><string>訓戒</string>
@@ -1771,7 +1766,6 @@
 <key>しょうがくきん</key><string>奨学金</string>
 <key>しょうぎ</key><string>将棋</string>
 <key>しょうげき</key><string>衝撃</string>
-<key>しょうげきは</key><string>衝撃波</string>
 <key>しょうこ</key><string>証拠</string>
 <key>しょうこうぐん</key><string>症候群</string>
 <key>しょうこうねつ</key><string>猩紅熱</string>
@@ -1890,7 +1884,6 @@
 <key>じこしょうかい</key><string>自己紹介</string>
 <key>じごく</key><string>地獄</string>
 <key>じしゅく</key><string>自粛</string>
-<key>じしんは</key><string>地震波</string>
 <key>じじょうじばく</key><string>自縄自縛</string>
 <key>じじょでん</key><string>自叙伝</string>
 <key>じすい</key><string>自炊</string>
@@ -3153,7 +3146,6 @@
 <key>はんじょう</key><string>繁盛</string>
 <key>はんそ</key><string>反訴</string>
 <key>はんそう</key><string>搬送</string>
-<key>はんそで</key><string>半袖</string>
 <key>はんだい</key><string>阪大</string>
 <key>はんだくおん</key><string>半濁音</string>
 <key>はんちゅう</key><string>範疇</string>
@@ -3412,7 +3404,6 @@
 <key>ふしょく</key><string>腐食</string>
 <key>ふじい</key><string>藤井</string>
 <key>ふじた</key><string>藤田</string>
-<key>ふじたに</key><string>藤谷</string>
 <key>ふじわら</key><string>藤原</string>
 <key>ふせじ</key><string>伏字</string>
 <key>ふそくふり</key><string>不即不離</string>

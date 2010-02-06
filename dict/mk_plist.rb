@@ -107,6 +107,7 @@ end
 
 $blacklist = read_blacklist()
 
+entries = {}
 results = {}
 
 while gets
@@ -114,6 +115,7 @@ while gets
   arr = $_.split " "
   yomi = arr[0]
   kanji = arr[1]
+  entries[yomi] = true
   next if $blacklist.include? yomi
   next if yomi.length <= 6
   next if kanji.length < 6
@@ -137,6 +139,9 @@ puts '<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com
 puts '<plist version="1.0">'
 puts '<dict>'
 results.keys.sort.each {|k|
+  if k =~ /^(.+)(?:は|が|で|の|を|に|な|へ|と|も|とは|では|には|へは|って)$/
+   next if entries[$1]
+  end
   v = results[k]
   print '<key>'
   print k
