@@ -1,4 +1,3 @@
-#define DEBUG
 #import "HiraganyGlobal.h"
 #import "HiraganyController.h"
 #import "ConversionEngine.h"
@@ -16,7 +15,7 @@
 @implementation HiraganyController
 
 - (id)initWithServer:(IMKServer*)server delegate:(id)delegate client:(id)inputClient {
-    DebugLog(@"Initializing Hiragany...");
+    NSLog(@"Initializing Hiragany...");
     if (self = [super initWithServer:server delegate:delegate client:inputClient]) {
         romanBuffer_ = [NSMutableString new];
         kanaBuffer_ = [NSMutableString new];
@@ -87,7 +86,7 @@
         switch (keyCode) {
             case 0x28:  // 'k'
             {
-                NSLog(@"Force Katakanization");
+                DebugLog(@"Force Katakanization");
                 ConversionEngine* converter = [[NSApp delegate] conversionEngine];
                 [self fixTrailingN:sender];
                 [kanaBuffer_  setString:[converter convertHiraToKata:kanaBuffer_]];
@@ -111,7 +110,7 @@
                 handled = YES;
                 break;
             default:
-                NSLog(@"Unexpected Input: keyCode(%X) flags(%X)", keyCode, flags);
+                DebugLog(@"Unexpected Input: keyCode(%X) flags(%X)", keyCode, flags);
                 break;
         }
         DebugLog(@"flush: control char: %X %X", keyCode, flags);
