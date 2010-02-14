@@ -56,7 +56,8 @@
             }
         } else {
             if ([k length] == 1 ||
-                [romakanaDic_ objectForKey:[NSString stringWithFormat:@"%@%@", k, katakana_ ? @"A" : @"a"]]) {
+                [romakanaDic_ objectForKey:[NSString stringWithFormat:@"%@%@", k, katakana_ ? @"A" : @"a"]] ||
+                [romakanaDic_ objectForKey:[NSString stringWithFormat:@"%@%@", k, katakana_ ? @"U" : @"u"]]) {
                 continue;  // The next letter may solve.
             }
             unichar firstChar = [k characterAtIndex:0];
@@ -223,6 +224,8 @@
     TEST_CONVERTER(convertRomanToKana, @"n!", 2, @"ん", @"！");
     TEST_CONVERTER(convertRomanToKana, @"ny!", 2, @"ん", @"y！");
     TEST_CONVERTER(convertRomanToKana, @"nya!u", 2, @"にゃ", @"！");
+    TEST_CONVERTER(convertRomanToKana, @"xwa", 1, @"ゎ", nil);
+    TEST_CONVERTER(convertRomanToKana, @"xtu", 1, @"っ", nil);
     NSLog(@"convertRomanToKana: done");
 }
 
