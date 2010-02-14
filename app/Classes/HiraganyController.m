@@ -52,12 +52,6 @@
             [self commitComposition:sender];
             return YES;
         }
-    } else if (converter.katakana) {
-        [kanjiBuffer_ setString:@""];
-        if ([romanBuffer_ length] == 0) {
-            [self commitComposition:sender];
-            return YES;
-        }
     } else {
         arr = [converter convertKanaToKanji:kanaBuffer_];
         [kanjiBuffer_ setString:[arr objectAtIndex:0]];
