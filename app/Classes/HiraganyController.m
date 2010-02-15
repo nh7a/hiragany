@@ -217,7 +217,13 @@
 -(void)showPreedit:(id)sender {
     NSString* text = [self getPreedit];
     DebugLog(@"preedit(%@) length(%d)", text, [text length]);
-    
+    if (![text length]) {
+        ConversionEngine* converter = [[NSApp delegate] conversionEngine];
+        if (converter.katakana) {
+            converter.katakana = NO;
+        }
+    }
+
     NSInteger style = NSUnderlineStyleNone;
     NSDictionary* attr = [NSDictionary dictionaryWithObjectsAndKeys:
                           [NSNumber numberWithInt:style], NSUnderlineStyleAttributeName, nil];
