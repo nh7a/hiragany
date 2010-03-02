@@ -3,7 +3,7 @@
 $KCODE='u'
 require 'jcode'
 
-MIN_GRADE = 7
+MIN_GRADE = 0
 MAX_GRADE = 7
 
 Kanji_1 = <<EOT
@@ -106,6 +106,7 @@ def read_blacklist(filename = 'hiragany.blacklist')
 end
 
 $blacklist = read_blacklist()
+$blacklist += read_blacklist('hiragany.katakana')
 
 entries = {}
 results = {}
