@@ -1,4 +1,4 @@
-Hiragany ver 0.2
+Hiragany ver 0.2 - ひらがなせいかつ せんよう IME
 
 
 This is yet another Japanese IME (Input Method Environment) for Mac OS X (10.5 or better).  If you are looking for an ordinary Japanese IME, I'd suggest you to go to http://www.google.com/intl/ja/ime right away.  Hiragany is not an ordinary IME by any means.
@@ -21,11 +21,11 @@ In spite of the application name, you can type few Kanaji compounds with this ve
 
 With Kakamany Mode, you still don't "select" Kanji at all.  You just type Hiragana, and Kanji may come out when it's found in the dictionary.
 
-As this version contains only an incomplete set of Kanji dictionary, it may not work as you would need.  But if so, please reconsider to write it simpler in Hiragana.  Unless you are writing a popular blog, or trying to look intelligent, you don't probably need that comlicated Kanji in the first place.
+As this version contains only an incomplete set of Kanji dictionary, it may not work as you would need.  But if so, please reconsider to write it simpler in Hiragana.  Unless you are writing a popular blog, or trying to look intelligent, you don't probably need that complicated Kanji in the first place.
 
 
 Should you have any questions or suggestions, please follow and ask @Hiragany.
 
 Enjoy ひらがなせいかつ!
 
-Copyright 2009 Naoki Hiroshima
+Copyright 2010 Naoki Hiroshima
