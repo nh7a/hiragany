@@ -107,6 +107,7 @@ end
 
 $blacklist = read_blacklist()
 $blacklist += read_blacklist('hiragany.katakana')
+$blacklist += read_blacklist('hiragany.homonyms')
 
 entries = {}
 results = {}
