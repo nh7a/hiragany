@@ -4,6 +4,7 @@
 <dict>
 <key>あいおい</key><string>相生</string>
 <key>あいか</key><string>哀歌</string>
+<key>あいかん</key><string>哀歓</string>
 <key>あいけん</key><string>愛犬</string>
 <key>あいさい</key><string>愛妻</string>
 <key>あいさつ</key><string>挨拶</string>
@@ -20,6 +21,7 @@
 <key>あいぼう</key><string>相棒</string>
 <key>あいまい</key><string>曖昧</string>
 <key>あいよう</key><string>愛用</string>
+<key>あいら</key><string>姶良</string>
 <key>あいらく</key><string>哀楽</string>
 <key>あうん</key><string>阿吽</string>
 <key>あおおに</key><string>青鬼</string>
@@ -47,6 +49,7 @@
 <key>あきさめ</key><string>秋雨</string>
 <key>あきはばら</key><string>秋葉原</string>
 <key>あくえき</key><string>悪疫</string>
+<key>あくしゅう</key><string>悪臭</string>
 <key>あくしゅけん</key><string>握手券</string>
 <key>あくしゅみ</key><string>悪趣味</string>
 <key>あくじ</key><string>悪事</string>
@@ -68,6 +71,8 @@
 <key>あくよう</key><string>悪用</string>
 <key>あくりょう</key><string>悪霊</string>
 <key>あくりょく</key><string>握力</string>
+<key>あさか</key><string>浅香</string>
+<key>あさがた</key><string>朝方</string>
 <key>あさくさ</key><string>浅草</string>
 <key>あさげ</key><string>朝餉</string>
 <key>あさせ</key><string>浅瀬</string>
@@ -96,6 +101,7 @@
 <key>あっさつ</key><string>圧殺</string>
 <key>あっしゅく</key><string>圧縮</string>
 <key>あっしょう</key><string>圧勝</string>
+<key>あっせい</key><string>圧制</string>
 <key>あっせん</key><string>斡旋</string>
 <key>あっとう</key><string>圧倒</string>
 <key>あっとうてき</key><string>圧倒的</string>
@@ -122,6 +128,7 @@
 <key>あほうどり</key><string>信天翁</string>
 <key>あまがえる</key><string>雨蛙</string>
 <key>あまがき</key><string>甘柿</string>
+<key>あまがさ</key><string>雨傘</string>
 <key>あまくち</key><string>甘口</string>
 <key>あまぐも</key><string>雨雲</string>
 <key>あまでら</key><string>尼寺</string>
@@ -148,6 +155,7 @@
 <key>あんがい</key><string>案外</string>
 <key>あんぎゃ</key><string>行脚</string>
 <key>あんけん</key><string>案件</string>
+<key>あんごう</key><string>暗号</string>
 <key>あんごうか</key><string>暗号化</string>
 <key>あんさつ</key><string>暗殺</string>
 <key>あんしゅつ</key><string>案出</string>
@@ -163,6 +171,7 @@
 <key>あんちょく</key><string>安直</string>
 <key>あんど</key><string>安堵</string>
 <key>あんない</key><string>案内</string>
+<key>あんばい</key><string>塩梅</string>
 <key>あんぴ</key><string>安否</string>
 <key>あんぷ</key><string>暗譜</string>
 <key>あんぽ</key><string>安保</string>
@@ -235,6 +244,7 @@
 <key>いたいじ</key><string>異体字</string>
 <key>いたくけんきゅう</key><string>委託研究</string>
 <key>いたけだか</key><string>居丈高</string>
+<key>いたずら</key><string>悪戯</string>
 <key>いたで</key><string>痛手</string>
 <key>いたば</key><string>板場</string>
 <key>いたまえ</key><string>板前</string>
@@ -247,6 +257,7 @@
 <key>いちげき</key><string>一撃</string>
 <key>いちごうかん</key><string>一号館</string>
 <key>いちごん</key><string>一言</string>
+<key>いちじてき</key><string>一時的</string>
 <key>いちじゅういっさい</key><string>一汁一菜</string>
 <key>いちぞん</key><string>一存</string>
 <key>いちたいた</key><string>一対多</string>
@@ -263,14 +274,18 @@
 <key>いちめん</key><string>一面</string>
 <key>いちもく</key><string>一目</string>
 <key>いちもくりょうぜん</key><string>一目瞭然</string>
+<key>いちもん</key><string>一門</string>
 <key>いちや</key><string>一夜</string>
 <key>いちょ</key><string>遺著</string>
 <key>いちよし</key><string>市吉</string>
+<key>いちり</key><string>一理</string>
 <key>いちりづか</key><string>一里塚</string>
 <key>いちる</key><string>一縷</string>
+<key>いちれん</key><string>一連</string>
 <key>いちろ</key><string>一路</string>
 <key>いっかせい</key><string>一過性</string>
 <key>いっきとうせん</key><string>一騎当千</string>
+<key>いっけい</key><string>一計</string>
 <key>いっけんらくちゃく</key><string>一件落着</string>
 <key>いっさいたふ</key><string>一妻多夫</string>
 <key>いっさくじつ</key><string>一昨日</string>
@@ -287,6 +302,7 @@
 <key>いっしんふらん</key><string>一心不乱</string>
 <key>いっすん</key><string>一寸</string>
 <key>いっせきにちょう</key><string>一石二鳥</string>
+<key>いったん</key><string>一端</string>
 <key>いっち</key><string>一致</string>
 <key>いっちゅうや</key><string>一昼夜</string>
 <key>いっちょういっせき</key><string>一朝一夕</string>
@@ -327,6 +343,8 @@
 <key>いばしょ</key><string>居場所</string>
 <key>いばらぎ</key><string>茨城</string>
 <key>いひん</key><string>遺品</string>
+<key>いふう</key><string>威風</string>
+<key>いぶき</key><string>息吹</string>
 <key>いまい</key><string>今井</string>
 <key>いみろん</key><string>意味論</string>
 <key>いみん</key><string>移民</string>
@@ -339,6 +357,7 @@
 <key>いゆう</key><string>畏友</string>
 <key>いよく</key><string>意欲</string>
 <key>いりや</key><string>入谷</string>
+<key>いりょく</key><string>威力</string>
 <key>いるま</key><string>入間</string>
 <key>いろけ</key><string>色気</string>
 <key>いろこ</key><string>色子</string>
@@ -348,6 +367,7 @@
 <key>いわかん</key><string>違和感</string>
 <key>いわて</key><string>岩手</string>
 <key>いわてだいがく</key><string>岩手大学</string>
+<key>いわなみ</key><string>岩波</string>
 <key>いわはだ</key><string>岩肌</string>
 <key>いわま</key><string>岩間</string>
 <key>いわもと</key><string>岩本</string>
@@ -367,6 +387,7 @@
 <key>いんばい</key><string>淫売</string>
 <key>いんぺい</key><string>隠蔽</string>
 <key>いんぼう</key><string>陰謀</string>
+<key>いんゆ</key><string>隠喩</string>
 <key>いんようかいし</key><string>引用開始</string>
 <key>いんりょう</key><string>飲料</string>
 <key>いんりょうすい</key><string>飲料水</string>
@@ -382,6 +403,7 @@
 <key>うけおい</key><string>請負</string>
 <key>うけとりにん</key><string>受取人</string>
 <key>うけにん</key><string>請人</string>
+<key>うこん</key><string>鬱金</string>
 <key>うしがえる</key><string>牛蛙</string>
 <key>うしどし</key><string>丑年</string>
 <key>うじがみ</key><string>氏神</string>
@@ -413,6 +435,7 @@
 <key>うちょうてん</key><string>有頂天</string>
 <key>うちわけ</key><string>内訳</string>
 <key>うっくつ</key><string>鬱屈</string>
+<key>うづき</key><string>卯月</string>
 <key>うてん</key><string>雨天</string>
 <key>うでぎ</key><string>腕木</string>
 <key>うでどけい</key><string>腕時計</string>
@@ -485,6 +508,7 @@
 <key>えいかいわ</key><string>英会話</string>
 <key>えいかく</key><string>鋭角</string>
 <key>えいがかん</key><string>映画館</string>
+<key>えいき</key><string>鋭気</string>
 <key>えいきゅう</key><string>永久</string>
 <key>えいきゅうし</key><string>永久歯</string>
 <key>えいぎょう</key><string>営業</string>
@@ -506,8 +530,10 @@
 <key>えいねん</key><string>永年</string>
 <key>えいびん</key><string>鋭敏</string>
 <key>えいみん</key><string>永眠</string>
+<key>えいめい</key><string>英明</string>
 <key>えいやく</key><string>英訳</string>
 <key>えいゆう</key><string>英雄</string>
+<key>えいよう</key><string>栄養</string>
 <key>えいようか</key><string>栄養価</string>
 <key>えいようそ</key><string>栄養素</string>
 <key>えいりもくてき</key><string>営利目的</string>
@@ -564,6 +590,7 @@
 <key>えんじょ</key><string>援助</string>
 <key>えんすいだい</key><string>円錐台</string>
 <key>えんずい</key><string>延髄</string>
+<key>えんぜん</key><string>艶然</string>
 <key>えんそく</key><string>遠足</string>
 <key>えんたく</key><string>円卓</string>
 <key>えんだか</key><string>円高</string>
@@ -620,6 +647,7 @@
 <key>おおくち</key><string>大口</string>
 <key>おおぐち</key><string>大口</string>
 <key>おおぐろ</key><string>大黒</string>
+<key>おおけが</key><string>大怪我</string>
 <key>おおごと</key><string>大事</string>
 <key>おおさかだいがく</key><string>大阪大学</string>
 <key>おおさき</key><string>大崎</string>
@@ -647,6 +675,7 @@
 <key>おおみそか</key><string>大晦日</string>
 <key>おおみや</key><string>大宮</string>
 <key>おおむかし</key><string>大昔</string>
+<key>おおめ</key><string>大目</string>
 <key>おおもじ</key><string>大文字</string>
 <key>おおもの</key><string>大物</string>
 <key>おおやま</key><string>大山</string>
@@ -662,6 +691,7 @@
 <key>おぎわら</key><string>荻原</string>
 <key>おくかわ</key><string>奥川</string>
 <key>おくがい</key><string>屋外</string>
+<key>おくぎ</key><string>奥義</string>
 <key>おくさま</key><string>奥様</string>
 <key>おくじょう</key><string>屋上</string>
 <key>おくそこ</key><string>奥底</string>
@@ -725,6 +755,7 @@
 <key>おんどけい</key><string>温度計</string>
 <key>おんねつ</key><string>温熱</string>
 <key>おんねん</key><string>怨念</string>
+<key>おんぷ</key><string>音符</string>
 <key>おんぷう</key><string>温風</string>
 <key>おんみつ</key><string>隠密</string>
 <key>おんみょう</key><string>陰陽</string>
@@ -765,10 +796,12 @@
 <key>かいちく</key><string>改築</string>
 <key>かいつう</key><string>開通</string>
 <key>かいづか</key><string>貝塚</string>
+<key>かいとうしゃ</key><string>回答者</string>
 <key>かいにゅう</key><string>介入</string>
 <key>かいはい</key><string>改廃</string>
 <key>かいはくしょく</key><string>灰白色</string>
 <key>かいはつぶ</key><string>開発部</string>
+<key>かいはん</key><string>改版</string>
 <key>かいひふく</key><string>開被覆</string>
 <key>かいひん</key><string>海浜</string>
 <key>かいび</key><string>快美</string>
@@ -778,15 +811,20 @@
 <key>かいまく</key><string>開幕</string>
 <key>かいみん</key><string>快眠</string>
 <key>かいゆ</key><string>快癒</string>
+<key>かいらく</key><string>快楽</string>
+<key>かいり</key><string>乖離</string>
 <key>かいりく</key><string>海陸</string>
 <key>かいりょう</key><string>改良</string>
 <key>かいわい</key><string>界隈</string>
+<key>かいわれ</key><string>貝割</string>
 <key>かおいろ</key><string>顔色</string>
 <key>かおく</key><string>家屋</string>
 <key>かおやく</key><string>顔役</string>
 <key>かかし</key><string>案山子</string>
 <key>かかりかん</key><string>係官</string>
 <key>かかんそく</key><string>可観測</string>
+<key>かがくか</key><string>科学科</string>
+<key>かがくかい</key><string>科学会</string>
 <key>かがくぎじゅつ</key><string>科学技術</string>
 <key>かきとめ</key><string>書留</string>
 <key>かきゃくせん</key><string>貨客船</string>
@@ -797,6 +835,7 @@
 <key>かくぎ</key><string>閣議</string>
 <key>かくげつ</key><string>隔月</string>
 <key>かくげつかん</key><string>隔月刊</string>
+<key>かくさ</key><string>格差</string>
 <key>かくさく</key><string>画策</string>
 <key>かくざい</key><string>角材</string>
 <key>かくざとう</key><string>角砂糖</string>
@@ -810,7 +849,9 @@
 <key>かくせん</key><string>各線</string>
 <key>かくせんそう</key><string>核戦争</string>
 <key>かくぜつ</key><string>隔絶</string>
+<key>かくぜん</key><string>画然</string>
 <key>かくだい</key><string>拡大</string>
+<key>かくだん</key><string>格段</string>
 <key>かくちゅう</key><string>角柱</string>
 <key>かくちょうし</key><string>拡張子</string>
 <key>かくちょうせい</key><string>拡張性</string>
@@ -826,6 +867,7 @@
 <key>かくへき</key><string>隔壁</string>
 <key>かくほ</key><string>確保</string>
 <key>かくほう</key><string>確報</string>
+<key>かくまく</key><string>角膜</string>
 <key>かくめい</key><string>革命</string>
 <key>かくめん</key><string>各面</string>
 <key>かくやす</key><string>格安</string>
@@ -843,6 +885,7 @@
 <key>かごん</key><string>過言</string>
 <key>かさいりゅう</key><string>火砕流</string>
 <key>かさま</key><string>笠間</string>
+<key>かさん</key><string>加算</string>
 <key>かざかみ</key><string>風上</string>
 <key>かざぐるま</key><string>風車</string>
 <key>かざしも</key><string>風下</string>
@@ -852,6 +895,7 @@
 <key>かしかん</key><string>下士官</string>
 <key>かしこう</key><string>可視光</string>
 <key>かしほん</key><string>貸本</string>
+<key>かしゃく</key><string>呵責</string>
 <key>かしょくしょう</key><string>過食症</string>
 <key>かしわぎ</key><string>柏木</string>
 <key>かしわもち</key><string>柏餅</string>
@@ -894,6 +938,7 @@
 <key>かっけつ</key><string>喀血</string>
 <key>かっこうほう</key><string>滑腔砲</string>
 <key>かっこく</key><string>各国</string>
+<key>かっさい</key><string>喝采</string>
 <key>かっしょく</key><string>褐色</string>
 <key>かっせい</key><string>活性</string>
 <key>かっそうろ</key><string>滑走路</string>
@@ -961,6 +1006,7 @@
 <key>かめやま</key><string>亀山</string>
 <key>かもつ</key><string>貨物</string>
 <key>かようきょく</key><string>歌謡曲</string>
+<key>かようせい</key><string>可溶性</string>
 <key>かようび</key><string>火曜日</string>
 <key>からかみ</key><string>唐紙</string>
 <key>からくち</key><string>辛口</string>
@@ -976,9 +1022,11 @@
 <key>かれつ</key><string>苛烈</string>
 <key>かわざんよう</key><string>皮算用</string>
 <key>かわしも</key><string>川下</string>
+<key>かわばた</key><string>川端</string>
 <key>かんあん</key><string>勘案</string>
 <key>かんいっぱつ</key><string>間一髪</string>
 <key>かんおけ</key><string>棺桶</string>
+<key>かんがく</key><string>官学</string>
 <key>かんきせん</key><string>換気扇</string>
 <key>かんきつ</key><string>柑橘</string>
 <key>かんきょうせってい</key><string>環境設定</string>
@@ -1018,10 +1066,12 @@
 <key>かんどうし</key><string>感動詞</string>
 <key>かんどうみゃく</key><string>冠動脈</string>
 <key>かんなづき</key><string>神無月</string>
+<key>かんにゅう</key><string>貫入</string>
 <key>かんぬし</key><string>神主</string>
 <key>かんねん</key><string>観念</string>
 <key>かんのん</key><string>観音</string>
 <key>かんぱく</key><string>関白</string>
+<key>かんぱつ</key><string>煥発</string>
 <key>かんびょう</key><string>看病</string>
 <key>かんべつ</key><string>鑑別</string>
 <key>かんぼつ</key><string>陥没</string>
@@ -1036,7 +1086,9 @@
 <key>かんりにん</key><string>管理人</string>
 <key>かんりゃく</key><string>簡略</string>
 <key>かんりゃくか</key><string>簡略化</string>
+<key>かんりゅう</key><string>寒流</string>
 <key>かんるい</key><string>感涙</string>
+<key>かんれき</key><string>還暦</string>
 <key>かんわきゅうだい</key><string>閑話休題</string>
 <key>がいあく</key><string>害悪</string>
 <key>がいあつ</key><string>外圧</string>
@@ -1080,6 +1132,7 @@
 <key>がくぎょうせいせき</key><string>学業成績</string>
 <key>がくげい</key><string>学芸</string>
 <key>がくげき</key><string>楽劇</string>
+<key>がくさい</key><string>学才</string>
 <key>がくしゅういん</key><string>学習院</string>
 <key>がくじゅつ</key><string>学術</string>
 <key>がくじょうもう</key><string>学情網</string>
@@ -1172,12 +1225,14 @@
 <key>きおくそうち</key><string>記憶装置</string>
 <key>きかがく</key><string>幾何学</string>
 <key>きかくぶ</key><string>企画部</string>
+<key>きかんし</key><string>気管支</string>
 <key>きかんしえん</key><string>気管支炎</string>
 <key>きかんしゃ</key><string>機関車</string>
 <key>きがる</key><string>気軽</string>
 <key>ききいっぱつ</key><string>危機一髪</string>
 <key>ききゃく</key><string>棄却</string>
 <key>ききんぞく</key><string>貴金属</string>
+<key>きぎょうか</key><string>起業家</string>
 <key>きぎょうたい</key><string>企業体</string>
 <key>きくみ</key><string>菊見</string>
 <key>きくん</key><string>貴君</string>
@@ -1191,18 +1246,25 @@
 <key>きこうし</key><string>貴公子</string>
 <key>きこうぞう</key><string>木構造</string>
 <key>きこうぼん</key><string>稀覯本</string>
+<key>きこつ</key><string>気骨</string>
 <key>きごうしょり</key><string>記号処理</string>
 <key>きごうれつ</key><string>記号列</string>
 <key>きごうろんりがく</key><string>記号論理学</string>
 <key>きごころ</key><string>気心</string>
 <key>きさま</key><string>貴様</string>
+<key>きさらぎ</key><string>如月</string>
+<key>きざい</key><string>機材</string>
 <key>きしかいせい</key><string>起死回生</string>
+<key>きしつ</key><string>気質</string>
+<key>きしゅく</key><string>寄宿</string>
 <key>きしゅつ</key><string>既出</string>
 <key>きしょうだい</key><string>気象台</string>
 <key>きしょうてんけつ</key><string>起承転結</string>
 <key>きじすう</key><string>記事数</string>
 <key>きじせんたく</key><string>記事選択</string>
+<key>きじゅ</key><string>喜寿</string>
 <key>きじゅうき</key><string>起重機</string>
+<key>きすい</key><string>既遂</string>
 <key>きずぐち</key><string>傷口</string>
 <key>きそうてんがい</key><string>奇想天外</string>
 <key>きそけんきゅう</key><string>基礎研究</string>
@@ -1239,10 +1301,14 @@
 <key>きねんひん</key><string>記念品</string>
 <key>きねんび</key><string>記念日</string>
 <key>きのうかん</key><string>機能間</string>
+<key>きのうてき</key><string>帰納的</string>
 <key>きのうてきていぎ</key><string>帰納的定義</string>
 <key>きのうほう</key><string>帰納法</string>
+<key>きはだ</key><string>木肌</string>
+<key>きはつ</key><string>揮発</string>
 <key>きばく</key><string>起爆</string>
 <key>きばつ</key><string>奇抜</string>
+<key>きばん</key><string>基盤</string>
 <key>きひつ</key><string>起筆</string>
 <key>きひょう</key><string>起票</string>
 <key>きびょう</key><string>奇病</string>
@@ -1260,6 +1326,7 @@
 <key>きまつ</key><string>期末</string>
 <key>きみじか</key><string>気短</string>
 <key>きみたち</key><string>君達</string>
+<key>きみつ</key><string>機密</string>
 <key>きみとし</key><string>公稔</string>
 <key>きもの</key><string>着物</string>
 <key>きゃくあし</key><string>客足</string>
@@ -1277,6 +1344,7 @@
 <key>きゅうかんちょう</key><string>九官鳥</string>
 <key>きゅうがく</key><string>休学</string>
 <key>きゅうがた</key><string>旧型</string>
+<key>きゅうき</key><string>吸気</string>
 <key>きゅうきゅうしゃ</key><string>救急車</string>
 <key>きゅうぎょう</key><string>休業</string>
 <key>きゅうくつ</key><string>窮屈</string>
@@ -1327,6 +1395,7 @@
 <key>きょうけんびょう</key><string>狂犬病</string>
 <key>きょうげん</key><string>狂言</string>
 <key>きょうこうぐん</key><string>強行軍</string>
+<key>きょうこつ</key><string>胸骨</string>
 <key>きょうご</key><string>教護</string>
 <key>きょうさ</key><string>教唆</string>
 <key>きょうざつ</key><string>夾雑</string>
@@ -1339,6 +1408,7 @@
 <key>きょうじゅん</key><string>恭順</string>
 <key>きょうせいてき</key><string>強制的</string>
 <key>きょうそ</key><string>教祖</string>
+<key>きょうそうきょく</key><string>協奏曲</string>
 <key>きょうそん</key><string>共存</string>
 <key>きょうぞめ</key><string>京染</string>
 <key>きょうぞん</key><string>共存</string>
@@ -1347,6 +1417,7 @@
 <key>きょうちょ</key><string>共著</string>
 <key>きょうちょうせい</key><string>協調性</string>
 <key>きょうつういちじ</key><string>共通一次</string>
+<key>きょうてん</key><string>経典</string>
 <key>きょうてんどうち</key><string>驚天動地</string>
 <key>きょうとうほ</key><string>橋頭堡</string>
 <key>きょうとしょう</key><string>京都賞</string>
@@ -1355,6 +1426,7 @@
 <key>きょうび</key><string>今日日</string>
 <key>きょうぶ</key><string>胸部</string>
 <key>きょうぶんさん</key><string>共分散</string>
+<key>きょうぼく</key><string>喬木</string>
 <key>きょうま</key><string>京間</string>
 <key>きょうみ</key><string>興味</string>
 <key>きょうゆ</key><string>教諭</string>
@@ -1374,6 +1446,8 @@
 <key>きょくしょ</key><string>局所</string>
 <key>きょくしょうち</key><string>極小値</string>
 <key>きょくしょかい</key><string>局所解</string>
+<key>きょくせい</key><string>極性</string>
+<key>きょくせつ</key><string>曲折</string>
 <key>きょくたん</key><string>極端</string>
 <key>きょくだい</key><string>極大</string>
 <key>きょくてん</key><string>極点</string>
@@ -1454,10 +1528,12 @@
 <key>きんらい</key><string>近来</string>
 <key>ぎあく</key><string>偽悪</string>
 <key>ぎあん</key><string>議案</string>
+<key>ぎえんきん</key><string>義援金</string>
 <key>ぎかい</key><string>議会</string>
 <key>ぎきょうしん</key><string>義侠心</string>
 <key>ぎきょく</key><string>戯曲</string>
 <key>ぎけつ</key><string>議決</string>
+<key>ぎこう</key><string>技巧</string>
 <key>ぎごく</key><string>疑獄</string>
 <key>ぎしき</key><string>儀式</string>
 <key>ぎしんあんき</key><string>疑心暗鬼</string>
@@ -1467,6 +1543,8 @@
 <key>ぎじゅつてき</key><string>技術的</string>
 <key>ぎじゅつほんぶ</key><string>技術本部</string>
 <key>ぎじろく</key><string>議事録</string>
+<key>ぎじん</key><string>擬人</string>
+<key>ぎせい</key><string>犠牲</string>
 <key>ぎせいしゃ</key><string>犠牲者</string>
 <key>ぎぞう</key><string>偽造</string>
 <key>ぎぞく</key><string>義賊</string>
@@ -1478,6 +1556,7 @@
 <key>ぎへんすう</key><string>疑変数</string>
 <key>ぎめい</key><string>偽名</string>
 <key>ぎもん</key><string>疑問</string>
+<key>ぎもんし</key><string>疑問視</string>
 <key>ぎもんてん</key><string>疑問点</string>
 <key>ぎゃくかんすう</key><string>逆関数</string>
 <key>ぎゃくさつ</key><string>虐殺</string>
@@ -1577,6 +1656,7 @@
 <key>くさもち</key><string>草餅</string>
 <key>くしゅう</key><string>句集</string>
 <key>くしょう</key><string>苦笑</string>
+<key>くしろ</key><string>釧路</string>
 <key>くじゃく</key><string>孔雀</string>
 <key>くじょ</key><string>駆除</string>
 <key>くじらじゃく</key><string>鯨尺</string>
@@ -1605,10 +1685,12 @@
 <key>くつじゅう</key><string>屈従</string>
 <key>くつじょく</key><string>屈辱</string>
 <key>くつばこ</key><string>靴箱</string>
+<key>くてん</key><string>句点</string>
 <key>くとうてん</key><string>句読点</string>
 <key>くどうりん</key><string>駆動輪</string>
 <key>くなん</key><string>苦難</string>
 <key>くにがら</key><string>国柄</string>
+<key>くにく</key><string>苦肉</string>
 <key>くにぐに</key><string>国々</string>
 <key>くびすじ</key><string>首筋</string>
 <key>くびわ</key><string>首輪</string>
@@ -1640,6 +1722,8 @@
 <key>くろまめ</key><string>黒豆</string>
 <key>くろやま</key><string>黒山</string>
 <key>くわはら</key><string>桑原</string>
+<key>くんいく</key><string>訓育</string>
+<key>くんかい</key><string>訓戒</string>
 <key>くんしょう</key><string>勲章</string>
 <key>くんどう</key><string>訓導</string>
 <key>くんぷう</key><string>薫風</string>
@@ -1678,6 +1762,7 @@
 <key>ぐんしゅく</key><string>軍縮</string>
 <key>ぐんしょう</key><string>群小</string>
 <key>ぐんじゅ</key><string>軍需</string>
+<key>ぐんせい</key><string>群生</string>
 <key>ぐんぞう</key><string>群像</string>
 <key>ぐんばい</key><string>軍配</string>
 <key>ぐんぱつ</key><string>群発</string>
@@ -1691,6 +1776,7 @@
 <key>けいが</key><string>慶賀</string>
 <key>けいきょもうどう</key><string>軽挙妄動</string>
 <key>けいきんぞく</key><string>軽金属</string>
+<key>けいけい</key><string>炯々</string>
 <key>けいげん</key><string>軽減</string>
 <key>けいこうぎょう</key><string>軽工業</string>
 <key>けいごう</key><string>契合</string>
@@ -1708,16 +1794,19 @@
 <key>けいさんりょう</key><string>計算量</string>
 <key>けいざいかい</key><string>経済界</string>
 <key>けいざいめん</key><string>経済面</string>
+<key>けいしき</key><string>形式</string>
 <key>けいしきか</key><string>形式化</string>
 <key>けいしきてき</key><string>形式的</string>
 <key>けいしゅつ</key><string>掲出</string>
 <key>けいしょく</key><string>軽食</string>
+<key>けいじじょう</key><string>形而上</string>
 <key>けいじどうしゃ</key><string>軽自動車</string>
 <key>けいじばん</key><string>掲示板</string>
 <key>けいじゅう</key><string>軽重</string>
 <key>けいず</key><string>系図</string>
 <key>けいそく</key><string>計測</string>
 <key>けいぞくてき</key><string>継続的</string>
+<key>けいちつ</key><string>啓蟄</string>
 <key>けいちょうふはく</key><string>軽佻浮薄</string>
 <key>けいてき</key><string>警笛</string>
 <key>けいでんき</key><string>継電器</string>
@@ -1736,6 +1825,7 @@
 <key>けいやくしょ</key><string>契約書</string>
 <key>けいようし</key><string>形容詞</string>
 <key>けいらん</key><string>鶏卵</string>
+<key>けいりょう</key><string>計量</string>
 <key>けいりょうてき</key><string>計量的</string>
 <key>けいれい</key><string>敬礼</string>
 <key>けいれき</key><string>経歴</string>
@@ -1791,9 +1881,12 @@
 <key>けんかごし</key><string>喧嘩腰</string>
 <key>けんかじょうず</key><string>喧嘩上手</string>
 <key>けんがん</key><string>検眼</string>
+<key>けんきゅういん</key><string>研究員</string>
+<key>けんきゅうか</key><string>研究科</string>
 <key>けんきゅうかい</key><string>研究会</string>
 <key>けんきゅうしつ</key><string>研究室</string>
 <key>けんきゅうしゅうかい</key><string>研究集会</string>
+<key>けんきゅうしょ</key><string>研究所</string>
 <key>けんきゅうじょ</key><string>研究所</string>
 <key>けんきゅうひ</key><string>研究費</string>
 <key>けんこうしんだん</key><string>健康診断</string>
@@ -1818,11 +1911,13 @@
 <key>けんとうちゅう</key><string>検討中</string>
 <key>けんどじゅうらい</key><string>捲土重来</string>
 <key>けんにょう</key><string>検尿</string>
+<key>けんのん</key><string>剣呑</string>
 <key>けんばいき</key><string>券売機</string>
 <key>けんびきょう</key><string>顕微鏡</string>
 <key>けんぶつ</key><string>見物</string>
 <key>けんべん</key><string>検便</string>
 <key>けんぼうしょう</key><string>健忘症</string>
+<key>けんぽ</key><string>健保</string>
 <key>けんやく</key><string>倹約</string>
 <key>けんり</key><string>権利</string>
 <key>けんりょく</key><string>権力</string>
@@ -1925,6 +2020,7 @@
 <key>げんせ</key><string>現世</string>
 <key>げんせつ</key><string>言説</string>
 <key>げんぜい</key><string>減税</string>
+<key>げんぞう</key><string>現像</string>
 <key>げんぞく</key><string>還俗</string>
 <key>げんぞん</key><string>現存</string>
 <key>げんたつ</key><string>厳達</string>
@@ -1936,6 +2032,7 @@
 <key>げんど</key><string>限度</string>
 <key>げんどうき</key><string>原動機</string>
 <key>げんどうりょく</key><string>原動力</string>
+<key>げんのう</key><string>玄能</string>
 <key>げんばつ</key><string>厳罰</string>
 <key>げんぱい</key><string>減配</string>
 <key>げんぱつ</key><string>原発</string>
@@ -1944,6 +2041,7 @@
 <key>げんぺい</key><string>源平</string>
 <key>げんぼ</key><string>原簿</string>
 <key>げんぼく</key><string>原木</string>
+<key>げんぽう</key><string>減俸</string>
 <key>げんぽん</key><string>原本</string>
 <key>げんまい</key><string>玄米</string>
 <key>げんみつ</key><string>厳密</string>
@@ -1957,6 +2055,7 @@
 <key>こいじ</key><string>恋路</string>
 <key>こいびと</key><string>恋人</string>
 <key>こいぶみ</key><string>恋文</string>
+<key>こういき</key><string>広域</string>
 <key>こういしょう</key><string>後遺症</string>
 <key>こういってん</key><string>紅一点</string>
 <key>こうえんじ</key><string>高円寺</string>
@@ -1986,6 +2085,7 @@
 <key>こうしぎょらい</key><string>光子魚雷</string>
 <key>こうしてん</key><string>格子点</string>
 <key>こうしど</key><string>格子戸</string>
+<key>こうしゅ</key><string>攻守</string>
 <key>こうしゅうかい</key><string>講習会</string>
 <key>こうしゅうでんわ</key><string>公衆電話</string>
 <key>こうしんじょ</key><string>興信所</string>
@@ -2005,6 +2105,7 @@
 <key>こうせいのう</key><string>高性能</string>
 <key>こうせいようそ</key><string>構成要素</string>
 <key>こうせんてき</key><string>好戦的</string>
+<key>こうぜん</key><string>公然</string>
 <key>こうそくか</key><string>高速化</string>
 <key>こうそしん</key><string>控訴審</string>
 <key>こうそつ</key><string>高卒</string>
@@ -2013,6 +2114,7 @@
 <key>こうぞうてき</key><string>構造的</string>
 <key>こうたいごう</key><string>皇太后</string>
 <key>こうたいし</key><string>皇太子</string>
+<key>こうだんしゃ</key><string>講談社</string>
 <key>こうちく</key><string>構築</string>
 <key>こうちゃ</key><string>紅茶</string>
 <key>こうちょうかい</key><string>公聴会</string>
@@ -2037,6 +2139,7 @@
 <key>こうひん</key><string>公賓</string>
 <key>こうふう</key><string>校風</string>
 <key>こうふし</key><string>甲府市</string>
+<key>こうぶん</key><string>構文</string>
 <key>こうぶんきそく</key><string>構文規則</string>
 <key>こうぶんし</key><string>高分子</string>
 <key>こうぶんしょ</key><string>公文書</string>
@@ -2054,11 +2157,13 @@
 <key>こうりけい</key><string>公理系</string>
 <key>こうりつか</key><string>効率化</string>
 <key>こうりつてき</key><string>効率的</string>
+<key>こうりん</key><string>降臨</string>
 <key>こうわん</key><string>港湾</string>
 <key>こえだ</key><string>小枝</string>
 <key>こおう</key><string>呼応</string>
 <key>こおとこ</key><string>小男</string>
 <key>こおりざとう</key><string>氷砂糖</string>
+<key>こがいしゃ</key><string>子会社</string>
 <key>こがたき</key><string>小型機</string>
 <key>こきゃく</key><string>顧客</string>
 <key>こきゅうおん</key><string>呼吸音</string>
@@ -2188,6 +2293,7 @@
 <key>こんげつ</key><string>今月</string>
 <key>こんげつごう</key><string>今月号</string>
 <key>こんげつちゅう</key><string>今月中</string>
+<key>こんこん</key><string>渾々</string>
 <key>こんご</key><string>今後</string>
 <key>こんざい</key><string>混在</string>
 <key>こんざつ</key><string>混雑</string>
@@ -2213,6 +2319,7 @@
 <key>こんぺき</key><string>紺碧</string>
 <key>こんぽう</key><string>梱包</string>
 <key>こんぽん</key><string>根本</string>
+<key>こんめい</key><string>混迷</string>
 <key>こんやく</key><string>婚約</string>
 <key>こんらん</key><string>混乱</string>
 <key>こんりんざい</key><string>金輪際</string>
@@ -2267,6 +2374,7 @@
 <key>ごじゅっぽひゃっぽ</key><string>五十歩百歩</string>
 <key>ごじゅん</key><string>語順</string>
 <key>ごじょげん</key><string>御助言</string>
+<key>ごじん</key><string>御仁</string>
 <key>ごすう</key><string>語数</string>
 <key>ごせいだい</key><string>御盛大</string>
 <key>ごせいらん</key><string>御清覧</string>
@@ -2283,9 +2391,11 @@
 <key>ごべんたつ</key><string>御鞭撻</string>
 <key>ごまつ</key><string>語末</string>
 <key>ごもく</key><string>五目</string>
+<key>ごやく</key><string>誤訳</string>
 <key>ごようたつ</key><string>御用達</string>
 <key>ごらく</key><string>娯楽</string>
 <key>ごりむちゅう</key><string>五里霧中</string>
+<key>ごりょう</key><string>御陵</string>
 <key>ごんぎょう</key><string>勤行</string>
 <key>ごんげ</key><string>権化</string>
 <key>ごんご</key><string>言語</string>
@@ -2312,6 +2422,7 @@
 <key>さいすん</key><string>採寸</string>
 <key>さいせんか</key><string>細線化</string>
 <key>さいぜんせん</key><string>最前線</string>
+<key>さいたい</key><string>妻帯</string>
 <key>さいたく</key><string>採択</string>
 <key>さいたま</key><string>埼玉</string>
 <key>さいだいち</key><string>最大値</string>
@@ -2384,8 +2495,10 @@
 <key>さしず</key><string>指図</string>
 <key>さしだしにん</key><string>差出人</string>
 <key>さじき</key><string>桟敷</string>
+<key>さすが</key><string>流石</string>
 <key>させつ</key><string>左折</string>
 <key>さそん</key><string>差損</string>
+<key>さっかく</key><string>錯覚</string>
 <key>さっきょく</key><string>作曲</string>
 <key>さっきん</key><string>殺菌</string>
 <key>さっこん</key><string>昨今</string>
@@ -2467,6 +2580,7 @@
 <key>ざいしょく</key><string>在職</string>
 <key>ざいじゅう</key><string>在住</string>
 <key>ざいじょう</key><string>罪状</string>
+<key>ざいせき</key><string>在籍</string>
 <key>ざいたく</key><string>在宅</string>
 <key>ざいだん</key><string>財団</string>
 <key>ざいだんほうじん</key><string>財団法人</string>
@@ -2515,6 +2629,7 @@
 <key>ざんげん</key><string>讒言</string>
 <key>ざんこく</key><string>残酷</string>
 <key>ざんごう</key><string>塹壕</string>
+<key>ざんさつ</key><string>惨殺</string>
 <key>ざんしょ</key><string>残暑</string>
 <key>ざんしょう</key><string>残照</string>
 <key>ざんじ</key><string>暫時</string>
@@ -2572,6 +2687,7 @@
 <key>しじゅうそう</key><string>四重奏</string>
 <key>しじゅく</key><string>私塾</string>
 <key>しじょうさいきょう</key><string>史上最強</string>
+<key>しすう</key><string>指数</string>
 <key>しずおかだい</key><string>静岡大</string>
 <key>しずおかだいがく</key><string>静岡大学</string>
 <key>しせいかつ</key><string>私生活</string>
@@ -2600,6 +2716,7 @@
 <key>しっしょく</key><string>失職</string>
 <key>しっそ</key><string>質素</string>
 <key>しっそく</key><string>失速</string>
+<key>しっち</key><string>湿地</string>
 <key>しっつい</key><string>失墜</string>
 <key>しっと</key><string>嫉妬</string>
 <key>しっぱい</key><string>失敗</string>
@@ -2627,6 +2744,7 @@
 <key>しつもん</key><string>質問</string>
 <key>しつもんしゃ</key><string>質問者</string>
 <key>しつよう</key><string>執拗</string>
+<key>しつりょう</key><string>質量</string>
 <key>しつれい</key><string>失礼</string>
 <key>しつれん</key><string>失恋</string>
 <key>していせき</key><string>指定席</string>
@@ -2676,6 +2794,7 @@
 <key>しもざ</key><string>下座</string>
 <key>しもだ</key><string>下田</string>
 <key>しもだいら</key><string>下平</string>
+<key>しもつき</key><string>霜月</string>
 <key>しもて</key><string>下手</string>
 <key>しもはんき</key><string>下半期</string>
 <key>しもばしら</key><string>霜柱</string>
@@ -2704,10 +2823,12 @@
 <key>しゃぜつ</key><string>謝絶</string>
 <key>しゃぞう</key><string>写像</string>
 <key>しゃたく</key><string>社宅</string>
+<key>しゃだんき</key><string>遮断器</string>
 <key>しゃだんほうじん</key><string>社団法人</string>
 <key>しゃっかん</key><string>借款</string>
 <key>しゃっきん</key><string>借金</string>
 <key>しゃっけい</key><string>借景</string>
+<key>しゃっこう</key><string>赤口</string>
 <key>しゃてき</key><string>射的</string>
 <key>しゃどう</key><string>車道</string>
 <key>しゃにくさい</key><string>謝肉祭</string>
@@ -2719,8 +2840,10 @@
 <key>しゃんはい</key><string>上海</string>
 <key>しやくしょ</key><string>市役所</string>
 <key>しゅういつ</key><string>秀逸</string>
+<key>しゅうう</key><string>驟雨</string>
 <key>しゅうえいしゃ</key><string>集英社</string>
 <key>しゅうえん</key><string>終焉</string>
+<key>しゅうかく</key><string>収穫</string>
 <key>しゅうきょうほうじん</key><string>宗教法人</string>
 <key>しゅうきん</key><string>集金</string>
 <key>しゅうげき</key><string>襲撃</string>
@@ -2756,8 +2879,10 @@
 <key>しゅうり</key><string>修理</string>
 <key>しゅうりちゅう</key><string>修理中</string>
 <key>しゅうりょうご</key><string>終了後</string>
+<key>しゅうりん</key><string>秋霖</string>
 <key>しゅうわ</key><string>秀和</string>
 <key>しゅかい</key><string>主魁</string>
+<key>しゅかく</key><string>主格</string>
 <key>しゅがん</key><string>主眼</string>
 <key>しゅきおく</key><string>主記憶</string>
 <key>しゅきおくそうち</key><string>主記憶装置</string>
@@ -2797,8 +2922,10 @@
 <key>しゅすい</key><string>取水</string>
 <key>しゅせきさん</key><string>酒石酸</string>
 <key>しゅぜいほう</key><string>酒税法</string>
+<key>しゅぞう</key><string>酒造</string>
 <key>しゅぞく</key><string>種族</string>
 <key>しゅたい</key><string>主体</string>
+<key>しゅだい</key><string>主題</string>
 <key>しゅだいか</key><string>主題歌</string>
 <key>しゅだん</key><string>手段</string>
 <key>しゅちにくりん</key><string>酒池肉林</string>
@@ -2844,6 +2971,7 @@
 <key>しゅぶん</key><string>主文</string>
 <key>しゅべつ</key><string>種別</string>
 <key>しゅほ</key><string>酒保</string>
+<key>しゅぼう</key><string>首謀</string>
 <key>しゅむ</key><string>主務</string>
 <key>しゅよく</key><string>主翼</string>
 <key>しゅら</key><string>修羅</string>
@@ -2852,6 +2980,7 @@
 <key>しゅわ</key><string>手話</string>
 <key>しゅんえい</key><string>俊英</string>
 <key>しゅんかしゅうとう</key><string>春夏秋冬</string>
+<key>しゅんき</key><string>春季</string>
 <key>しゅんきょ</key><string>峻拒</string>
 <key>しゅんさい</key><string>俊才</string>
 <key>しゅんじゅう</key><string>春秋</string>
@@ -2898,6 +3027,7 @@
 <key>しょうねんひこう</key><string>少年非行</string>
 <key>しょうばい</key><string>商売</string>
 <key>しょうばつ</key><string>賞罰</string>
+<key>しょうばん</key><string>相伴</string>
 <key>しょうひ</key><string>消費</string>
 <key>しょうひしゃ</key><string>消費者</string>
 <key>しょうひぜい</key><string>消費税</string>
@@ -2906,7 +3036,9 @@
 <key>しょうびょう</key><string>傷病</string>
 <key>しょうふ</key><string>娼婦</string>
 <key>しょうふだ</key><string>正札</string>
+<key>しょうほん</key><string>抄本</string>
 <key>しょうぼうしょ</key><string>消防署</string>
+<key>しょうまん</key><string>小満</string>
 <key>しょうめいしょ</key><string>証明書</string>
 <key>しょうめいず</key><string>証明図</string>
 <key>しょうめいろん</key><string>証明論</string>
@@ -2959,6 +3091,8 @@
 <key>しょくりん</key><string>植林</string>
 <key>しょくれき</key><string>職歴</string>
 <key>しょくん</key><string>諸君</string>
+<key>しょこ</key><string>書庫</string>
+<key>しょこう</key><string>初校</string>
 <key>しょこん</key><string>初婚</string>
 <key>しょさ</key><string>所作</string>
 <key>しょざい</key><string>所在</string>
@@ -2970,6 +3104,7 @@
 <key>しょせいくん</key><string>処世訓</string>
 <key>しょせつ</key><string>諸説</string>
 <key>しょぜい</key><string>諸税</string>
+<key>しょそう</key><string>諸相</string>
 <key>しょそく</key><string>初速</string>
 <key>しょぞう</key><string>所蔵</string>
 <key>しょぞく</key><string>所属</string>
@@ -3026,8 +3161,10 @@
 <key>しろざとう</key><string>白砂糖</string>
 <key>しろむく</key><string>白無垢</string>
 <key>しわく</key><string>思惑</string>
+<key>しわけ</key><string>仕訳</string>
 <key>しわす</key><string>師走</string>
 <key>しんあん</key><string>新案</string>
+<key>しんえん</key><string>深遠</string>
 <key>しんかいち</key><string>新開地</string>
 <key>しんかんせん</key><string>新幹線</string>
 <key>しんがお</key><string>新顔</string>
@@ -3054,10 +3191,12 @@
 <key>しんこくざい</key><string>親告罪</string>
 <key>しんこっちょう</key><string>真骨頂</string>
 <key>しんしゅん</key><string>新春</string>
+<key>しんしょ</key><string>新書</string>
 <key>しんしょうしゃ</key><string>身障者</string>
 <key>しんしょうひん</key><string>新商品</string>
 <key>しんじゅく</key><string>新宿</string>
 <key>しんじゅくく</key><string>新宿区</string>
+<key>しんすう</key><string>進数</string>
 <key>しんせいしょ</key><string>申請書</string>
 <key>しんせいひん</key><string>新製品</string>
 <key>しんせだい</key><string>新世代</string>
@@ -3068,9 +3207,11 @@
 <key>しんだんしょ</key><string>診断書</string>
 <key>しんちんたいしゃ</key><string>新陳代謝</string>
 <key>しんつう</key><string>心痛</string>
+<key>しんてき</key><string>心的</string>
 <key>しんでんず</key><string>心電図</string>
 <key>しんとうあつ</key><string>浸透圧</string>
 <key>しんにちは</key><string>親日派</string>
+<key>しんにほんせいてつ</key><string>新日本製鉄</string>
 <key>しんにゅうがく</key><string>新入学</string>
 <key>しんにゅうせい</key><string>新入生</string>
 <key>しんねんかい</key><string>新年会</string>
@@ -3141,6 +3282,8 @@
 <key>じしょとうろく</key><string>辞書登録</string>
 <key>じじこくこく</key><string>時々刻々</string>
 <key>じじつじょう</key><string>事実上</string>
+<key>じじゃく</key><string>自若</string>
+<key>じじゅん</key><string>耳順</string>
 <key>じじょうじばく</key><string>自縄自縛</string>
 <key>じじょでん</key><string>自叙伝</string>
 <key>じすい</key><string>自炊</string>
@@ -3162,6 +3305,7 @@
 <key>じっすう</key><string>実数</string>
 <key>じっせかい</key><string>実世界</string>
 <key>じっせき</key><string>実績</string>
+<key>じっそう</key><string>実装</string>
 <key>じっそく</key><string>実測</string>
 <key>じっち</key><string>実地</string>
 <key>じっちょく</key><string>実直</string>
@@ -3179,6 +3323,7 @@
 <key>じつぞう</key><string>実像</string>
 <key>じつぞん</key><string>実存</string>
 <key>じつだん</key><string>実弾</string>
+<key>じつどう</key><string>実働</string>
 <key>じつぶつ</key><string>実物</string>
 <key>じつめい</key><string>実名</string>
 <key>じつようか</key><string>実用化</string>
@@ -3220,6 +3365,7 @@
 <key>じむしょるい</key><string>事務書類</string>
 <key>じむてき</key><string>事務的</string>
 <key>じめつ</key><string>自滅</string>
+<key>じもく</key><string>耳目</string>
 <key>じもと</key><string>地元</string>
 <key>じゃあく</key><string>邪悪</string>
 <key>じゃくしゃ</key><string>弱者</string>
@@ -3232,6 +3378,7 @@
 <key>じゃぐち</key><string>蛇口</string>
 <key>じゃしん</key><string>邪心</string>
 <key>じゃすい</key><string>邪推</string>
+<key>じゃっかん</key><string>若干</string>
 <key>じゃどう</key><string>邪道</string>
 <key>じゃま</key><string>邪魔</string>
 <key>じゃり</key><string>砂利</string>
@@ -3259,6 +3406,7 @@
 <key>じゅうなん</key><string>柔軟</string>
 <key>じゅうなんせい</key><string>柔軟性</string>
 <key>じゅうにしちょう</key><string>十二指腸</string>
+<key>じゅうはん</key><string>重版</string>
 <key>じゅうばこ</key><string>重箱</string>
 <key>じゅうばつ</key><string>重罰</string>
 <key>じゅうびょう</key><string>重病</string>
@@ -3267,6 +3415,7 @@
 <key>じゅうみん</key><string>住民</string>
 <key>じゅうみんか</key><string>住民課</string>
 <key>じゅうみんぜい</key><string>住民税</string>
+<key>じゅうもう</key><string>絨毛</string>
 <key>じゅうもんじ</key><string>十文字</string>
 <key>じゅうゆ</key><string>重油</string>
 <key>じゅうらい</key><string>従来</string>
@@ -3276,6 +3425,7 @@
 <key>じゅくご</key><string>熟語</string>
 <key>じゅくじくん</key><string>熟字訓</string>
 <key>じゅくすい</key><string>熟睡</string>
+<key>じゅくせい</key><string>熟成</string>
 <key>じゅくたつ</key><string>熟達</string>
 <key>じゅくち</key><string>熟知</string>
 <key>じゅくどく</key><string>熟読</string>
@@ -3400,6 +3550,7 @@
 <key>じょうほうりろん</key><string>情報理論</string>
 <key>じょうみゃく</key><string>静脈</string>
 <key>じょうみん</key><string>常民</string>
+<key>じょうり</key><string>条理</string>
 <key>じょうりく</key><string>上陸</string>
 <key>じょうりょく</key><string>常緑</string>
 <key>じょうりょくじゅ</key><string>常緑樹</string>
@@ -3422,9 +3573,11 @@
 <key>じょしゅ</key><string>助手</string>
 <key>じょしゅせき</key><string>助手席</string>
 <key>じょじゅつ</key><string>叙述</string>
+<key>じょすうし</key><string>助数詞</string>
 <key>じょちょう</key><string>助長</string>
 <key>じょどうし</key><string>助動詞</string>
 <key>じょぶん</key><string>序文</string>
+<key>じょまく</key><string>序幕</string>
 <key>じょまくしき</key><string>除幕式</string>
 <key>じょや</key><string>除夜</string>
 <key>じょやく</key><string>助役</string>
@@ -3446,6 +3599,7 @@
 <key>じんこつ</key><string>人骨</string>
 <key>じんさい</key><string>人災</string>
 <key>じんしゅ</key><string>人種</string>
+<key>じんしん</key><string>人身</string>
 <key>じんじか</key><string>人事課</string>
 <key>じんじゃ</key><string>神社</string>
 <key>じんせいかん</key><string>人生観</string>
@@ -3546,6 +3700,7 @@
 <key>するが</key><string>駿河</string>
 <key>するがだい</key><string>駿河台</string>
 <key>すんか</key><string>寸暇</string>
+<key>すんげき</key><string>寸劇</string>
 <key>すんし</key><string>寸志</string>
 <key>すんじ</key><string>寸時</string>
 <key>すんぜん</key><string>寸前</string>
@@ -3579,6 +3734,7 @@
 <key>せいいつ</key><string>斉一</string>
 <key>せいえき</key><string>精液</string>
 <key>せいかつたいど</key><string>生活態度</string>
+<key>せいがん</key><string>請願</string>
 <key>せいきか</key><string>正規化</string>
 <key>せいきけい</key><string>正規形</string>
 <key>せいきこう</key><string>正規項</string>
@@ -3617,11 +3773,14 @@
 <key>せいにく</key><string>精肉</string>
 <key>せいねんがっぴ</key><string>生年月日</string>
 <key>せいは</key><string>制覇</string>
+<key>せいはく</key><string>精白</string>
 <key>せいはんたい</key><string>正反対</string>
 <key>せいばい</key><string>成敗</string>
 <key>せいばつ</key><string>征伐</string>
 <key>せいびし</key><string>整備士</string>
 <key>せいふん</key><string>製粉</string>
+<key>せいぶん</key><string>成分</string>
+<key>せいべつ</key><string>性別</string>
 <key>せいほうけい</key><string>正方形</string>
 <key>せいまい</key><string>精米</string>
 <key>せいみつ</key><string>精密</string>
@@ -3654,6 +3813,7 @@
 <key>せきねつ</key><string>赤熱</string>
 <key>せきはい</key><string>惜敗</string>
 <key>せきはん</key><string>赤飯</string>
+<key>せきばん</key><string>石版</string>
 <key>せきひ</key><string>石碑</string>
 <key>せきひん</key><string>赤貧</string>
 <key>せきべつ</key><string>惜別</string>
@@ -3662,6 +3822,7 @@
 <key>せきわ</key><string>積和</string>
 <key>せきわけ</key><string>関脇</string>
 <key>せけん</key><string>世間</string>
+<key>せこう</key><string>施工</string>
 <key>せしゅう</key><string>世襲</string>
 <key>せすじ</key><string>背筋</string>
 <key>せそう</key><string>世相</string>
@@ -3709,6 +3870,7 @@
 <key>せつめい</key><string>説明</string>
 <key>せつめいかい</key><string>説明会</string>
 <key>せつめいしょ</key><string>説明書</string>
+<key>せつり</key><string>摂理</string>
 <key>せつりつ</key><string>設立</string>
 <key>せつわ</key><string>説話</string>
 <key>せとおおはし</key><string>瀬戸大橋</string>
@@ -3724,23 +3886,28 @@
 <key>せんいん</key><string>船員</string>
 <key>せんえき</key><string>戦役</string>
 <key>せんえつ</key><string>僭越</string>
+<key>せんき</key><string>戦記</string>
 <key>せんきゃくばんらい</key><string>千客万来</string>
 <key>せんきょうし</key><string>宣教師</string>
 <key>せんぎょ</key><string>鮮魚</string>
 <key>せんぐう</key><string>遷宮</string>
 <key>せんけつごう</key><string>線結合</string>
 <key>せんごくぶね</key><string>千石船</string>
+<key>せんさく</key><string>詮索</string>
 <key>せんさばんべつ</key><string>千差万別</string>
 <key>せんざいいちぐう</key><string>千載一遇</string>
+<key>せんしゃ</key><string>戦車</string>
 <key>せんしゅうらく</key><string>千秋楽</string>
 <key>せんしゅけん</key><string>選手権</string>
 <key>せんしゅつ</key><string>選出</string>
 <key>せんしょくたい</key><string>染色体</string>
 <key>せんしんこく</key><string>先進国</string>
+<key>せんじ</key><string>戦時</string>
 <key>せんじつ</key><string>先日</string>
 <key>せんすいかん</key><string>潜水艦</string>
 <key>せんせいじゅつ</key><string>占星術</string>
 <key>せんぞ</key><string>先祖</string>
+<key>せんたい</key><string>船体</string>
 <key>せんたくき</key><string>洗濯機</string>
 <key>せんだいし</key><string>仙台市</string>
 <key>せんちゃ</key><string>煎茶</string>
@@ -3749,17 +3916,20 @@
 <key>せんて</key><string>先手</string>
 <key>せんでき</key><string>洗滌</string>
 <key>せんでん</key><string>宣伝</string>
+<key>せんとうき</key><string>戦闘機</string>
 <key>せんにゅうかん</key><string>先入観</string>
 <key>せんばい</key><string>専売</string>
 <key>せんばつ</key><string>選抜</string>
 <key>せんばづる</key><string>千羽鶴</string>
 <key>せんびょう</key><string>線描</string>
 <key>せんびょうしつ</key><string>腺病質</string>
+<key>せんぶ</key><string>先負</string>
 <key>せんぷう</key><string>旋風</string>
 <key>せんぷうき</key><string>扇風機</string>
 <key>せんべい</key><string>煎餅</string>
 <key>せんべん</key><string>先鞭</string>
 <key>せんぼうきょう</key><string>潜望鏡</string>
+<key>せんぼく</key><string>泉北</string>
 <key>せんまけ</key><string>先負</string>
 <key>せんめんき</key><string>洗面器</string>
 <key>せんようかいせん</key><string>専用回線</string>
@@ -3793,6 +3963,7 @@
 <key>ぜっぴん</key><string>絶品</string>
 <key>ぜっぺき</key><string>絶壁</string>
 <key>ぜっぽう</key><string>舌鋒</string>
+<key>ぜつえん</key><string>絶縁</string>
 <key>ぜつご</key><string>絶後</string>
 <key>ぜつぼう</key><string>絶望</string>
 <key>ぜつみょう</key><string>絶妙</string>
@@ -3842,6 +4013,7 @@
 <key>そいんすう</key><string>素因数</string>
 <key>そいんすうぶんかい</key><string>素因数分解</string>
 <key>そうあい</key><string>相愛</string>
+<key>そうあん</key><string>草案</string>
 <key>そううつ</key><string>躁鬱</string>
 <key>そうおう</key><string>相応</string>
 <key>そうがんきょう</key><string>双眼鏡</string>
@@ -3864,6 +4036,7 @@
 <key>そうぜい</key><string>総勢</string>
 <key>そうぜつ</key><string>壮絶</string>
 <key>そうたいち</key><string>相対値</string>
+<key>そうたいてき</key><string>相対的</string>
 <key>そうだか</key><string>総高</string>
 <key>そうだつ</key><string>争奪</string>
 <key>そうだんいん</key><string>相談員</string>
@@ -3884,12 +4057,18 @@
 <key>そうろうぶん</key><string>候文</string>
 <key>そえだ</key><string>添田</string>
 <key>そえん</key><string>疎遠</string>
+<key>そきゅう</key><string>遡及</string>
+<key>そくい</key><string>即位</string>
+<key>そくいん</key><string>惻隠</string>
 <key>そくおう</key><string>即応</string>
+<key>そくおん</key><string>促音</string>
 <key>そくざ</key><string>即座</string>
 <key>そくじつ</key><string>即日</string>
+<key>そくせい</key><string>促成</string>
 <key>そくたい</key><string>束帯</string>
 <key>そくたつ</key><string>速達</string>
 <key>そくだく</key><string>即諾</string>
+<key>そくだん</key><string>即断</string>
 <key>そくぶつてき</key><string>即物的</string>
 <key>そくめん</key><string>側面</string>
 <key>そくりょう</key><string>測量</string>
@@ -3906,10 +4085,12 @@
 <key>そしきぼうりょくはんざいしゃ</key><string>組織暴力犯罪者</string>
 <key>そしつ</key><string>素質</string>
 <key>そしな</key><string>粗品</string>
+<key>そすい</key><string>疎水</string>
 <key>そすう</key><string>素数</string>
 <key>そすうぶんかい</key><string>素数分解</string>
 <key>そせん</key><string>祖先</string>
 <key>そぜい</key><string>租税</string>
+<key>そそう</key><string>粗相</string>
 <key>そっきょう</key><string>即興</string>
 <key>そっけつ</key><string>即決</string>
 <key>そっこうじょ</key><string>測候所</string>
@@ -3925,6 +4106,7 @@
 <key>そてい</key><string>措定</string>
 <key>そとがわ</key><string>外側</string>
 <key>そとづら</key><string>外面</string>
+<key>そびょう</key><string>素描</string>
 <key>そふぼ</key><string>祖父母</string>
 <key>そほう</key><string>粗放</string>
 <key>そほうか</key><string>素封家</string>
@@ -3946,14 +4128,17 @@
 <key>そんち</key><string>存置</string>
 <key>そんとく</key><string>損得</string>
 <key>そんみん</key><string>村民</string>
+<key>そんもう</key><string>損耗</string>
 <key>そんらく</key><string>村落</string>
 <key>ぞういん</key><string>増員</string>
+<key>ぞうえい</key><string>造営</string>
 <key>ぞうえき</key><string>増益</string>
 <key>ぞうお</key><string>憎悪</string>
 <key>ぞうがく</key><string>増額</string>
 <key>ぞうきばやし</key><string>雑木林</string>
 <key>ぞうきょう</key><string>増強</string>
 <key>ぞうきん</key><string>雑巾</string>
+<key>ぞうけつ</key><string>増結</string>
 <key>ぞうげ</key><string>象牙</string>
 <key>ぞうご</key><string>造語</string>
 <key>ぞうごん</key><string>雑言</string>
@@ -3963,6 +4148,7 @@
 <key>ぞうしょ</key><string>蔵書</string>
 <key>ぞうしょく</key><string>増殖</string>
 <key>ぞうしん</key><string>増進</string>
+<key>ぞうせつ</key><string>増設</string>
 <key>ぞうせん</key><string>造船</string>
 <key>ぞうだい</key><string>増大</string>
 <key>ぞうちく</key><string>増築</string>
@@ -3982,6 +4168,7 @@
 <key>ぞくぐん</key><string>賊軍</string>
 <key>ぞくご</key><string>俗語</string>
 <key>ぞくしゅつ</key><string>続出</string>
+<key>ぞくじ</key><string>俗字</string>
 <key>ぞくせつ</key><string>俗説</string>
 <key>ぞくはつ</key><string>続発</string>
 <key>ぞくぶつ</key><string>俗物</string>
@@ -3995,6 +4182,7 @@
 <key>たいいきち</key><string>大域値</string>
 <key>たいいく</key><string>体育</string>
 <key>たいいくかん</key><string>体育館</string>
+<key>たいえい</key><string>退嬰</string>
 <key>たいおん</key><string>体温</string>
 <key>たいかくせん</key><string>対角線</string>
 <key>たいかんしき</key><string>戴冠式</string>
@@ -4007,17 +4195,21 @@
 <key>たいぎめいぶん</key><string>大義名分</string>
 <key>たいく</key><string>体躯</string>
 <key>たいくつ</key><string>退屈</string>
+<key>たいぐん</key><string>大群</string>
 <key>たいけつ</key><string>対決</string>
 <key>たいこく</key><string>大国</string>
 <key>たいこしょう</key><string>耐故障</string>
 <key>たいこばら</key><string>太鼓腹</string>
 <key>たいこばん</key><string>太鼓判</string>
 <key>たいしかん</key><string>大使館</string>
+<key>たいしゅつ</key><string>退出</string>
 <key>たいしょうがい</key><string>対象外</string>
+<key>たいしょうせい</key><string>対称性</string>
 <key>たいしょうぶつ</key><string>対象物</string>
 <key>たいしょくかん</key><string>大食漢</string>
 <key>たいしょくきん</key><string>退職金</string>
 <key>たいじゅう</key><string>体重</string>
+<key>たいぞう</key><string>退蔵</string>
 <key>たいだ</key><string>怠惰</string>
 <key>たいちょ</key><string>大著</string>
 <key>たいでん</key><string>帯電</string>
@@ -4027,6 +4219,7 @@
 <key>たいばつ</key><string>体罰</string>
 <key>たいばん</key><string>胎盤</string>
 <key>たいびょう</key><string>大病</string>
+<key>たいぶ</key><string>大部</string>
 <key>たいぶつ</key><string>対物</string>
 <key>たいべつ</key><string>大別</string>
 <key>たいぼく</key><string>大木</string>
@@ -4036,6 +4229,7 @@
 <key>たいりく</key><string>大陸</string>
 <key>たいりつ</key><string>対立</string>
 <key>たいりゃく</key><string>大略</string>
+<key>たいりん</key><string>大輪</string>
 <key>たいろう</key><string>大老</string>
 <key>たかくけい</key><string>多角形</string>
 <key>たかくすい</key><string>多角錐</string>
@@ -4061,6 +4255,7 @@
 <key>たくち</key><string>宅地</string>
 <key>たくはい</key><string>宅配</string>
 <key>たくはつ</key><string>托鉢</string>
+<key>たくばつ</key><string>卓抜</string>
 <key>たくほん</key><string>拓本</string>
 <key>たけばやし</key><string>竹林</string>
 <key>たげい</key><string>多芸</string>
@@ -4083,6 +4278,7 @@
 <key>たちうり</key><string>立売</string>
 <key>たちぎ</key><string>立木</string>
 <key>たっきゅうびん</key><string>宅急便</string>
+<key>たっけん</key><string>卓見</string>
 <key>たっしゃ</key><string>達者</string>
 <key>たっせい</key><string>達成</string>
 <key>たっぴつ</key><string>達筆</string>
@@ -4090,6 +4286,7 @@
 <key>たつどし</key><string>辰年</string>
 <key>たつぶん</key><string>達文</string>
 <key>たつまき</key><string>竜巻</string>
+<key>たてかえ</key><string>立替</string>
 <key>たてじま</key><string>縦縞</string>
 <key>たてなが</key><string>縦長</string>
 <key>たてもの</key><string>建物</string>
@@ -4098,6 +4295,7 @@
 <key>たどく</key><string>多読</string>
 <key>たどころ</key><string>田所</string>
 <key>たないた</key><string>棚板</string>
+<key>たなか</key><string>田中</string>
 <key>たなばた</key><string>七夕</string>
 <key>たなん</key><string>多難</string>
 <key>たにやま</key><string>谷山</string>
@@ -4130,6 +4328,7 @@
 <key>たんこうぼん</key><string>単行本</string>
 <key>たんさい</key><string>淡彩</string>
 <key>たんさき</key><string>探査機</string>
+<key>たんざ</key><string>端座</string>
 <key>たんざく</key><string>短冊</string>
 <key>たんしゅく</key><string>短縮</string>
 <key>たんじかん</key><string>短時間</string>
@@ -4138,9 +4337,11 @@
 <key>たんす</key><string>箪笥</string>
 <key>たんすい</key><string>淡水</string>
 <key>たんすう</key><string>単数</string>
+<key>たんそ</key><string>炭素</string>
 <key>たんちょうづる</key><string>丹頂鶴</string>
 <key>たんてん</key><string>端点</string>
 <key>たんでき</key><string>耽溺</string>
+<key>たんでん</key><string>炭田</string>
 <key>たんとうしゃ</key><string>担当者</string>
 <key>たんとうちょくにゅう</key><string>単刀直入</string>
 <key>たんにん</key><string>担任</string>
@@ -4230,6 +4431,7 @@
 <key>だっせん</key><string>脱線</string>
 <key>だっそう</key><string>脱走</string>
 <key>だっちゃく</key><string>脱着</string>
+<key>だっちょう</key><string>脱腸</string>
 <key>だっぴ</key><string>脱皮</string>
 <key>だつい</key><string>脱衣</string>
 <key>だつごく</key><string>脱獄</string>
@@ -4270,6 +4472,7 @@
 <key>だんわ</key><string>談話</string>
 <key>だんわかい</key><string>談話会</string>
 <key>ちあん</key><string>治安</string>
+<key>ちいき</key><string>地域</string>
 <key>ちえぶくろ</key><string>知恵袋</string>
 <key>ちかけい</key><string>地下茎</string>
 <key>ちかごろ</key><string>近頃</string>
@@ -4323,6 +4526,7 @@
 <key>ちみもうりょう</key><string>魑魅魍魎</string>
 <key>ちめいど</key><string>知名度</string>
 <key>ちゃいろ</key><string>茶色</string>
+<key>ちゃくがん</key><string>着眼</string>
 <key>ちゃくし</key><string>嫡子</string>
 <key>ちゃくしゅ</key><string>着手</string>
 <key>ちゃくしゅつ</key><string>嫡出</string>
@@ -4356,6 +4560,7 @@
 <key>ちゅうがっこう</key><string>中学校</string>
 <key>ちゅうきぼ</key><string>中規模</string>
 <key>ちゅうきょり</key><string>中距離</string>
+<key>ちゅうきん</key><string>忠勤</string>
 <key>ちゅうぎ</key><string>忠義</string>
 <key>ちゅうこうねん</key><string>中高年</string>
 <key>ちゅうこく</key><string>忠告</string>
@@ -4364,6 +4569,7 @@
 <key>ちゅうざ</key><string>中座</string>
 <key>ちゅうざい</key><string>駐在</string>
 <key>ちゅうしゃじょう</key><string>駐車場</string>
+<key>ちゅうしゅう</key><string>仲秋</string>
 <key>ちゅうしゅつ</key><string>抽出</string>
 <key>ちゅうしょうか</key><string>抽象化</string>
 <key>ちゅうしょうきぎょう</key><string>中小企業</string>
@@ -4372,6 +4578,7 @@
 <key>ちゅうじつ</key><string>忠実</string>
 <key>ちゅうじゅん</key><string>中旬</string>
 <key>ちゅうすう</key><string>中枢</string>
+<key>ちゅうせいし</key><string>中性子</string>
 <key>ちゅうそく</key><string>中速</string>
 <key>ちゅうそつ</key><string>中卒</string>
 <key>ちゅうちょ</key><string>躊躇</string>
@@ -4395,9 +4602,12 @@
 <key>ちょうかいりょく</key><string>聴解力</string>
 <key>ちょうきょうし</key><string>調教師</string>
 <key>ちょうきょり</key><string>長距離</string>
+<key>ちょうげん</key><string>調弦</string>
 <key>ちょうこうぜつ</key><string>長広舌</string>
+<key>ちょうこうそく</key><string>超高速</string>
 <key>ちょうこくとう</key><string>彫刻刀</string>
 <key>ちょうしんき</key><string>聴診器</string>
+<key>ちょうじ</key><string>弔辞</string>
 <key>ちょうじかん</key><string>長時間</string>
 <key>ちょうじゃ</key><string>長者</string>
 <key>ちょうじゅ</key><string>長寿</string>
@@ -4424,6 +4634,7 @@
 <key>ちょうれいぼかい</key><string>朝令暮改</string>
 <key>ちょきん</key><string>貯金</string>
 <key>ちょくげき</key><string>直撃</string>
+<key>ちょくさい</key><string>直截</string>
 <key>ちょくしん</key><string>直進</string>
 <key>ちょくじょうけいこう</key><string>直情径行</string>
 <key>ちょくせき</key><string>直積</string>
@@ -4454,6 +4665,7 @@
 <key>ちょすいりょう</key><string>貯水量</string>
 <key>ちょちく</key><string>貯蓄</string>
 <key>ちょっか</key><string>直下</string>
+<key>ちょっかく</key><string>直角</string>
 <key>ちょっかつ</key><string>直轄</string>
 <key>ちょっき</key><string>直帰</string>
 <key>ちょっけつ</key><string>直結</string>
@@ -4468,6 +4680,8 @@
 <key>ちんしゃ</key><string>陳謝</string>
 <key>ちんしゃく</key><string>賃借</string>
 <key>ちんじゅつ</key><string>陳述</string>
+<key>ちんじょう</key><string>陳情</string>
+<key>ちんせい</key><string>鎮静</string>
 <key>ちんつう</key><string>鎮痛</string>
 <key>ちんぷ</key><string>陳腐</string>
 <key>ちんぼつ</key><string>沈没</string>
@@ -4499,10 +4713,12 @@
 <key>つうきん</key><string>通勤</string>
 <key>つうげき</key><string>痛撃</string>
 <key>つうこん</key><string>痛恨</string>
+<key>つうさんしょう</key><string>通産相</string>
 <key>つうし</key><string>通史</string>
 <key>つうしんこうがっか</key><string>通信工学科</string>
 <key>つうしんほうしき</key><string>通信方式</string>
 <key>つうしんもう</key><string>通信網</string>
+<key>つうじ</key><string>通時</string>
 <key>つうじょう</key><string>通常</string>
 <key>つうそう</key><string>通奏</string>
 <key>つうぞく</key><string>通俗</string>
@@ -4511,6 +4727,8 @@
 <key>つうてん</key><string>痛点</string>
 <key>つうでん</key><string>通電</string>
 <key>つうどく</key><string>通読</string>
+<key>つうふう</key><string>通風</string>
+<key>つうやく</key><string>通訳</string>
 <key>つうれい</key><string>通例</string>
 <key>つうれつ</key><string>痛烈</string>
 <key>つうろ</key><string>通路</string>
@@ -4542,6 +4760,7 @@
 <key>つよき</key><string>強気</string>
 <key>てあし</key><string>手足</string>
 <key>てあら</key><string>手荒</string>
+<key>ていあつ</key><string>低圧</string>
 <key>ていあん</key><string>提案</string>
 <key>ていいん</key><string>定員</string>
 <key>ていおう</key><string>帝王</string>
@@ -4555,6 +4774,7 @@
 <key>ていさつ</key><string>偵察</string>
 <key>ていざいは</key><string>定在波</string>
 <key>ていしきか</key><string>定式化</string>
+<key>ていしつ</key><string>低湿</string>
 <key>ていしゃ</key><string>停車</string>
 <key>ていしゅかんぱく</key><string>亭主関白</string>
 <key>ていしゅく</key><string>貞淑</string>
@@ -4563,6 +4783,7 @@
 <key>ていじゅう</key><string>定住</string>
 <key>ていすいじゅん</key><string>低水準</string>
 <key>ていせいてき</key><string>定性的</string>
+<key>ていせん</key><string>停戦</string>
 <key>ていそう</key><string>貞操</string>
 <key>ていぞく</key><string>低俗</string>
 <key>ていたく</key><string>邸宅</string>
@@ -4590,6 +4811,7 @@
 <key>てがみ</key><string>手紙</string>
 <key>てがら</key><string>手柄</string>
 <key>てがる</key><string>手軽</string>
+<key>てきい</key><string>敵意</string>
 <key>てきおう</key><string>適応</string>
 <key>てきかん</key><string>敵艦</string>
 <key>てきがいしん</key><string>敵愾心</string>
@@ -4658,13 +4880,16 @@
 <key>てんけつごう</key><string>点結合</string>
 <key>てんこうせい</key><string>転校生</string>
 <key>てんざい</key><string>点在</string>
+<key>てんし</key><string>天使</string>
 <key>てんしゅうごう</key><string>点集合</string>
 <key>てんしゅつこう</key><string>転出校</string>
 <key>てんしゅどう</key><string>天主堂</string>
+<key>てんしょう</key><string>転生</string>
 <key>てんしんらんまん</key><string>天真爛漫</string>
 <key>てんじょううら</key><string>天井裏</string>
 <key>てんじょうてんげ</key><string>天上天下</string>
 <key>てんすう</key><string>点数</string>
+<key>てんせん</key><string>点線</string>
 <key>てんそう</key><string>転送</string>
 <key>てんぞく</key><string>転属</string>
 <key>てんたん</key><string>恬淡</string>
@@ -4710,6 +4935,7 @@
 <key>でんい</key><string>電位</string>
 <key>でんえん</key><string>田園</string>
 <key>でんえんとしせん</key><string>田園都市線</string>
+<key>でんかい</key><string>電解</string>
 <key>でんかせいひん</key><string>電化製品</string>
 <key>でんきけい</key><string>電気系</string>
 <key>でんきけいそくがく</key><string>電気計測学</string>
@@ -4771,8 +4997,10 @@
 <key>とうげんきょう</key><string>桃源郷</string>
 <key>とうこうしゃ</key><string>投稿者</string>
 <key>とうこうせん</key><string>等高線</string>
+<key>とうご</key><string>統語</string>
 <key>とうごうか</key><string>統合化</string>
 <key>とうごうしゃ</key><string>統合者</string>
+<key>とうさい</key><string>搭載</string>
 <key>とうさま</key><string>父様</string>
 <key>とうさんさい</key><string>唐三彩</string>
 <key>とうざ</key><string>当座</string>
@@ -4790,11 +5018,13 @@
 <key>とうちゃく</key><string>到着</string>
 <key>とうちょうよう</key><string>頭頂葉</string>
 <key>とうちょく</key><string>当直</string>
+<key>とうつう</key><string>疼痛</string>
 <key>とうてき</key><string>投擲</string>
 <key>とうどり</key><string>頭取</string>
 <key>とうにん</key><string>当人</string>
 <key>とうねん</key><string>当年</string>
 <key>とうはつ</key><string>頭髪</string>
+<key>とうはん</key><string>登攀</string>
 <key>とうひょう</key><string>投票</string>
 <key>とうへんぼく</key><string>唐変木</string>
 <key>とうべん</key><string>答弁</string>
@@ -4825,6 +5055,7 @@
 <key>とくしゅうごう</key><string>特集号</string>
 <key>とくじゅ</key><string>特需</string>
 <key>とくせつ</key><string>特設</string>
+<key>とくそう</key><string>特捜</string>
 <key>とくそく</key><string>督促</string>
 <key>とくだい</key><string>特大</string>
 <key>とくちゅう</key><string>特注</string>
@@ -4857,9 +5088,11 @@
 <key>とじょうこく</key><string>途上国</string>
 <key>とそう</key><string>塗装</string>
 <key>とだな</key><string>戸棚</string>
+<key>とっかい</key><string>特解</string>
 <key>とっきょ</key><string>特許</string>
 <key>とっくり</key><string>徳利</string>
 <key>とっくん</key><string>特訓</string>
+<key>とっこう</key><string>特高</string>
 <key>とっこうやく</key><string>特効薬</string>
 <key>とっしゅつ</key><string>突出</string>
 <key>とっしん</key><string>突進</string>
@@ -4888,6 +5121,7 @@
 <key>とよはし</key><string>豊橋</string>
 <key>とらどし</key><string>寅年</string>
 <key>とりしまりやく</key><string>取締役</string>
+<key>とりたて</key><string>取立</string>
 <key>とりつ</key><string>都立</string>
 <key>とりどし</key><string>酉年</string>
 <key>とりはだ</key><string>鳥肌</string>
@@ -4910,6 +5144,7 @@
 <key>どうげんざか</key><string>道玄坂</string>
 <key>どうこうほう</key><string>道交法</string>
 <key>どうさつ</key><string>洞察</string>
+<key>どうさん</key><string>動産</string>
 <key>どうしゃく</key><string>同尺</string>
 <key>どうしゅつ</key><string>導出</string>
 <key>どうしょういむ</key><string>同床異夢</string>
@@ -4941,10 +5176,12 @@
 <key>どうはん</key><string>同伴</string>
 <key>どうぶつ</key><string>動物</string>
 <key>どうぶん</key><string>同文</string>
+<key>どうほう</key><string>同報</string>
 <key>どうまごえ</key><string>胴間声</string>
 <key>どうみゃく</key><string>動脈</string>
 <key>どうみゃくこうか</key><string>動脈硬化</string>
 <key>どうもく</key><string>瞠目</string>
+<key>どうもと</key><string>胴元</string>
 <key>どうらく</key><string>道楽</string>
 <key>どうり</key><string>道理</string>
 <key>どうりょく</key><string>動力</string>
@@ -4979,6 +5216,7 @@
 <key>どぞう</key><string>土蔵</string>
 <key>どたんば</key><string>土壇場</string>
 <key>どっきんほう</key><string>独禁法</string>
+<key>どとう</key><string>怒涛</string>
 <key>どなべ</key><string>土鍋</string>
 <key>どにち</key><string>土日</string>
 <key>どひょう</key><string>土俵</string>
@@ -5000,10 +5238,12 @@
 <key>どんちょう</key><string>緞帳</string>
 <key>どんつう</key><string>鈍痛</string>
 <key>どんてん</key><string>曇天</string>
+<key>どんま</key><string>鈍磨</string>
 <key>どんよく</key><string>貪欲</string>
 <key>ないがい</key><string>内外</string>
 <key>ないきょく</key><string>内局</string>
 <key>ないきん</key><string>内勤</string>
+<key>ないこう</key><string>内向</string>
 <key>ないこく</key><string>内国</string>
 <key>ないざい</key><string>内在</string>
 <key>ないしきょう</key><string>内視鏡</string>
@@ -5035,6 +5275,8 @@
 <key>なかお</key><string>中尾</string>
 <key>なかがい</key><string>仲買</string>
 <key>なかし</key><string>仲仕</string>
+<key>なかしま</key><string>中島</string>
+<key>なかじま</key><string>中島</string>
 <key>なかすじ</key><string>中筋</string>
 <key>なかにし</key><string>中西</string>
 <key>なかにわ</key><string>中庭</string>
@@ -5051,6 +5293,7 @@
 <key>ながばり</key><string>長針</string>
 <key>ながまち</key><string>長町</string>
 <key>なこうど</key><string>仲人</string>
+<key>なごや</key><string>名古屋</string>
 <key>なごやし</key><string>名古屋市</string>
 <key>なごやだい</key><string>名古屋大</string>
 <key>なごやだいがく</key><string>名古屋大学</string>
@@ -5067,6 +5310,7 @@
 <key>ななくさ</key><string>七草</string>
 <key>なにげ</key><string>何気</string>
 <key>なにぶん</key><string>何分</string>
+<key>なにもの</key><string>何者</string>
 <key>なふだ</key><string>名札</string>
 <key>なべぞこ</key><string>鍋底</string>
 <key>なまいき</key><string>生意気</string>
@@ -5133,6 +5377,7 @@
 <key>にしゃたくいつ</key><string>二者択一</string>
 <key>にしやま</key><string>西山</string>
 <key>にじかい</key><string>二次会</string>
+<key>にせもの</key><string>偽物</string>
 <key>にそくさんもん</key><string>二束三文</string>
 <key>にちげん</key><string>日限</string>
 <key>にちじょうさはんじ</key><string>日常茶飯事</string>
@@ -5358,10 +5603,12 @@
 <key>のとせん</key><string>能登線</string>
 <key>のどか</key><string>長閑</string>
 <key>のはら</key><string>野原</string>
+<key>のぶし</key><string>野武士</string>
 <key>のほうず</key><string>野放図</string>
 <key>のやま</key><string>野山</string>
 <key>のりくみいん</key><string>乗組員</string>
 <key>のりと</key><string>祝詞</string>
+<key>のんき</key><string>暢気</string>
 <key>はあく</key><string>把握</string>
 <key>はいあん</key><string>廃案</string>
 <key>はいいろ</key><string>灰色</string>
@@ -5373,6 +5620,9 @@
 <key>はいごれい</key><string>背後霊</string>
 <key>はいざら</key><string>灰皿</string>
 <key>はいしゃく</key><string>拝借</string>
+<key>はいしゅつ</key><string>排出</string>
+<key>はいしょく</key><string>配色</string>
+<key>はいじょ</key><string>排除</string>
 <key>はいぜつ</key><string>廃絶</string>
 <key>はいそ</key><string>敗訴</string>
 <key>はいぞく</key><string>配属</string>
@@ -5381,6 +5631,8 @@
 <key>はいちょう</key><string>拝聴</string>
 <key>はいでんばん</key><string>配電盤</string>
 <key>はいにん</key><string>背任</string>
+<key>はいばん</key><string>廃盤</string>
+<key>はいふく</key><string>拝復</string>
 <key>はいふはんい</key><string>配布範囲</string>
 <key>はいふほうほう</key><string>配布方法</string>
 <key>はいぼく</key><string>敗北</string>
@@ -5426,12 +5678,14 @@
 <key>はくらんかい</key><string>博覧会</string>
 <key>はくらんきょうき</key><string>博覧強記</string>
 <key>はくりょく</key><string>迫力</string>
+<key>はくろ</key><string>白露</string>
 <key>はくろん</key><string>博論</string>
 <key>はぐるま</key><string>歯車</string>
 <key>はけい</key><string>波形</string>
 <key>はこだて</key><string>函館</string>
 <key>はこね</key><string>箱根</string>
 <key>はごいた</key><string>羽子板</string>
+<key>はさん</key><string>破産</string>
 <key>はざかいき</key><string>端境期</string>
 <key>はしだ</key><string>橋田</string>
 <key>はしゃ</key><string>覇者</string>
@@ -5439,6 +5693,7 @@
 <key>はしゅつじょ</key><string>派出所</string>
 <key>はじょう</key><string>波状</string>
 <key>はすい</key><string>破水</string>
+<key>はすう</key><string>端数</string>
 <key>はせがわ</key><string>長谷川</string>
 <key>はそん</key><string>破損</string>
 <key>はたいろ</key><string>旗色</string>
@@ -5446,9 +5701,11 @@
 <key>はだいろ</key><string>肌色</string>
 <key>はだぎ</key><string>肌着</string>
 <key>はだみ</key><string>肌身</string>
+<key>はちく</key><string>破竹</string>
 <key>はちみつ</key><string>蜂蜜</string>
 <key>はちめんたい</key><string>八面体</string>
 <key>はちめんろっぴ</key><string>八面六臂</string>
+<key>はっかん</key><string>発刊</string>
 <key>はっきょう</key><string>発狂</string>
 <key>はっくつ</key><string>発掘</string>
 <key>はっけっきゅう</key><string>白血球</string>
@@ -5509,6 +5766,7 @@
 <key>はままつ</key><string>浜松</string>
 <key>はままつし</key><string>浜松市</string>
 <key>はめつ</key><string>破滅</string>
+<key>はめん</key><string>波面</string>
 <key>はやうま</key><string>早馬</string>
 <key>はやがてん</key><string>早合点</string>
 <key>はやくち</key><string>早口</string>
@@ -5516,7 +5774,9 @@
 <key>はやべん</key><string>早弁</string>
 <key>はらぐろ</key><string>腹黒</string>
 <key>はらだ</key><string>原田</string>
+<key>はらん</key><string>波乱</string>
 <key>はりがね</key><string>針金</string>
+<key>はりこ</key><string>張子</string>
 <key>はれつ</key><string>破裂</string>
 <key>はんかがい</key><string>繁華街</string>
 <key>はんかつう</key><string>半可通</string>
@@ -5535,15 +5795,18 @@
 <key>はんしゅつ</key><string>搬出</string>
 <key>はんしょくち</key><string>繁殖地</string>
 <key>はんしんはんぎ</key><string>半信半疑</string>
+<key>はんしんろん</key><string>汎神論</string>
 <key>はんじゅく</key><string>半熟</string>
 <key>はんせいかい</key><string>反省会</string>
 <key>はんぜん</key><string>判然</string>
+<key>はんそく</key><string>反則</string>
 <key>はんだくおん</key><string>半濁音</string>
 <key>はんだん</key><string>判断</string>
 <key>はんつき</key><string>半月</string>
 <key>はんていかいろ</key><string>判定回路</string>
 <key>はんていかのう</key><string>判定可能</string>
 <key>はんとうめい</key><string>半透明</string>
+<key>はんとき</key><string>半時</string>
 <key>はんとし</key><string>半年</string>
 <key>はんどうたい</key><string>半導体</string>
 <key>はんにゃ</key><string>般若</string>
@@ -5558,6 +5821,7 @@
 <key>はんぼう</key><string>繁忙</string>
 <key>はんみ</key><string>半身</string>
 <key>はんも</key><string>繁茂</string>
+<key>はんよう</key><string>汎用</string>
 <key>はんようき</key><string>汎用機</string>
 <key>はんようてき</key><string>汎用的</string>
 <key>はんらく</key><string>反落</string>
@@ -5569,6 +5833,7 @@
 <key>ばいきゃく</key><string>売却</string>
 <key>ばいきん</key><string>黴菌</string>
 <key>ばいしゅう</key><string>買収</string>
+<key>ばいしん</key><string>陪審</string>
 <key>ばいじん</key><string>煤塵</string>
 <key>ばいすう</key><string>倍数</string>
 <key>ばいぞう</key><string>倍増</string>
@@ -5605,15 +5870,18 @@
 <key>ばりき</key><string>馬力</string>
 <key>ばれいしょ</key><string>馬鈴薯</string>
 <key>ばんかい</key><string>挽回</string>
+<key>ばんかん</key><string>万感</string>
 <key>ばんぐみ</key><string>番組</string>
 <key>ばんこっき</key><string>万国旗</string>
 <key>ばんごう</key><string>番号</string>
 <key>ばんざい</key><string>万歳</string>
 <key>ばんしゃく</key><string>晩酌</string>
 <key>ばんしゅん</key><string>晩春</string>
+<key>ばんしょう</key><string>万障</string>
 <key>ばんじ</key><string>万事</string>
 <key>ばんじゅく</key><string>晩熟</string>
 <key>ばんぜん</key><string>万全</string>
+<key>ばんそう</key><string>伴奏</string>
 <key>ばんちゃ</key><string>番茶</string>
 <key>ばんねん</key><string>晩年</string>
 <key>ばんのう</key><string>万能</string>
@@ -5626,19 +5894,24 @@
 <key>ひいき</key><string>贔屓</string>
 <key>ひいまご</key><string>曾孫</string>
 <key>ひいろ</key><string>緋色</string>
+<key>ひうん</key><string>非運</string>
 <key>ひかかい</key><string>非可解</string>
 <key>ひかくてき</key><string>比較的</string>
+<key>ひかげ</key><string>日陰</string>
 <key>ひがいしゃ</key><string>被害者</string>
 <key>ひがしがわ</key><string>東側</string>
 <key>ひがしぐち</key><string>東口</string>
 <key>ひがしの</key><string>東野</string>
 <key>ひがた</key><string>干潟</string>
+<key>ひきあい</key><string>引合</string>
 <key>ひきゃく</key><string>飛脚</string>
 <key>ひきょり</key><string>飛距離</string>
 <key>ひきん</key><string>卑近</string>
 <key>ひきんしつ</key><string>非均質</string>
+<key>ひきんぞく</key><string>卑金属</string>
 <key>ひくつ</key><string>卑屈</string>
 <key>ひけっていせい</key><string>非決定性</string>
+<key>ひけんしゃ</key><string>被験者</string>
 <key>ひげき</key><string>悲劇</string>
 <key>ひげんじつてき</key><string>非現実的</string>
 <key>ひこうき</key><string>飛行機</string>
@@ -5685,6 +5958,7 @@
 <key>ひっちょう</key><string>必聴</string>
 <key>ひってき</key><string>匹敵</string>
 <key>ひっぱく</key><string>逼迫</string>
+<key>ひっぱり</key><string>引張</string>
 <key>ひつあつ</key><string>筆圧</string>
 <key>ひつう</key><string>悲痛</string>
 <key>ひつじどし</key><string>未年</string>
@@ -5725,6 +5999,7 @@
 <key>ひにょう</key><string>泌尿</string>
 <key>ひにょうき</key><string>泌尿器</string>
 <key>ひはん</key><string>批判</string>
+<key>ひばく</key><string>被曝</string>
 <key>ひばしら</key><string>火柱</string>
 <key>ひばち</key><string>火鉢</string>
 <key>ひばな</key><string>火花</string>
@@ -5735,6 +6010,7 @@
 <key>ひぶた</key><string>火蓋</string>
 <key>ひへい</key><string>疲弊</string>
 <key>ひぼん</key><string>非凡</string>
+<key>ひまく</key><string>皮膜</string>
 <key>ひまつ</key><string>飛抹</string>
 <key>ひまん</key><string>肥満</string>
 <key>ひみつ</key><string>秘密</string>
@@ -5742,6 +6018,7 @@
 <key>ひもと</key><string>火元</string>
 <key>ひゃくぶんりつ</key><string>百分率</string>
 <key>ひゃくめんそう</key><string>百面相</string>
+<key>ひゃっか</key><string>百科</string>
 <key>ひゃっかてん</key><string>百貨店</string>
 <key>ひゃっかりょうらん</key><string>百花繚乱</string>
 <key>ひやむぎ</key><string>冷麦</string>
@@ -5834,6 +6111,7 @@
 <key>びなん</key><string>美男</string>
 <key>びねつ</key><string>微熱</string>
 <key>びぼうろく</key><string>備忘録</string>
+<key>びまん</key><string>瀰漫</string>
 <key>びめい</key><string>美名</string>
 <key>びゃくや</key><string>白夜</string>
 <key>びやく</key><string>媚薬</string>
@@ -5850,6 +6128,7 @@
 <key>びょうれき</key><string>病歴</string>
 <key>びよう</key><string>美容</string>
 <key>びよういん</key><string>美容院</string>
+<key>びよく</key><string>尾翼</string>
 <key>びより</key><string>日和</string>
 <key>びりゅう</key><string>微粒</string>
 <key>びりょく</key><string>微力</string>
@@ -5877,6 +6156,7 @@
 <key>ふうしゅう</key><string>風習</string>
 <key>ふうしょ</key><string>封書</string>
 <key>ふうしん</key><string>風疹</string>
+<key>ふうせつ</key><string>風雪</string>
 <key>ふうそく</key><string>風速</string>
 <key>ふうぞく</key><string>風俗</string>
 <key>ふうてい</key><string>風体</string>
@@ -5907,6 +6187,7 @@
 <key>ふきつ</key><string>不吉</string>
 <key>ふきんこう</key><string>不均衡</string>
 <key>ふきんしん</key><string>不謹慎</string>
+<key>ふくいん</key><string>福音</string>
 <key>ふくえき</key><string>服役</string>
 <key>ふくおか</key><string>福岡</string>
 <key>ふくおかこうぎょうだいがく</key><string>福岡工業大学</string>
@@ -5986,6 +6267,7 @@
 <key>ふたばしゃ</key><string>双葉社</string>
 <key>ふたむら</key><string>二村</string>
 <key>ふたん</key><string>負担</string>
+<key>ふだい</key><string>譜代</string>
 <key>ふちゅうい</key><string>不注意</string>
 <key>ふっかつ</key><string>復活</string>
 <key>ふっきん</key><string>腹筋</string>
@@ -5999,11 +6281,13 @@
 <key>ふてきせつ</key><string>不適切</string>
 <key>ふてきとう</key><string>不適当</string>
 <key>ふてぎわ</key><string>不手際</string>
+<key>ふてん</key><string>符点</string>
 <key>ふでき</key><string>不出来</string>
 <key>ふとくい</key><string>不得意</string>
 <key>ふところで</key><string>懐手</string>
 <key>ふとじ</key><string>太字</string>
 <key>ふどうさん</key><string>不動産</string>
+<key>ふどうたい</key><string>不導体</string>
 <key>ふどうとく</key><string>不道徳</string>
 <key>ふなくぎ</key><string>舟釘</string>
 <key>ふなたび</key><string>船旅</string>
@@ -6052,6 +6336,7 @@
 <key>ふんしゃ</key><string>噴射</string>
 <key>ふんしゅつ</key><string>噴出</string>
 <key>ふんしょ</key><string>焚書</string>
+<key>ふんしょく</key><string>粉飾</string>
 <key>ふんすい</key><string>噴水</string>
 <key>ふんどう</key><string>分銅</string>
 <key>ふんにゅう</key><string>粉乳</string>
@@ -6080,6 +6365,7 @@
 <key>ぶたにく</key><string>豚肉</string>
 <key>ぶちょう</key><string>部長</string>
 <key>ぶっしつ</key><string>物質</string>
+<key>ぶっしょう</key><string>物証</string>
 <key>ぶっしょく</key><string>物色</string>
 <key>ぶっだ</key><string>仏陀</string>
 <key>ぶっちょうづら</key><string>仏頂面</string>
@@ -6122,8 +6408,10 @@
 <key>ぶんすいれい</key><string>分水嶺</string>
 <key>ぶんすう</key><string>分数</string>
 <key>ぶんたんしゃ</key><string>分担者</string>
+<key>ぶんちゅう</key><string>文中</string>
 <key>ぶんつう</key><string>文通</string>
 <key>ぶんのう</key><string>分納</string>
+<key>ぶんぱ</key><string>分派</string>
 <key>ぶんぱい</key><string>分配</string>
 <key>ぶんぶ</key><string>文武</string>
 <key>ぶんぶつ</key><string>文物</string>
@@ -6135,6 +6423,7 @@
 <key>ぶんまつ</key><string>文末</string>
 <key>ぶんみゃく</key><string>文脈</string>
 <key>ぶんみん</key><string>文民</string>
+<key>ぶんめい</key><string>文明</string>
 <key>ぶんめん</key><string>文面</string>
 <key>ぶんよ</key><string>分与</string>
 <key>ぶんらく</key><string>文楽</string>
@@ -6152,10 +6441,12 @@
 <key>へいげい</key><string>睥睨</string>
 <key>へいげん</key><string>平原</string>
 <key>へいこうしへんけい</key><string>平行四辺形</string>
+<key>へいこうせん</key><string>平行線</string>
 <key>へいさ</key><string>閉鎖</string>
 <key>へいざん</key><string>閉山</string>
 <key>へいしゅうごう</key><string>閉集合</string>
 <key>へいじつ</key><string>平日</string>
+<key>へいせい</key><string>平静</string>
 <key>へいせつ</key><string>併設</string>
 <key>へいそ</key><string>平素</string>
 <key>へいどん</key><string>併呑</string>
@@ -6220,6 +6511,7 @@
 <key>へんぺい</key><string>扁平</string>
 <key>へんりん</key><string>片鱗</string>
 <key>へんれき</key><string>遍歴</string>
+<key>べいか</key><string>米価</string>
 <key>べいぐん</key><string>米軍</string>
 <key>べいさく</key><string>米作</string>
 <key>べいしきしゅうきゅう</key><string>米式蹴球</string>
@@ -6236,6 +6528,7 @@
 <key>べっちゅう</key><string>別注</string>
 <key>べっと</key><string>別途</string>
 <key>べっぴょう</key><string>別表</string>
+<key>べっぴん</key><string>別嬪</string>
 <key>べつくち</key><string>別口</string>
 <key>べつじょう</key><string>別状</string>
 <key>べつじん</key><string>別人</string>
@@ -6270,6 +6563,7 @@
 <key>べんれい</key><string>勉励</string>
 <key>べんろん</key><string>弁論</string>
 <key>ほあん</key><string>保安</string>
+<key>ほうあん</key><string>法案</string>
 <key>ほういがく</key><string>法医学</string>
 <key>ほうかいしゃく</key><string>法解釈</string>
 <key>ほうかいせき</key><string>方解石</string>
@@ -6279,15 +6573,21 @@
 <key>ほうがんし</key><string>方眼紙</string>
 <key>ほうきゅう</key><string>俸給</string>
 <key>ほうこ</key><string>宝庫</string>
+<key>ほうこく</key><string>報告</string>
 <key>ほうこくしょ</key><string>報告書</string>
 <key>ほうこくじこう</key><string>報告事項</string>
+<key>ほうごう</key><string>縫合</string>
 <key>ほうしゃせい</key><string>放射性</string>
 <key>ほうしゃせん</key><string>放射線</string>
 <key>ほうしゃのう</key><string>放射能</string>
 <key>ほうしょ</key><string>奉書</string>
 <key>ほうしょくひん</key><string>宝飾品</string>
+<key>ほうじゅう</key><string>放縦</string>
 <key>ほうじゅく</key><string>豊熟</string>
+<key>ほうじゅん</key><string>芳醇</string>
+<key>ほうじょう</key><string>豊饒</string>
 <key>ほうせき</key><string>宝石</string>
+<key>ほうせつ</key><string>包接</string>
 <key>ほうそうかい</key><string>法曹界</string>
 <key>ほうそうきょく</key><string>放送局</string>
 <key>ほうそうし</key><string>包装紙</string>
@@ -6308,6 +6608,7 @@
 <key>ほうりつ</key><string>法律</string>
 <key>ほうりつろん</key><string>法律論</string>
 <key>ほうりゅう</key><string>放流</string>
+<key>ほうれい</key><string>法令</string>
 <key>ほうろうへき</key><string>放浪癖</string>
 <key>ほおべに</key><string>頬紅</string>
 <key>ほおぼね</key><string>頬骨</string>
@@ -6338,6 +6639,7 @@
 <key>ほしとりひょう</key><string>星取表</string>
 <key>ほしゃく</key><string>保釈</string>
 <key>ほしょうにん</key><string>保証人</string>
+<key>ほしょく</key><string>補色</string>
 <key>ほしん</key><string>保身</string>
 <key>ほじゅう</key><string>補充</string>
 <key>ほじょきん</key><string>補助金</string>
@@ -6397,6 +6699,7 @@
 <key>ほんばこ</key><string>本箱</string>
 <key>ほんばん</key><string>本番</string>
 <key>ほんぶ</key><string>本部</string>
+<key>ほんぶん</key><string>本文</string>
 <key>ほんまち</key><string>本町</string>
 <key>ほんまつてんとう</key><string>本末転倒</string>
 <key>ほんみょう</key><string>本名</string>
@@ -6501,6 +6804,7 @@
 <key>まかい</key><string>魔界</string>
 <key>まかふしぎ</key><string>摩訶不思議</string>
 <key>まがお</key><string>真顔</string>
+<key>まきがみ</key><string>巻紙</string>
 <key>まくうち</key><string>幕内</string>
 <key>まくした</key><string>幕下</string>
 <key>まくはり</key><string>幕張</string>
@@ -6563,6 +6867,7 @@
 <key>まりょく</key><string>魔力</string>
 <key>まるおか</key><string>丸岡</string>
 <key>まるき</key><string>丸木</string>
+<key>まるぜん</key><string>丸善</string>
 <key>まるぞこ</key><string>丸底</string>
 <key>まるはだか</key><string>丸裸</string>
 <key>まるばやし</key><string>丸林</string>
@@ -6643,6 +6948,7 @@
 <key>みぜんけい</key><string>未然形</string>
 <key>みそじ</key><string>三十路</string>
 <key>みそに</key><string>味噌煮</string>
+<key>みそら</key><string>身空</string>
 <key>みたか</key><string>三鷹</string>
 <key>みちじゅん</key><string>道順</string>
 <key>みちすじ</key><string>道筋</string>
@@ -6674,8 +6980,10 @@
 <key>みつりん</key><string>密林</string>
 <key>みてい</key><string>未定</string>
 <key>みていぎ</key><string>未定義</string>
+<key>みとう</key><string>未踏</string>
 <key>みとうさ</key><string>未踏査</string>
 <key>みどう</key><string>御堂</string>
+<key>みどく</key><string>未読</string>
 <key>みどし</key><string>巳年</string>
 <key>みなさま</key><string>皆様</string>
 <key>みなとく</key><string>港区</string>
@@ -6695,6 +7003,7 @@
 <key>みゃくどう</key><string>脈動</string>
 <key>みゃくらく</key><string>脈絡</string>
 <key>みやうち</key><string>宮内</string>
+<key>みやぎ</key><string>宮城</string>
 <key>みやげ</key><string>土産</string>
 <key>みやげばなし</key><string>土産話</string>
 <key>みやさか</key><string>宮坂</string>
@@ -6711,6 +7020,7 @@
 <key>みょうちょう</key><string>明朝</string>
 <key>みょうにち</key><string>明日</string>
 <key>みょうねん</key><string>明年</string>
+<key>みょうり</key><string>冥利</string>
 <key>みりょく</key><string>魅力</string>
 <key>みれん</key><string>未練</string>
 <key>みわく</key><string>魅惑</string>
@@ -6767,8 +7077,10 @@
 <key>むだん</key><string>無断</string>
 <key>むちゃ</key><string>無茶</string>
 <key>むちゃくちゃ</key><string>無茶苦茶</string>
+<key>むちゅう</key><string>夢中</string>
 <key>むちん</key><string>無賃</string>
 <key>むつう</key><string>無痛</string>
+<key>むつき</key><string>睦月</string>
 <key>むてじゅん</key><string>無手順</string>
 <key>むてっぽう</key><string>無鉄砲</string>
 <key>むでん</key><string>無電</string>
@@ -6798,10 +7110,13 @@
 <key>めいかく</key><string>明確</string>
 <key>めいがら</key><string>銘柄</string>
 <key>めいきゅう</key><string>迷宮</string>
+<key>めいげつ</key><string>名月</string>
 <key>めいさいしょ</key><string>明細書</string>
 <key>めいさくげきじょう</key><string>名作劇場</string>
+<key>めいさつ</key><string>名刹</string>
 <key>めいさん</key><string>名産</string>
 <key>めいしょく</key><string>明色</string>
+<key>めいじ</key><string>明示</string>
 <key>めいじてき</key><string>明示的</string>
 <key>めいじや</key><string>明治屋</string>
 <key>めいすい</key><string>名水</string>
@@ -6843,6 +7158,7 @@
 <key>めっしつ</key><string>滅失</string>
 <key>めった</key><string>滅多</string>
 <key>めつぼう</key><string>滅亡</string>
+<key>めのう</key><string>碼碯</string>
 <key>めはな</key><string>目鼻</string>
 <key>めぶんりょう</key><string>目分量</string>
 <key>めぼし</key><string>目星</string>
@@ -6875,6 +7191,8 @@
 <key>もうしこみしょ</key><string>申込書</string>
 <key>もうしたてしょ</key><string>申立書</string>
 <key>もうしょ</key><string>猛暑</string>
+<key>もうしん</key><string>盲信</string>
+<key>もうじゃ</key><string>亡者</string>
 <key>もうせん</key><string>毛氈</string>
 <key>もうそうちく</key><string>孟宗竹</string>
 <key>もうだ</key><string>猛打</string>
@@ -6885,13 +7203,16 @@
 <key>もうひつ</key><string>毛筆</string>
 <key>もうふ</key><string>毛布</string>
 <key>もうぼさんせん</key><string>孟母三遷</string>
+<key>もうまい</key><string>蒙昧</string>
 <key>もうまく</key><string>網膜</string>
 <key>もうもく</key><string>盲目</string>
 <key>もうら</key><string>網羅</string>
 <key>もうりょう</key><string>魍魎</string>
 <key>もうれつ</key><string>猛烈</string>
+<key>もくあみ</key><string>黙阿弥</string>
 <key>もくさん</key><string>目算</string>
 <key>もくざい</key><string>木材</string>
+<key>もくせい</key><string>木星</string>
 <key>もくそく</key><string>目測</string>
 <key>もくたん</key><string>木炭</string>
 <key>もくてき</key><string>目的</string>
@@ -6934,6 +7255,7 @@
 <key>もめん</key><string>木綿</string>
 <key>ももこ</key><string>桃子</string>
 <key>もよう</key><string>模様</string>
+<key>もりおか</key><string>盛岡</string>
 <key>もりした</key><string>森下</string>
 <key>もんか</key><string>門下</string>
 <key>もんがい</key><string>門外</string>
@@ -6960,6 +7282,7 @@
 <key>もんぴょう</key><string>門標</string>
 <key>もんぶ</key><string>文部</string>
 <key>もんぶしょう</key><string>文部省</string>
+<key>やえい</key><string>野営</string>
 <key>やえば</key><string>八重歯</string>
 <key>やおちょう</key><string>八百長</string>
 <key>やおもて</key><string>矢面</string>
@@ -7049,6 +7372,7 @@
 <key>ゆいのう</key><string>結納</string>
 <key>ゆいぶつ</key><string>唯物</string>
 <key>ゆういぎ</key><string>有意義</string>
+<key>ゆういん</key><string>誘引</string>
 <key>ゆうえき</key><string>有益</string>
 <key>ゆうえんち</key><string>遊園地</string>
 <key>ゆうか</key><string>有価</string>
@@ -7101,6 +7425,7 @@
 <key>ゆうめいじん</key><string>有名人</string>
 <key>ゆうめし</key><string>夕飯</string>
 <key>ゆうやみ</key><string>夕闇</string>
+<key>ゆうゆう</key><string>悠々</string>
 <key>ゆうらくちょう</key><string>有楽町</string>
 <key>ゆうらん</key><string>遊覧</string>
 <key>ゆうりすう</key><string>有理数</string>
@@ -7132,22 +7457,31 @@
 <key>よういく</key><string>養育</string>
 <key>よういせい</key><string>容易性</string>
 <key>ようおん</key><string>拗音</string>
+<key>ようがく</key><string>洋楽</string>
 <key>ようがし</key><string>洋菓子</string>
 <key>ようきゅうしよう</key><string>要求仕様</string>
 <key>ようぎょう</key><string>窯業</string>
 <key>ようぎん</key><string>洋銀</string>
 <key>ようしゅん</key><string>陽春</string>
 <key>ようじゅつ</key><string>妖術</string>
+<key>ようすい</key><string>用水</string>
 <key>ようそうろんり</key><string>様相論理</string>
+<key>ようたい</key><string>容体</string>
 <key>ようちえん</key><string>幼稚園</string>
+<key>ようちょう</key><string>羊腸</string>
+<key>ようてい</key><string>要諦</string>
 <key>ようでんし</key><string>陽電子</string>
 <key>ようと</key><string>用途</string>
 <key>ようとん</key><string>養豚</string>
+<key>ようど</key><string>用度</string>
 <key>ようねん</key><string>幼年</string>
 <key>ようひし</key><string>羊皮紙</string>
 <key>ようふう</key><string>洋風</string>
 <key>ようふく</key><string>洋服</string>
 <key>ようふぼ</key><string>養父母</string>
+<key>ようへい</key><string>用兵</string>
+<key>ようむ</key><string>用務</string>
+<key>ようよう</key><string>洋々</string>
 <key>ようらんき</key><string>揺籃期</string>
 <key>ようりく</key><string>揚陸</string>
 <key>ようりょくそ</key><string>葉緑素</string>
@@ -7155,12 +7489,15 @@
 <key>ようれき</key><string>陽暦</string>
 <key>ようろう</key><string>養老</string>
 <key>ようろく</key><string>要録</string>
+<key>よかく</key><string>与格</string>
+<key>よきょう</key><string>余興</string>
 <key>よきん</key><string>預金</string>
 <key>よくあつ</key><string>抑圧</string>
 <key>よくげつ</key><string>翌月</string>
 <key>よくし</key><string>抑止</string>
 <key>よくしつ</key><string>浴室</string>
 <key>よくじつ</key><string>翌日</string>
+<key>よくじょう</key><string>浴場</string>
 <key>よくせい</key><string>抑制</string>
 <key>よくそう</key><string>浴槽</string>
 <key>よくたん</key><string>翼端</string>
@@ -7181,15 +7518,20 @@
 <key>よこもじ</key><string>横文字</string>
 <key>よこやま</key><string>横山</string>
 <key>よこれんぼ</key><string>横恋慕</string>
+<key>よせい</key><string>余生</string>
 <key>よそうがい</key><string>予想外</string>
 <key>よぞら</key><string>夜空</string>
 <key>よちょきん</key><string>預貯金</string>
 <key>よっきゅう</key><string>欲求</string>
 <key>よなか</key><string>夜中</string>
 <key>よねだ</key><string>米田</string>
+<key>よねつ</key><string>余熱</string>
+<key>よねん</key><string>余念</string>
 <key>よびこう</key><string>予備校</string>
 <key>よほど</key><string>余程</string>
 <key>よみち</key><string>夜道</string>
+<key>よろく</key><string>余録</string>
+<key>よろん</key><string>世論</string>
 <key>よわき</key><string>弱気</string>
 <key>よわごし</key><string>弱腰</string>
 <key>よわね</key><string>弱音</string>
@@ -7222,6 +7564,7 @@
 <key>らくちゃく</key><string>落着</string>
 <key>らくてん</key><string>楽天</string>
 <key>らくのう</key><string>酪農</string>
+<key>らくはく</key><string>落魄</string>
 <key>らくば</key><string>落馬</string>
 <key>らくらい</key><string>落雷</string>
 <key>らくるい</key><string>落涙</string>
@@ -7234,6 +7577,7 @@
 <key>らんがい</key><string>欄外</string>
 <key>らんきりゅう</key><string>乱気流</string>
 <key>らんぎょう</key><string>乱行</string>
+<key>らんこう</key><string>乱交</string>
 <key>らんこうげ</key><string>乱高下</string>
 <key>らんこん</key><string>乱婚</string>
 <key>らんざつ</key><string>乱雑</string>
@@ -7259,6 +7603,7 @@
 <key>りきさく</key><string>力作</string>
 <key>りきし</key><string>力士</string>
 <key>りきせつ</key><string>力説</string>
+<key>りきせん</key><string>力戦</string>
 <key>りきりょう</key><string>力量</string>
 <key>りくうん</key><string>陸運</string>
 <key>りくかいぐん</key><string>陸海軍</string>
@@ -7281,11 +7626,13 @@
 <key>りちゃっかん</key><string>離着艦</string>
 <key>りっか</key><string>立夏</string>
 <key>りっこうほ</key><string>立候補</string>
+<key>りっしゅう</key><string>立秋</string>
 <key>りっしゅん</key><string>立春</string>
 <key>りっしょく</key><string>立食</string>
 <key>りっしん</key><string>立身</string>
 <key>りっそく</key><string>律速</string>
 <key>りったい</key><string>立体</string>
+<key>りっとう</key><string>立冬</string>
 <key>りっぱ</key><string>立派</string>
 <key>りっぷく</key><string>立腹</string>
 <key>りっぽうがそ</key><string>立方画素</string>
@@ -7345,6 +7692,7 @@
 <key>りゆう</key><string>理由</string>
 <key>りょういき</key><string>領域</string>
 <key>りょういん</key><string>両院</string>
+<key>りょうか</key><string>量化</string>
 <key>りょうが</key><string>凌駕</string>
 <key>りょうがえ</key><string>両替</string>
 <key>りょうがわ</key><string>両側</string>
@@ -7353,8 +7701,10 @@
 <key>りょうくう</key><string>領空</string>
 <key>りょうこく</key><string>両国</string>
 <key>りょうさいけんぼ</key><string>良妻賢母</string>
+<key>りょうさく</key><string>良策</string>
 <key>りょうさん</key><string>量産</string>
 <key>りょうしつ</key><string>良質</string>
+<key>りょうしょく</key><string>糧食</string>
 <key>りょうじつ</key><string>両日</string>
 <key>りょうじゅう</key><string>猟銃</string>
 <key>りょうぞく</key><string>良俗</string>
@@ -7399,6 +7749,7 @@
 <key>りんごく</key><string>隣国</string>
 <key>りんしょく</key><string>吝嗇</string>
 <key>りんじゅう</key><string>臨終</string>
+<key>りんじょう</key><string>臨場</string>
 <key>りんじん</key><string>隣人</string>
 <key>りんせんたいせい</key><string>臨戦体制</string>
 <key>りんてん</key><string>輪転</string>
@@ -7425,7 +7776,9 @@
 <key>れいぎ</key><string>礼儀</string>
 <key>れいけつ</key><string>冷血</string>
 <key>れいけつかん</key><string>冷血漢</string>
+<key>れいけん</key><string>霊験</string>
 <key>れいげつ</key><string>例月</string>
+<key>れいこ</key><string>玲子</string>
 <key>れいこん</key><string>霊魂</string>
 <key>れいそく</key><string>令息</string>
 <key>れいぞう</key><string>冷蔵</string>
@@ -7439,6 +7792,7 @@
 <key>れいふく</key><string>礼服</string>
 <key>れきぜん</key><string>歴然</string>
 <key>れきだい</key><string>歴代</string>
+<key>れきほう</key><string>歴訪</string>
 <key>れっきょ</key><string>列挙</string>
 <key>れっきょう</key><string>列強</string>
 <key>れっこく</key><string>列国</string>
@@ -7528,6 +7882,7 @@
 <key>ろっこつ</key><string>肋骨</string>
 <key>ろっぽんぎ</key><string>六本木</string>
 <key>ろっぽんまつ</key><string>六本松</string>
+<key>ろてい</key><string>露呈</string>
 <key>ろばん</key><string>路盤</string>
 <key>ろめん</key><string>路面</string>
 <key>ろんがい</key><string>論外</string>
@@ -7557,6 +7912,7 @@
 <key>ろんりてき</key><string>論理的</string>
 <key>わいきょく</key><string>歪曲</string>
 <key>わいしょう</key><string>矮小</string>
+<key>わいせい</key><string>矮星</string>
 <key>わいせつ</key><string>猥褻</string>
 <key>わいだん</key><string>猥談</string>
 <key>わいろ</key><string>賄賂</string>
@@ -7583,6 +7939,7 @@
 <key>わしき</key><string>和式</string>
 <key>わしつ</key><string>和室</string>
 <key>わしょく</key><string>和食</string>
+<key>わじま</key><string>和嶋</string>
 <key>わせだ</key><string>早稲田</string>
 <key>わせだだい</key><string>早稲田大</string>
 <key>わたくしごと</key><string>私事</string>
@@ -7594,6 +7951,7 @@
 <key>わふう</key><string>和風</string>
 <key>わふく</key><string>和服</string>
 <key>わぶん</key><string>和文</string>
+<key>わほう</key><string>話法</string>
 <key>わぼく</key><string>和睦</string>
 <key>わめい</key><string>和名</string>
 <key>わやく</key><string>和訳</string>
