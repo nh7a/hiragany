@@ -8,6 +8,10 @@ With Hiragany, you cannot (or don't need to) "select" Kanji conversion at all.  
 Since you don't worry about Kanji conversion at all, you don't hit Space or Enter to do it.  Space and Enter always mean as they are as in English locale.  No Command-Enter or double-hit Enter in order to enter.
 
 
+* Download
+The latest binary should be found at http://github.com/nh7a/hiragany/downloads
+
+
 * Install
 Copy Hiragany.app to /Library/Input Methods/ and open System Preferences to enable it.  If this is your first installation, you would need to logout the system and login, after copying the file.
 
