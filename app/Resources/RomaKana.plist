@@ -131,6 +131,7 @@
 	<key>TA</key>	<string>タ</string>
 	<key>TI</key>	<string>チ</string>
 	<key>TU</key>	<string>ツ</string>
+	<key>TSU</key>	<string>ツ</string>
 	<key>TE</key>	<string>テ</string>
 	<key>TO</key>	<string>ト</string>
 	<key>da</key>	<string>だ</string>
@@ -173,6 +174,16 @@
 	<key>CYU</key>	<string>チュ</string>
 	<key>CYE</key>	<string>チェ</string>
 	<key>CYO</key>	<string>チョ</string>
+	<key>cha</key>	<string>ちゃ</string>
+	<key>chi</key>	<string>ち</string>
+	<key>chu</key>	<string>ちゅ</string>
+	<key>che</key>	<string>ちぇ</string>
+	<key>cho</key>	<string>ちょ</string>
+	<key>CHA</key>	<string>チャ</string>
+	<key>CHI</key>	<string>チ</string>
+	<key>CHU</key>	<string>チュ</string>
+	<key>CHE</key>	<string>チェ</string>
+	<key>CHO</key>	<string>チョ</string>
 	<key>na</key>	<string>な</string>
 	<key>ni</key>	<string>に</string>
 	<key>nu</key>	<string>ぬ</string>
