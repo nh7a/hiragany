@@ -3,6 +3,10 @@
 $KCODE='u'
 require 'jcode'
 
+MIN_SCORE = 0.7
+MIN_TFIDF = 1000
+MIN_DF = 1000
+
 MIN_GRADE = 0
 MAX_GRADE = 7
 
@@ -105,22 +109,21 @@ def read_blacklist(filename = 'hiragany.blacklist')
   blacklist
 end
 
-$blacklist = read_blacklist()
-$blacklist += read_blacklist('hiragany.katakana')
-$blacklist += read_blacklist('hiragany.homonyms')
+$blacklist = {} # read_blacklist()
 
 entries = {}
 results = {}
 
 while gets
   next if $_[0].chr == '#'
-  arr = $_.split " "
-  yomi = arr[0]
-  kanji = arr[1]
+  yomi, kanji, tf, df, tfidf, ratio = $_.split(" ")
   entries[yomi] = true
   next if $blacklist.include? yomi
   next if yomi.length <= 6
   next if kanji.length < 6
+  next if df.to_i < MIN_DF
+  next if tfidf.to_i < MIN_TFIDF
+  next if tfidf.to_f < MIN_SCORE
 
   if results[yomi] && results[yomi] != kanji
     $blacklist << yomi
