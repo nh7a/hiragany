@@ -109,7 +109,7 @@ def read_blacklist(filename = 'hiragany.blacklist')
   blacklist
 end
 
-$blacklist = {} # read_blacklist()
+$blacklist = read_blacklist()
 
 entries = {}
 results = {}
