@@ -123,7 +123,7 @@ while gets
   next if kanji.length < 6
   next if df.to_i < MIN_DF
   next if tfidf.to_i < MIN_TFIDF
-  next if tfidf.to_f < MIN_SCORE
+  next if ratio.to_f < MIN_SCORE
 
   if results[yomi] && results[yomi] != kanji
     $blacklist << yomi
