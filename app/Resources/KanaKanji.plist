@@ -26,7 +26,6 @@
 <key>あいぼう</key><string>相棒</string>
 <key>あいま</key><string>合間</string>
 <key>あいよう</key><string>愛用</string>
-<key>あうと</key><string>アウト</string>
 <key>あえん</key><string>亜鉛</string>
 <key>あおいろ</key><string>青色</string>
 <key>あおき</key><string>青木</string>
@@ -142,7 +141,6 @@
 <key>ありま</key><string>有馬</string>
 <key>あるじ</key><string>主人</string>
 <key>あるじきょう</key><string>主教</string>
-<key>あると</key><string>アルト</string>
 <key>あるばむ</key><string>アルバム</string>
 <key>あるぷす</key><string>アルプス</string>
 <key>あるみ</key><string>アルミ</string>
@@ -188,7 +186,6 @@
 <key>いくじ</key><string>育児</string>
 <key>いくせい</key><string>育成</string>
 <key>いくど</key><string>幾度</string>
-<key>いくの</key><string>生野</string>
 <key>いぐち</key><string>井口</string>
 <key>いけがみ</key><string>池上</string>
 <key>いけだ</key><string>池田</string>
@@ -321,7 +318,6 @@
 <key>いまい</key><string>今井</string>
 <key>いまいずみ</key><string>今泉</string>
 <key>いまかわ</key><string>今川</string>
-<key>いまの</key><string>今野</string>
 <key>いまばり</key><string>今治</string>
 <key>いまむら</key><string>今村</string>
 <key>いみょう</key><string>異名</string>
@@ -332,7 +328,6 @@
 <key>いよく</key><string>意欲</string>
 <key>いらく</key><string>イラク</string>
 <key>いらすと</key><string>イラスト</string>
-<key>いらん</key><string>イラン</string>
 <key>いりえ</key><string>入江</string>
 <key>いりのい</key><string>イリノイ</string>
 <key>いりょく</key><string>威力</string>
@@ -372,7 +367,6 @@
 <key>うえおもて</key><string>上面</string>
 <key>うえすぎ</key><string>上杉</string>
 <key>うえすと</key><string>ウエスト</string>
-<key>うえの</key><string>上野</string>
 <key>うえやま</key><string>上山</string>
 <key>うがん</key><string>右岸</string>
 <key>うきょう</key><string>右京</string>
@@ -527,7 +521,6 @@
 <key>おうりつ</key><string>王立</string>
 <key>おおあざ</key><string>大字</string>
 <key>おおあめ</key><string>大雨</string>
-<key>おおいし</key><string>大石</string>
 <key>おおいずみ</key><string>大泉</string>
 <key>おおうち</key><string>大内</string>
 <key>おおうら</key><string>大浦</string>
@@ -737,7 +730,6 @@
 <key>かいん</key><string>下院</string>
 <key>かうんと</key><string>カウント</string>
 <key>かえん</key><string>火炎</string>
-<key>かおう</key><string>花王</string>
 <key>かおく</key><string>家屋</string>
 <key>かおす</key><string>カオス</string>
 <key>かかく</key><string>価格</string>
@@ -836,7 +828,6 @@
 <key>かっせい</key><string>活性</string>
 <key>かっせん</key><string>合戦</string>
 <key>かっそう</key><string>滑走</string>
-<key>かって</key><string>勝手</string>
 <key>かっと</key><string>カット</string>
 <key>かっとう</key><string>葛藤</string>
 <key>かっぱつ</key><string>活発</string>
@@ -2568,7 +2559,6 @@
 <key>しょじょ</key><string>処女</string>
 <key>しょせき</key><string>書籍</string>
 <key>しょせつ</key><string>諸説</string>
-<key>しょせん</key><string>初戦</string>
 <key>しょぞう</key><string>所蔵</string>
 <key>しょぞく</key><string>所属</string>
 <key>しょたい</key><string>書体</string>
@@ -4317,7 +4307,6 @@
 <key>とりひき</key><string>取引</string>
 <key>とりぷる</key><string>トリプル</string>
 <key>とりやま</key><string>鳥山</string>
-<key>とるこ</key><string>トルコ</string>
 <key>とろんと</key><string>トロント</string>
 <key>とんざ</key><string>頓挫</string>
 <key>とんねる</key><string>トンネル</string>
@@ -4377,7 +4366,6 @@
 <key>どくだん</key><string>独断</string>
 <key>どくとく</key><string>独特</string>
 <key>どくりつ</key><string>独立</string>
-<key>どこも</key><string>ドコモ</string>
 <key>どしゃ</key><string>土砂</string>
 <key>どじょう</key><string>土壌</string>
 <key>どだい</key><string>土台</string>
@@ -4469,7 +4457,6 @@
 <key>ならしの</key><string>習志野</string>
 <key>なりた</key><string>成田</string>
 <key>なりたくうこう</key><string>成田空港</string>
-<key>なると</key><string>鳴門</string>
 <key>なんかいほうそう</key><string>南海放送</string>
 <key>なんきょく</key><string>南極</string>
 <key>なんきん</key><string>南京</string>
@@ -5239,7 +5226,6 @@
 <key>ふっこう</key><string>復興</string>
 <key>ふっこく</key><string>復刻</string>
 <key>ふってん</key><string>沸点</string>
-<key>ふつう</key><string>普通</string>
 <key>ふつご</key><string>仏語</string>
 <key>ふていき</key><string>不定期</string>
 <key>ふてきせつ</key><string>不適切</string>
@@ -6055,7 +6041,6 @@
 <key>やくると</key><string>ヤクルト</string>
 <key>やくわり</key><string>役割</string>
 <key>やぐち</key><string>矢口</string>
-<key>やこう</key><string>夜行</string>
 <key>やごう</key><string>屋号</string>
 <key>やさい</key><string>野菜</string>
 <key>やざわ</key><string>矢沢</string>
@@ -6094,7 +6079,6 @@
 <key>やまね</key><string>山根</string>
 <key>やまやま</key><string>山々</string>
 <key>やよい</key><string>弥生</string>
-<key>やろう</key><string>野郎</string>
 <key>やんぐ</key><string>ヤング</string>
 <key>ゆあさ</key><string>湯浅</string>
 <key>ゆあつ</key><string>油圧</string>
