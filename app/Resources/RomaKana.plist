@@ -461,7 +461,7 @@
 	<key>z8</key>	<string>８</string>
 	<key>z9</key>	<string>９</string>
 	<key>z0</key>	<string>０</string>
-	<key>z-</key>	<string>ー</string>
+	<key>z-</key>	<string>～</string>
 	<key>z=</key>	<string>＝</string>
 	<key>z~</key>	<string>〜</string>
 	<key>z!</key>	<string>！</string>
@@ -481,8 +481,8 @@
 	<key>z\</key>	<string>￥</string>
 	<key>z;</key>	<string>；</string>
 	<key>z&apos;</key>	<string>′</string>
-	<key>z,</key>	<string>、</string>
-	<key>z.</key>	<string>。</string>
+	<key>z,</key>	<string>‥</string>
+	<key>z.</key>	<string>…</string>
 	<key>z/</key>	<string>・</string>
 	<key>z{</key>	<string>｛</string>
 	<key>z}</key>	<string>｝</string>
@@ -492,5 +492,9 @@
 	<key>z&lt;</key>	<string>＜</string>
 	<key>z&gt;</key>	<string>＞</string>
 	<key>z?</key>	<string>？</string>
+	<key>zh</key>	<string>←</string>
+	<key>zj</key>	<string>↓</string>
+	<key>zk</key>	<string>↑</string>
+	<key>zl</key>	<string>→</string>
 </dict>
 </plist>
