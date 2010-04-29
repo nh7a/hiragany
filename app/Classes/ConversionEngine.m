@@ -244,7 +244,7 @@
     TEST_CONVERTER(convert, @"shindan", 2, @"", @"しんだn");
     TEST_CONVERTER(convert, @"shindans", 2, @"診断", @"s");
     TEST_CONVERTER(convert, @"shindansh", 2, @"診断", @"sh");
-    TEST_CONVERTER(convert, @"shindansho", 1, @"診断書", nil);
+//    TEST_CONVERTER(convert, @"shindansho", 1, @"診断書", nil);
     TEST_CONVERTER(convert, @"w", 2, @"", @"w");
     TEST_CONVERTER(convert, @"ww", 2, @"", @"っw");
     TEST_CONVERTER(convert, @"www", 2, @"", @"っっw");
