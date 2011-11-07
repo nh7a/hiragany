@@ -15,7 +15,6 @@
 @implementation HiraganyController
 
 - (id)initWithServer:(IMKServer*)server delegate:(id)delegate client:(id)inputClient {
-    NSLog(@"Initializing Hiragany...");
     if (self = [super initWithServer:server delegate:delegate client:inputClient]) {
         romanBuffer_ = [NSMutableString new];
         kanaBuffer_ = [NSMutableString new];
