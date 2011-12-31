@@ -15,10 +15,11 @@
 
 -(void)awakeFromNib {
     katakana_ = NO;
-    romakanaDic_ = [self loadPlist:@"RomaKana"];
-    kanakanjiDic_ = [self loadPlist:@"KanaKanji"];
-    symbolDic_ = [self loadPlist:@"Symbol"];
-    particleDic_ = [self loadPlist:@"Particles"];
+    NSLog(@"Initializing Hiragany...");
+    romakanaDic_  = [[self loadPlist:@"RomaKana"] retain];
+    kanakanjiDic_ = [[self loadPlist:@"KanaKanji"] retain];
+    symbolDic_    = [[self loadPlist:@"Symbols"] retain];
+    particleDic_  = [[self loadPlist:@"Particles"] retain];
 
 #ifdef DEBUG
     [self testRomanToKana];
@@ -115,7 +116,9 @@
     CFMutableStringRef buf = CFStringCreateMutableCopy(kCFAllocatorDefault, 0, (CFStringRef)string);
     CFRange range = CFRangeMake(0, [string length]);
     CFStringTransform(buf, &range, kCFStringTransformHiraganaKatakana, NO);
-    return (NSString*)buf;
+    NSString *result = (NSString*)buf;
+    [result autorelease];
+    return result;
 }
 
 -(NSArray*)convert:(NSString*)string {
@@ -167,11 +170,8 @@
                                                 mutabilityOption:NSPropertyListMutableContainersAndLeaves
                                                           format:&format
                                                 errorDescription:&errorDesc];    
-    if (plist) {
-        NSLog(@"Plist has been loaded: %@", name);
-        [plist retain];
-    } else {
-        NSLog(errorDesc);
+    if (!plist) {
+        NSLog(@"%@", errorDesc);
         [errorDesc release];
     }
     return plist;
