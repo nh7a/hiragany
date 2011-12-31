@@ -10,12 +10,8 @@ IMKServer*       server;
 
 int main(int argc, char *argv[])
 {
-  
-  NSString*       identifier;
   NSAutoreleasePool *pool = [[NSAutoreleasePool alloc] init];
   
-  //find the bundle identifier and then initialize the input method server
-  identifier = [[NSBundle mainBundle] bundleIdentifier];
   server = [[IMKServer alloc] initWithName:(NSString*)kConnectionName bundleIdentifier:[[NSBundle mainBundle] bundleIdentifier]];
   
   //load the bundle explicitly because in this case the input method is a background only application 

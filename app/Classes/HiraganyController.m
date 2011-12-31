@@ -15,10 +15,9 @@
 @implementation HiraganyController
 
 - (id)initWithServer:(IMKServer*)server delegate:(id)delegate client:(id)inputClient {
-    NSLog(@"Initializing Hiragany...");
     if (self = [super initWithServer:server delegate:delegate client:inputClient]) {
         romanBuffer_ = [NSMutableString new];
-        kanaBuffer_ = [NSMutableString new];
+        kanaBuffer_  = [NSMutableString new];
         kanjiBuffer_ = [NSMutableString new];
         kakamanyMode_ = [[NSUserDefaults standardUserDefaults] boolForKey:@"kakamany"];
     }
@@ -227,7 +226,7 @@
     NSInteger style = NSUnderlineStyleNone;
     NSDictionary* attr = [NSDictionary dictionaryWithObjectsAndKeys:
                           [NSNumber numberWithInt:style], NSUnderlineStyleAttributeName, nil];
-    NSMutableAttributedString* buf = [[NSAttributedString alloc] initWithString:text
+    NSMutableAttributedString* buf = [[NSMutableAttributedString alloc] initWithString:text
                                                                      attributes:attr];
     [sender setMarkedText:buf
            selectionRange:NSMakeRange([text length], 0)
