@@ -121,7 +121,10 @@
             converter.katakana = YES;
         }
     }
-    
+    if (flags & NSControlKeyMask) {
+        return NO;
+    }
+
     if ([self appendString:string sender:sender])
         return YES;
     
