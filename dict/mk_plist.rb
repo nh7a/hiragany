@@ -1,11 +1,9 @@
-# -*- coding: utf-8 -*-
+# encoding: utf-8
 # ./mk_plist.rb hiragany.dict > KanaKanji.plist
-$KCODE='u'
-require 'jcode'
 
 MIN_SCORE = 0.7
 MIN_TFIDF = 1000
-MIN_DF = 1000
+MIN_DF = 500
 
 MIN_GRADE = 0
 MAX_GRADE = 7
@@ -119,8 +117,8 @@ while gets
   yomi, kanji, tf, df, tfidf, ratio = $_.split(" ")
   entries[yomi] = true
   next if $blacklist.include? yomi
-  next if yomi.length <= 6
-  next if kanji.length < 6
+  next if yomi.length <= 2
+  next if kanji.length < 2
   next if df.to_i < MIN_DF
   next if tfidf.to_i < MIN_TFIDF
   next if ratio.to_f < MIN_SCORE
