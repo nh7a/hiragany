@@ -8,6 +8,7 @@ app: dic
 install: app
 	-killall Hiragany
 	cp -R  app/build/Release/Hiragany.app ~/Library/Input\ Methods/
+	cp -R  app/build/Release/Hiragany.app /Library/Input\ Methods/
 
 release: dist/Hiragany-${VERSION}.zip
 
