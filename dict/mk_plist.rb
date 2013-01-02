@@ -122,6 +122,7 @@ while gets
   next if df.to_i < MIN_DF
   next if tfidf.to_i < MIN_TFIDF
   next if ratio.to_f < MIN_SCORE
+  next if kanji =~ /^[ァ-ヴ]*$/
 
   if results[yomi] && results[yomi] != kanji
     $blacklist << yomi
@@ -149,7 +150,7 @@ results.keys.sort.each {|k|
       break if skip = entries["#{k}#{p}"]
     }
   end
-  next if skip
+#  next if skip
   v = results[k]
   print '<key>'
   print k
