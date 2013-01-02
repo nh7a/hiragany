@@ -22,7 +22,7 @@ dist/Hiragany-${VERSION}.zip: app/build/Release/Hiragany.app
 dic: app/Resources/KanaKanji.plist
 
 app/Resources/KanaKanji.plist: dict/*
-	cd dict && ruby mk_plist.rb hiragany.dict > ../app/Resources/KanaKanji.plist
+	cd dict && ruby naist2plist.rb < naist-jdic-0.4.3.utf-8.dic > ../app/Resources/KanaKanji.plist
 
 debug: dic
 	cd app && xcodebuild -configuration Debug
