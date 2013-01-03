@@ -26,7 +26,7 @@ EOT
     yomi = NKF.nkf('-h1 -w', i[0])
     next unless yomi =~ /^[\p{hiragana}]+$/
     next if yomi.length < 3
-    next if i[1] =~ /[\p{hiragana}\p{katakana}]+/
+    next unless i[1] =~ /^[\p{han}]+$/
     puts "<key>#{yomi}</key><string>#{i[1]}</string>"
   }
   puts "</dict>\n</plist>"
