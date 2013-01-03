@@ -38,6 +38,9 @@ while line = gets
   next if line =~ /固有名詞/
   yomi = line.match(/\(読み ([^\)]+)\)/)[1]
   midashi = line.match(/\(\(見出し語 \((.+) \d+\)\)/)[1]
+  if midashi.length == yomi.length
+    next if NKF.nkf('-h2 -w', midashi) == yomi
+  end
 
   if yomi.include?('/')
     yomi[1..-2].split('/').each {|i|
