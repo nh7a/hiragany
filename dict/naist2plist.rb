@@ -5,13 +5,12 @@ $entries = {}
 $dups = {}
 
 def new_item(yomi, midashi)
-  return if midashi.length == 1
   return if $dups.include? yomi
   if $entries.include? yomi
     $dups[yomi] = true
     $entries.delete(yomi)
   else
-    $entries[yomi] = midashi
+    $entries[yomi] = midashi if midashi.length > 1
   end
 end
 
@@ -33,8 +32,6 @@ EOT
 end
 
 while line = gets
-#  next unless line =~ /\(名詞 一般\)/
-#  next unless line =~ /\(名詞 /
   next if line =~ /固有名詞/
   yomi = line.match(/\(読み ([^\)]+)\)/)[1]
   midashi = line.match(/\(\(見出し語 \((.+) \d+\)\)/)[1]
