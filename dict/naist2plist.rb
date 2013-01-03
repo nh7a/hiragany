@@ -36,7 +36,8 @@ while line = gets
   yomi = line.match(/\(読み ([^\)]+)\)/)[1]
   midashi = line.match(/\(\(見出し語 \((.+) \d+\)\)/)[1]
   if midashi.length == yomi.length
-    next if NKF.nkf('-h2 -w', midashi) == yomi
+    next if midashi == yomi
+    #next if NKF.nkf('-h2 -w', midashi) == yomi
   end
 
   if yomi.include?('/')
