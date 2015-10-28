@@ -16,10 +16,10 @@
 -(void)awakeFromNib {
     katakana_ = NO;
     NSLog(@"Initializing Hiragany...");
-    romakanaDic_  = [[self loadPlist:@"RomaKana"] retain];
-    kanakanjiDic_ = [[self loadPlist:@"KanaKanji"] retain];
-    symbolDic_    = [[self loadPlist:@"Symbols"] retain];
-    particleDic_  = [[self loadPlist:@"Particles"] retain];
+    romakanaDic_  = [self loadPlist:@"RomaKana"];
+    kanakanjiDic_ = [self loadPlist:@"KanaKanji"];
+    symbolDic_    = [self loadPlist:@"Symbols"];
+    particleDic_  = [self loadPlist:@"Particles"];
 
 #ifdef DEBUG
     [self testRomanToKana];
@@ -27,19 +27,11 @@
 #endif
 }
 
--(void)dealloc {
-    [romakanaDic_ release];
-    [kanakanjiDic_ release];
-    [symbolDic_ release];
-    [particleDic_ release];
-    [super dealloc];
-}
-
 -(NSArray*)convertRomanToKana:(NSString*)string {
     if (!romakanaDic_) return [NSArray arrayWithObjects:@"", string, nil];
     
-    NSMutableString* buf1 = [[NSMutableString new] autorelease];
-    NSMutableString* buf2 = [[NSMutableString new] autorelease];
+    NSMutableString* buf1 = [NSMutableString new];
+    NSMutableString* buf2 = [NSMutableString new];
     NSMutableString* buf = buf1;
     NSRange range;
     range.location = 0;
@@ -116,8 +108,7 @@
     CFMutableStringRef buf = CFStringCreateMutableCopy(kCFAllocatorDefault, 0, (CFStringRef)string);
     CFRange range = CFRangeMake(0, [string length]);
     CFStringTransform(buf, &range, kCFStringTransformHiraganaKatakana, NO);
-    NSString *result = (NSString*)buf;
-    [result autorelease];
+    NSString *result = (NSString*)CFBridgingRelease(buf);
     return result;
 }
 
@@ -172,7 +163,6 @@
                                                            error:&error];
 
     if (!plist) {
-        [errorDesc release];
         NSLog(@"%@", error);
     }
     return plist;

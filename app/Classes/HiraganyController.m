@@ -24,12 +24,6 @@
     return self;
 }
 
--(void)dealloc {
-    [romanBuffer_ release];
-    [kanaBuffer_ release];
-    [kanjiBuffer_ release];
-    [super dealloc];
-}
 @end
 
 #pragma mark IMKServerInput
@@ -180,7 +174,7 @@
 
 #pragma mark IMKInputController
 - (NSMenu*)menu {
-    NSMenu* m = [[[NSMenu alloc] initWithTitle:@"Hiragany"] autorelease];
+    NSMenu* m = [[NSMenu alloc] initWithTitle:@"Hiragany"];
     NSMenuItem* item = [m addItemWithTitle:[NSString stringWithUTF8String:"Kakamany Mode"]
                                     action:@selector(toggleKakamany:) keyEquivalent:@""];
     [item setState:(kakamanyMode_ ? NSOnState : NSOffState)];
@@ -234,7 +228,6 @@
     [sender setMarkedText:buf
            selectionRange:NSMakeRange([text length], 0)
          replacementRange:NSMakeRange(NSNotFound, NSNotFound)];
-    [buf release];
 }
 
 - (void)fixTrailingN:(id)sender {
