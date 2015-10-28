@@ -63,10 +63,10 @@
 
 - (BOOL)inputText:(NSString*)string key:(NSInteger)keyCode modifiers:(NSUInteger)flags client:(id)sender {
     if (flags & NSCommandKeyMask) {
-        DebugLog(@"flags: %X", flags);
+        DebugLog(@"flags: %lX", (unsigned long)flags);
         return NO;
     }
-    DebugLog(@"inputText: %@, %X, %X", string, keyCode, flags);
+    DebugLog(@"inputText: %@, %lX, %lX", string, (long)keyCode, (unsigned long)flags);
     NSScanner* scanner = [NSScanner scannerWithString:string];
     NSString* scanned;
     if (![scanner scanCharactersFromSet:[NSCharacterSet alphanumericCharacterSet] intoString:&scanned] &&
@@ -103,10 +103,10 @@
                 handled = YES;
                 break;
             default:
-                DebugLog(@"Unexpected Input: keyCode(%X) flags(%X)", keyCode, flags);
+                DebugLog(@"Unexpected Input: keyCode(%lX) flags(%lX)", (long)keyCode, (unsigned long)flags);
                 break;
         }
-        DebugLog(@"flush: control char: %X %X", keyCode, flags);
+        DebugLog(@"flush: control char: %lX %lX", (long)keyCode, (unsigned long)flags);
         if (flags & (NSShiftKeyMask | NSControlKeyMask)) {
             [kanjiBuffer_ setString:@""];
         }
@@ -218,7 +218,7 @@
 
 -(void)showPreedit:(id)sender {
     NSString* text = [self getPreedit];
-    DebugLog(@"preedit(%@) length(%d)", text, [text length]);
+    DebugLog(@"preedit(%@) length(%lu)", text, (unsigned long)[text length]);
     if (![text length]) {
         ConversionEngine* converter = [[NSApp delegate] conversionEngine];
         if (converter.katakana) {

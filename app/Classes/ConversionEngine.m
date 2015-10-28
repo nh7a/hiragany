@@ -162,17 +162,18 @@
 # pragma mark -
 
 -(id)loadPlist:(NSString*)name {
-    NSString* errorDesc = nil;
+    NSError* error = nil;
     NSPropertyListFormat format;
     NSString* plistPath = [[NSBundle mainBundle] pathForResource:name ofType:@"plist"];
     NSData* plistXML = [[NSFileManager defaultManager] contentsAtPath:plistPath];
-    id plist = [NSPropertyListSerialization propertyListFromData:plistXML
-                                                mutabilityOption:NSPropertyListMutableContainersAndLeaves
+    id plist = [NSPropertyListSerialization propertyListWithData:plistXML
+                                                         options:NSPropertyListMutableContainersAndLeaves
                                                           format:&format
-                                                errorDescription:&errorDesc];    
+                                                           error:&error];
+
     if (!plist) {
-        NSLog(@"%@", errorDesc);
         [errorDesc release];
+        NSLog(@"%@", error);
     }
     return plist;
 }
@@ -190,15 +191,15 @@
 }
 
 -(void)testRomanToKana {
-    TEST_CONVERTER(convertRomanToKana, @"a", 1, @"あ", nil);
+    TEST_CONVERTER(convertRomanToKana, @"a", 1, @"あ", @"");
     TEST_CONVERTER(convertRomanToKana, @"d", 2, @"", @"d");
-    TEST_CONVERTER(convertRomanToKana, @"da", 1, @"だ", nil);
+    TEST_CONVERTER(convertRomanToKana, @"da", 1, @"だ", @"");
     TEST_CONVERTER(convertRomanToKana, @"dag", 2, @"だ", @"g");
     TEST_CONVERTER(convertRomanToKana, @"gy", 2, @"", @"gy");
-    TEST_CONVERTER(convertRomanToKana, @"gya", 1, @"ぎゃ", nil);
+    TEST_CONVERTER(convertRomanToKana, @"gya", 1, @"ぎゃ", @"");
     TEST_CONVERTER(convertRomanToKana, @"kk", 2, @"っ", @"k");
-    TEST_CONVERTER(convertRomanToKana, @"batta", 1, @"ばった", nil);
-    TEST_CONVERTER(convertRomanToKana, @"gakki", 1, @"がっき", nil);
+    TEST_CONVERTER(convertRomanToKana, @"batta", 1, @"ばった", @"");
+    TEST_CONVERTER(convertRomanToKana, @"gakki", 1, @"がっき", @"");
     TEST_CONVERTER(convertRomanToKana, @"up", 2, @"う", @"p");
     TEST_CONVERTER(convertRomanToKana, @"upd", 2, @"う", @"pd");
     TEST_CONVERTER(convertRomanToKana, @"upde", 2, @"う", @"pで");
@@ -207,25 +208,25 @@
     TEST_CONVERTER(convertRomanToKana, @"upde-ta", 2, @"う", @"pでーた");
     TEST_CONVERTER(convertRomanToKana, @"upde-tann", 2, @"う", @"pでーたん");
     TEST_CONVERTER(convertRomanToKana, @"n", 2, @"", @"n");
-    TEST_CONVERTER(convertRomanToKana, @"nn", 1, @"ん", nil);
+    TEST_CONVERTER(convertRomanToKana, @"nn", 1, @"ん", @"");
     TEST_CONVERTER(convertRomanToKana, @"ng", 2, @"ん", @"g");
-    TEST_CONVERTER(convertRomanToKana, @"nga", 1, @"んが", nil);
+    TEST_CONVERTER(convertRomanToKana, @"nga", 1, @"んが", @"");
     TEST_CONVERTER(convertRomanToKana, @"ny", 2, @"", @"ny");
-    TEST_CONVERTER(convertRomanToKana, @"nya", 1, @"にゃ", nil);
+    TEST_CONVERTER(convertRomanToKana, @"nya", 1, @"にゃ", @"");
     TEST_CONVERTER(convertRomanToKana, @"nky", 2, @"ん", @"ky");
-    TEST_CONVERTER(convertRomanToKana, @"nkyo", 1, @"んきょ", nil);
+    TEST_CONVERTER(convertRomanToKana, @"nkyo", 1, @"んきょ", @"");
     TEST_CONVERTER(convertRomanToKana, @"nyg", 2, @"ん", @"yg");
     TEST_CONVERTER(convertRomanToKana, @"npde", 2, @"ん", @"pで");
     TEST_CONVERTER(convertRomanToKana, @"runrun", 2, @"るんる", @"n");
     TEST_CONVERTER(convertRomanToKana, @"runrun ", 2, @"るんるん", @" ");
     TEST_CONVERTER(convertRomanToKana, @"runrun.", 2, @"るんるん", @"。");
     TEST_CONVERTER(convertRomanToKana, @"runnrun", 2, @"るんる", @"n");
-    TEST_CONVERTER(convertRomanToKana, @"runnrunn", 1, @"るんるん", nil);
+    TEST_CONVERTER(convertRomanToKana, @"runnrunn", 1, @"るんるん", @"");
     TEST_CONVERTER(convertRomanToKana, @"n!", 2, @"ん", @"！");
     TEST_CONVERTER(convertRomanToKana, @"ny!", 2, @"ん", @"y！");
     TEST_CONVERTER(convertRomanToKana, @"nya!u", 2, @"にゃ", @"！");
-    TEST_CONVERTER(convertRomanToKana, @"xwa", 1, @"ゎ", nil);
-    TEST_CONVERTER(convertRomanToKana, @"xtu", 1, @"っ", nil);
+    TEST_CONVERTER(convertRomanToKana, @"xwa", 1, @"ゎ", @"");
+    TEST_CONVERTER(convertRomanToKana, @"xtu", 1, @"っ", @"");
     NSLog(@"convertRomanToKana: done");
 }
 
@@ -236,7 +237,7 @@
     TEST_CONVERTER(convert, @"jikk", 2, @"", @"じっk");
     TEST_CONVERTER(convert, @"jikky", 2, @"", @"じっky");
     TEST_CONVERTER(convert, @"jikkyo", 2, @"", @"じっきょ");
-    TEST_CONVERTER(convert, @"jikkyou", 1, @"実況", nil);
+    TEST_CONVERTER(convert, @"jikkyou", 1, @"実況", @"");
     TEST_CONVERTER(convert, @"jikkyout", 2, @"実況", @"t");
     TEST_CONVERTER(convert, @"jikkyouto", 2, @"実況", @"と");
     TEST_CONVERTER(convert, @"jikkyoutoh", 2, @"実況", @"とh");

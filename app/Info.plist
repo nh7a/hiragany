@@ -9,7 +9,7 @@
 	<key>CFBundleIconFile</key>
 	<string>hiragany.icns</string>
 	<key>CFBundleIdentifier</key>
-	<string>org.h7a.inputmethod.${PRODUCT_NAME:identifier}</string>
+	<string>$(PRODUCT_BUNDLE_IDENTIFIER)</string>
 	<key>CFBundleInfoDictionaryVersion</key>
 	<string>6.0</string>
 	<key>CFBundleName</key>
@@ -20,23 +20,23 @@
 	<string>????</string>
 	<key>CFBundleVersion</key>
 	<string>1.0</string>
-	<key>NSMainNibFile</key>
-	<string>MainMenu</string>
-	<key>NSPrincipalClass</key>
-	<string>NSApplication</string>
-	<key>LSBackgroundOnly</key>
-	<true/>
 	<key>InputMethodConnectionName</key>
 	<string>Hiragany_Connection</string>
 	<key>InputMethodServerControllerClass</key>
 	<string>HiraganyController</string>
 	<key>InputMethodServerDelegateClass</key>
 	<string>HiraganyController</string>
-	<key>tsInputMethodIconFileKey</key>
-	<string>hiragany.tiff</string>
+	<key>LSBackgroundOnly</key>
+	<true/>
+	<key>NSMainNibFile</key>
+	<string>MainMenu</string>
+	<key>NSPrincipalClass</key>
+	<string>NSApplication</string>
 	<key>tsInputMethodCharacterRepertoireKey</key>
 	<array>
 		<string>Jpan</string>
 	</array>
+	<key>tsInputMethodIconFileKey</key>
+	<string>hiragany.tiff</string>
 </dict>
 </plist>
