@@ -9,3 +9,4 @@ dist
 *xcschemes*
 *.xcuserdatad
 *.xcworkspacedata
+DerivedData

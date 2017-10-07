@@ -23,9 +23,9 @@
 	<key>InputMethodConnectionName</key>
 	<string>Hiragany_Connection</string>
 	<key>InputMethodServerControllerClass</key>
-	<string>HiraganyController</string>
+	<string>InputController</string>
 	<key>InputMethodServerDelegateClass</key>
-	<string>HiraganyController</string>
+	<string>InputController</string>
 	<key>LSBackgroundOnly</key>
 	<true/>
 	<key>NSMainNibFile</key>

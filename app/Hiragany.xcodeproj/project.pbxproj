@@ -7,6 +7,10 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		0D09354D1F88908F00BB54D7 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0D09354C1F88908F00BB54D7 /* AppDelegate.swift */; };
+		0D09354F1F88909900BB54D7 /* InputController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0D09354E1F88909900BB54D7 /* InputController.swift */; };
+		0D3BFDA01F87462400292B79 /* HiraganyTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0D3BFD9F1F87462400292B79 /* HiraganyTests.swift */; };
+		0D9A6A5B1F87222100954B3C /* ConversionEngine.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0D9A6A5A1F87222100954B3C /* ConversionEngine.swift */; };
 		1DDD58160DA1D0A300B32029 /* MainMenu.xib in Resources */ = {isa = PBXBuildFile; fileRef = 1DDD58140DA1D0A300B32029 /* MainMenu.xib */; };
 		6E95760217827BB1009A3244 /* hiragany.tiff in Resources */ = {isa = PBXBuildFile; fileRef = 6E95760017827BB1009A3244 /* hiragany.tiff */; };
 		6E95760317827BB1009A3244 /* hiragany@2x.tiff in Resources */ = {isa = PBXBuildFile; fileRef = 6E95760117827BB1009A3244 /* hiragany@2x.tiff */; };
@@ -14,44 +18,54 @@
 		8D11072B0486CEB800E47090 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 089C165CFE840E0CC02AAC07 /* InfoPlist.strings */; };
 		8D11072F0486CEB800E47090 /* Cocoa.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 1058C7A1FEA54F0111CA2CBB /* Cocoa.framework */; };
 		BE0CAB4C0FA9743E005CB1CA /* InputMethodKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = BE0CAB4B0FA9743E005CB1CA /* InputMethodKit.framework */; };
-		BEBE16480FBFCB6B00EFA6E7 /* ConversionEngine.m in Sources */ = {isa = PBXBuildFile; fileRef = BEBE16430FBFCB6B00EFA6E7 /* ConversionEngine.m */; };
-		BEBE16490FBFCB6B00EFA6E7 /* HiraganyApplicationDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = BEBE16450FBFCB6B00EFA6E7 /* HiraganyApplicationDelegate.m */; };
-		BEBE164A0FBFCB6B00EFA6E7 /* HiraganyController.m in Sources */ = {isa = PBXBuildFile; fileRef = BEBE16470FBFCB6B00EFA6E7 /* HiraganyController.m */; };
-		BEBE164C0FBFCB7D00EFA6E7 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = BEBE164B0FBFCB7D00EFA6E7 /* main.m */; };
 		BEBE164F0FBFCB9900EFA6E7 /* RomaKana.plist in Resources */ = {isa = PBXBuildFile; fileRef = BEBE164D0FBFCB9900EFA6E7 /* RomaKana.plist */; };
 		BEC623B4110BB40200286831 /* Particles.plist in Resources */ = {isa = PBXBuildFile; fileRef = BEC623B3110BB40200286831 /* Particles.plist */; };
 		BEC623CD110BB80F00286831 /* Symbols.plist in Resources */ = {isa = PBXBuildFile; fileRef = BEC623CC110BB80F00286831 /* Symbols.plist */; };
 		BEFD59AB10CE351800C3E862 /* KanaKanji.plist in Resources */ = {isa = PBXBuildFile; fileRef = BEFD59AA10CE351800C3E862 /* KanaKanji.plist */; };
 /* End PBXBuildFile section */
 
+/* Begin PBXContainerItemProxy section */
+		0D3BFDA21F87462400292B79 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 29B97313FDCFA39411CA2CEA /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 8D1107260486CEB800E47090;
+			remoteInfo = Hiragany;
+		};
+/* End PBXContainerItemProxy section */
+
 /* Begin PBXFileReference section */
 		089C165DFE840E0CC02AAC07 /* English */ = {isa = PBXFileReference; fileEncoding = 10; lastKnownFileType = text.plist.strings; name = English; path = English.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		0D09354C1F88908F00BB54D7 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; name = AppDelegate.swift; path = Classes/AppDelegate.swift; sourceTree = "<group>"; };
+		0D09354E1F88909900BB54D7 /* InputController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; name = InputController.swift; path = Classes/InputController.swift; sourceTree = "<group>"; };
+		0D3BFD9D1F87462400292B79 /* HiraganyTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = HiraganyTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		0D3BFD9F1F87462400292B79 /* HiraganyTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HiraganyTests.swift; sourceTree = "<group>"; };
+		0D3BFDA11F87462400292B79 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		0D9A6A5A1F87222100954B3C /* ConversionEngine.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; name = ConversionEngine.swift; path = Classes/ConversionEngine.swift; sourceTree = "<group>"; };
 		1058C7A1FEA54F0111CA2CBB /* Cocoa.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Cocoa.framework; path = /System/Library/Frameworks/Cocoa.framework; sourceTree = "<absolute>"; };
 		1DDD58150DA1D0A300B32029 /* English */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = English; path = English.lproj/MainMenu.xib; sourceTree = "<group>"; };
 		29B97324FDCFA39411CA2CEA /* AppKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AppKit.framework; path = /System/Library/Frameworks/AppKit.framework; sourceTree = "<absolute>"; };
 		29B97325FDCFA39411CA2CEA /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = /System/Library/Frameworks/Foundation.framework; sourceTree = "<absolute>"; };
-		32CA4F630368D1EE00C91783 /* Hiragany_Prefix.pch */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Hiragany_Prefix.pch; sourceTree = "<group>"; };
 		6E95760017827BB1009A3244 /* hiragany.tiff */ = {isa = PBXFileReference; lastKnownFileType = image.tiff; name = hiragany.tiff; path = Resources/icon.iconset/hiragany.tiff; sourceTree = "<group>"; };
 		6E95760117827BB1009A3244 /* hiragany@2x.tiff */ = {isa = PBXFileReference; lastKnownFileType = image.tiff; name = "hiragany@2x.tiff"; path = "Resources/icon.iconset/hiragany@2x.tiff"; sourceTree = "<group>"; };
 		6EB2F10B17827942002DEE8B /* icon.icns */ = {isa = PBXFileReference; lastKnownFileType = image.icns; name = icon.icns; path = Resources/icon.icns; sourceTree = "<group>"; };
 		8D1107310486CEB800E47090 /* Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		8D1107320486CEB800E47090 /* Hiragany.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Hiragany.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		BE0CAB4B0FA9743E005CB1CA /* InputMethodKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = InputMethodKit.framework; path = /System/Library/Frameworks/InputMethodKit.framework; sourceTree = "<absolute>"; };
-		BEBE16420FBFCB6B00EFA6E7 /* ConversionEngine.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = ConversionEngine.h; path = Classes/ConversionEngine.h; sourceTree = "<group>"; };
-		BEBE16430FBFCB6B00EFA6E7 /* ConversionEngine.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = ConversionEngine.m; path = Classes/ConversionEngine.m; sourceTree = "<group>"; };
-		BEBE16440FBFCB6B00EFA6E7 /* HiraganyApplicationDelegate.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = HiraganyApplicationDelegate.h; path = Classes/HiraganyApplicationDelegate.h; sourceTree = "<group>"; };
-		BEBE16450FBFCB6B00EFA6E7 /* HiraganyApplicationDelegate.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = HiraganyApplicationDelegate.m; path = Classes/HiraganyApplicationDelegate.m; sourceTree = "<group>"; };
-		BEBE16460FBFCB6B00EFA6E7 /* HiraganyController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = HiraganyController.h; path = Classes/HiraganyController.h; sourceTree = "<group>"; };
-		BEBE16470FBFCB6B00EFA6E7 /* HiraganyController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = HiraganyController.m; path = Classes/HiraganyController.m; sourceTree = "<group>"; };
-		BEBE164B0FBFCB7D00EFA6E7 /* main.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = main.m; path = OtherSources/main.m; sourceTree = "<group>"; };
 		BEBE164D0FBFCB9900EFA6E7 /* RomaKana.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; name = RomaKana.plist; path = Resources/RomaKana.plist; sourceTree = "<group>"; };
 		BEC623B3110BB40200286831 /* Particles.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; name = Particles.plist; path = Resources/Particles.plist; sourceTree = "<group>"; };
 		BEC623CC110BB80F00286831 /* Symbols.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; name = Symbols.plist; path = Resources/Symbols.plist; sourceTree = "<group>"; };
-		BED5E4C1110E623B00573B8D /* HiraganyGlobal.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = HiraganyGlobal.h; path = Classes/HiraganyGlobal.h; sourceTree = "<group>"; };
 		BEFD59AA10CE351800C3E862 /* KanaKanji.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; name = KanaKanji.plist; path = Resources/KanaKanji.plist; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
+		0D3BFD9A1F87462400292B79 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 		8D11072E0486CEB800E47090 /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
@@ -67,15 +81,20 @@
 		080E96DDFE201D6D7F000001 /* Classes */ = {
 			isa = PBXGroup;
 			children = (
-				BED5E4C1110E623B00573B8D /* HiraganyGlobal.h */,
-				BEBE16440FBFCB6B00EFA6E7 /* HiraganyApplicationDelegate.h */,
-				BEBE16450FBFCB6B00EFA6E7 /* HiraganyApplicationDelegate.m */,
-				BEBE16420FBFCB6B00EFA6E7 /* ConversionEngine.h */,
-				BEBE16430FBFCB6B00EFA6E7 /* ConversionEngine.m */,
-				BEBE16460FBFCB6B00EFA6E7 /* HiraganyController.h */,
-				BEBE16470FBFCB6B00EFA6E7 /* HiraganyController.m */,
+				0D09354E1F88909900BB54D7 /* InputController.swift */,
+				0D09354C1F88908F00BB54D7 /* AppDelegate.swift */,
+				0D9A6A5A1F87222100954B3C /* ConversionEngine.swift */,
 			);
 			name = Classes;
+			sourceTree = "<group>";
+		};
+		0D3BFD9E1F87462400292B79 /* HiraganyTests */ = {
+			isa = PBXGroup;
+			children = (
+				0D3BFD9F1F87462400292B79 /* HiraganyTests.swift */,
+				0D3BFDA11F87462400292B79 /* Info.plist */,
+			);
+			path = HiraganyTests;
 			sourceTree = "<group>";
 		};
 		1058C7A0FEA54F0111CA2CBB /* Linked Frameworks */ = {
@@ -100,6 +119,7 @@
 			isa = PBXGroup;
 			children = (
 				8D1107320486CEB800E47090 /* Hiragany.app */,
+				0D3BFD9D1F87462400292B79 /* HiraganyTests.xctest */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -108,21 +128,12 @@
 			isa = PBXGroup;
 			children = (
 				080E96DDFE201D6D7F000001 /* Classes */,
-				29B97315FDCFA39411CA2CEA /* Other Sources */,
 				29B97317FDCFA39411CA2CEA /* Resources */,
+				0D3BFD9E1F87462400292B79 /* HiraganyTests */,
 				29B97323FDCFA39411CA2CEA /* Frameworks */,
 				19C28FACFE9D520D11CA2CBB /* Products */,
 			);
 			name = Hiragany;
-			sourceTree = "<group>";
-		};
-		29B97315FDCFA39411CA2CEA /* Other Sources */ = {
-			isa = PBXGroup;
-			children = (
-				BEBE164B0FBFCB7D00EFA6E7 /* main.m */,
-				32CA4F630368D1EE00C91783 /* Hiragany_Prefix.pch */,
-			);
-			name = "Other Sources";
 			sourceTree = "<group>";
 		};
 		29B97317FDCFA39411CA2CEA /* Resources */ = {
@@ -154,6 +165,24 @@
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
+		0D3BFD9C1F87462400292B79 /* HiraganyTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 0D3BFDA61F87462400292B79 /* Build configuration list for PBXNativeTarget "HiraganyTests" */;
+			buildPhases = (
+				0D3BFD991F87462400292B79 /* Sources */,
+				0D3BFD9A1F87462400292B79 /* Frameworks */,
+				0D3BFD9B1F87462400292B79 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				0D3BFDA31F87462400292B79 /* PBXTargetDependency */,
+			);
+			name = HiraganyTests;
+			productName = HiraganyTests;
+			productReference = 0D3BFD9D1F87462400292B79 /* HiraganyTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
 		8D1107260486CEB800E47090 /* Hiragany */ = {
 			isa = PBXNativeTarget;
 			buildConfigurationList = C01FCF4A08A954540054247B /* Build configuration list for PBXNativeTarget "Hiragany" */;
@@ -178,7 +207,23 @@
 		29B97313FDCFA39411CA2CEA /* Project object */ = {
 			isa = PBXProject;
 			attributes = {
-				LastUpgradeCheck = 0710;
+				LastSwiftUpdateCheck = 0900;
+				LastUpgradeCheck = 0900;
+				TargetAttributes = {
+					0D3BFD9C1F87462400292B79 = {
+						CreatedOnToolsVersion = 9.0;
+						ProvisioningStyle = Manual;
+						TestTargetID = 8D1107260486CEB800E47090;
+					};
+					8D1107260486CEB800E47090 = {
+						LastSwiftMigration = 0900;
+						SystemCapabilities = {
+							com.apple.Sandbox = {
+								enabled = 0;
+							};
+						};
+					};
+				};
 			};
 			buildConfigurationList = C01FCF4E08A954540054247B /* Build configuration list for PBXProject "Hiragany" */;
 			compatibilityVersion = "Xcode 3.2";
@@ -192,11 +237,19 @@
 			projectRoot = "";
 			targets = (
 				8D1107260486CEB800E47090 /* Hiragany */,
+				0D3BFD9C1F87462400292B79 /* HiraganyTests */,
 			);
 		};
 /* End PBXProject section */
 
 /* Begin PBXResourcesBuildPhase section */
+		0D3BFD9B1F87462400292B79 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 		8D1107290486CEB800E47090 /* Resources */ = {
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
@@ -216,18 +269,33 @@
 /* End PBXResourcesBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
+		0D3BFD991F87462400292B79 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				0D3BFDA01F87462400292B79 /* HiraganyTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 		8D11072C0486CEB800E47090 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				BEBE16480FBFCB6B00EFA6E7 /* ConversionEngine.m in Sources */,
-				BEBE16490FBFCB6B00EFA6E7 /* HiraganyApplicationDelegate.m in Sources */,
-				BEBE164A0FBFCB6B00EFA6E7 /* HiraganyController.m in Sources */,
-				BEBE164C0FBFCB7D00EFA6E7 /* main.m in Sources */,
+				0D09354D1F88908F00BB54D7 /* AppDelegate.swift in Sources */,
+				0D9A6A5B1F87222100954B3C /* ConversionEngine.swift in Sources */,
+				0D09354F1F88909900BB54D7 /* InputController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		0D3BFDA31F87462400292B79 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 8D1107260486CEB800E47090 /* Hiragany */;
+			targetProxy = 0D3BFDA21F87462400292B79 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
 
 /* Begin PBXVariantGroup section */
 		089C165CFE840E0CC02AAC07 /* InfoPlist.strings */ = {
@@ -249,6 +317,85 @@
 /* End PBXVariantGroup section */
 
 /* Begin XCBuildConfiguration section */
+		0D3BFDA41F87462400292B79 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CODE_SIGN_IDENTITY = "-";
+				CODE_SIGN_STYLE = Manual;
+				COMBINE_HIDPI_IMAGES = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				DEVELOPMENT_TEAM = "";
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				INFOPLIST_FILE = HiraganyTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks @loader_path/../Frameworks";
+				MACOSX_DEPLOYMENT_TARGET = 10.13;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				PRODUCT_BUNDLE_IDENTIFIER = org.h7a.HiraganyTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE_SPECIFIER = "";
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				SWIFT_VERSION = 4.0;
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Hiragany.app/Contents/MacOS/Hiragany";
+			};
+			name = Debug;
+		};
+		0D3BFDA51F87462400292B79 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CODE_SIGN_IDENTITY = "-";
+				CODE_SIGN_STYLE = Manual;
+				COMBINE_HIDPI_IMAGES = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				DEVELOPMENT_TEAM = "";
+				ENABLE_NS_ASSERTIONS = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				INFOPLIST_FILE = HiraganyTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks @loader_path/../Frameworks";
+				MACOSX_DEPLOYMENT_TARGET = 10.13;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				PRODUCT_BUNDLE_IDENTIFIER = org.h7a.HiraganyTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE_SPECIFIER = "";
+				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
+				SWIFT_VERSION = 4.0;
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Hiragany.app/Contents/MacOS/Hiragany";
+			};
+			name = Release;
+		};
 		C01FCF4B08A954540054247B /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
@@ -256,15 +403,14 @@
 				COMBINE_HIDPI_IMAGES = YES;
 				COPY_PHASE_STRIP = NO;
 				GCC_DYNAMIC_NO_PIC = NO;
-				GCC_MODEL_TUNING = G5;
 				GCC_OPTIMIZATION_LEVEL = 0;
-				GCC_PRECOMPILE_PREFIX_HEADER = YES;
-				GCC_PREFIX_HEADER = Hiragany_Prefix.pch;
 				INFOPLIST_FILE = Info.plist;
-				INSTALL_PATH = "$(HOME)/Applications";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks";
 				MACOSX_DEPLOYMENT_TARGET = 10.11;
 				PRODUCT_BUNDLE_IDENTIFIER = "org.h7a.inputmethod.${PRODUCT_NAME:identifier}";
 				PRODUCT_NAME = Hiragany;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				SWIFT_VERSION = 4.0;
 			};
 			name = Debug;
 		};
@@ -273,15 +419,12 @@
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
 				COMBINE_HIDPI_IMAGES = YES;
-				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
-				GCC_MODEL_TUNING = G5;
-				GCC_PRECOMPILE_PREFIX_HEADER = YES;
-				GCC_PREFIX_HEADER = Hiragany_Prefix.pch;
 				INFOPLIST_FILE = Info.plist;
-				INSTALL_PATH = "$(HOME)/Applications";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks";
 				MACOSX_DEPLOYMENT_TARGET = 10.11;
 				PRODUCT_BUNDLE_IDENTIFIER = "org.h7a.inputmethod.${PRODUCT_NAME:identifier}";
 				PRODUCT_NAME = Hiragany;
+				SWIFT_VERSION = 4.0;
 			};
 			name = Release;
 		};
@@ -289,10 +432,31 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
 				ENABLE_TESTABILITY = YES;
 				GCC_C_LANGUAGE_STANDARD = c99;
+				GCC_NO_COMMON_BLOCKS = YES;
 				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
 				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
 				ONLY_ACTIVE_ARCH = YES;
 				OTHER_CFLAGS = "-DDEBUG";
@@ -304,8 +468,29 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
 				GCC_C_LANGUAGE_STANDARD = c99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
 				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
 				SDKROOT = macosx;
 			};
@@ -314,6 +499,15 @@
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
+		0D3BFDA61F87462400292B79 /* Build configuration list for PBXNativeTarget "HiraganyTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				0D3BFDA41F87462400292B79 /* Debug */,
+				0D3BFDA51F87462400292B79 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
 		C01FCF4A08A954540054247B /* Build configuration list for PBXNativeTarget "Hiragany" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
