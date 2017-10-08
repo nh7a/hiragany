@@ -81,8 +81,8 @@
 		080E96DDFE201D6D7F000001 /* Classes */ = {
 			isa = PBXGroup;
 			children = (
-				0D09354E1F88909900BB54D7 /* InputController.swift */,
 				0D09354C1F88908F00BB54D7 /* AppDelegate.swift */,
+				0D09354E1F88909900BB54D7 /* InputController.swift */,
 				0D9A6A5A1F87222100954B3C /* ConversionEngine.swift */,
 			);
 			name = Classes;

@@ -10,7 +10,6 @@ class AppDelegate: NSObject, NSApplicationDelegate {
 
     func applicationDidFinishLaunching(_ aNotification: Notification) {
         server = IMKServer(name: "Hiragany_Connection", bundleIdentifier: Bundle.main.bundleIdentifier)
-    }
-    
-    static var converter = ConversionEngine()
+        NSLog("Hiragany got launched.")
+    }    
 }

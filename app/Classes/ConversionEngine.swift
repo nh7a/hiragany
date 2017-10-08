@@ -1,52 +1,55 @@
 import Cocoa
 
-class ConversionEngine: NSObject {
-    var isKatakana = false
-    var romakanaDic = [String: String]()
-    var kanakanjiDic = [String: String]()
-    var symbolDic = [String: Bool]()
-    var particleDic = [String: Bool]()
+class ConversionEngine {
+    typealias Result = (candidate: String, remainder: String)
+    private var romakanaDic = [String: String]()
+    private var kanakanjiDic = [String: String]()
+    private var symbolDic = [String: Bool]()
+    private var particleDic = [String: Bool]()
     
-    override init() {
-        super.init()
-        
+    static let shared = ConversionEngine()
+    
+    private init() {
         NSLog("Initializing Hiragany...");
-        romakanaDic = loadPlist(name: "RomaKana") ?? [:]
-        kanakanjiDic = loadPlist(name: "KanaKanji") ?? [:]
-        symbolDic = loadPlist(name: "Symbols") ?? [:]
-        particleDic = loadPlist(name: "Particles") ?? [:]
+        romakanaDic = loadPlist(name: "RomaKana")
+        kanakanjiDic = loadPlist(name: "KanaKanji")
+        symbolDic = loadPlist(name: "Symbols")
+        particleDic = loadPlist(name: "Particles")
     }
     
-    func convertRomanToKana(string: String) -> [String] {
+    func toKana(roman string: String) -> Result {
         let buf1 = NSMutableString()
         let buf2 = NSMutableString()
         var buf = buf1
         var range = NSMakeRange(0, 0)
-        
-        let key: NSString = (isKatakana ? string.uppercased() : string.lowercased()) as NSString
-        while range.location + range.length < key.length {
+
+        let isKatakana = string.lowercased() != string
+        NSLog("string: \(string) -> \(isKatakana ? "katakana" : "hiragana")")
+        let nsstring: NSString = string as NSString
+        while range.location + range.length < nsstring.length {
             range.length += 1
-            let k = key.substring(with: range)
-            var converted = romakanaDic[k]
+            let kk = nsstring.substring(with: range)
+            let key = isKatakana ? kk.uppercased() : kk.lowercased()
+            var converted = romakanaDic[key]
             if let converted = converted {
-                if isSymbol(k) {
+                if isSymbol(key) {
                     buf2.append(converted)
-                    return [buf1 as String, buf2 as String]
+                    return (candidate: buf1 as String, remainder: buf2 as String)
                 }
             } else {
-                if k.count == 1 ||
-                    romakanaDic[ "\(k)\(isKatakana ? "A" : "a")" ] != nil ||
-                    romakanaDic[ "\(k)\(isKatakana ? "U" : "u")" ] != nil {
+                if key.count == 1 ||
+                    romakanaDic[ "\(key)\(isKatakana ? "A" : "a")" ] != nil ||
+                    romakanaDic[ "\(key)\(isKatakana ? "U" : "u")" ] != nil {
                     continue  // The next letter may solve.
                 }
                 
-                let firstChar = k[k.startIndex]
+                let firstChar = key[key.startIndex]
                 if firstChar == "n" {  // n is special
                     converted = "ん"
                 } else if firstChar == "N" {  // N is awesome
                     converted = "ン"
                 } else {
-                    if firstChar == k[k.index(after: k.startIndex)] {
+                    if firstChar == key[key.index(after: key.startIndex)] {
                         converted = isKatakana ? "ッ" : "っ"
                     } else {
                         converted = "\(firstChar)"
@@ -61,67 +64,69 @@ class ConversionEngine: NSObject {
         }
         
         if range.length > 0 {
-            buf2.append(key.substring(with: range))
+            buf2.append(nsstring.substring(with: range))
         }
         if buf2.length > 0 {
-            return [buf1 as String, buf2 as String]
+            return (candidate: buf1 as String, remainder: buf2 as String)
         } else {
-            return [buf1 as String]
+            return (candidate: buf1 as String, remainder: "")
         }
     }
     
     private let kMaxParticleLength = 2
 
-    func convertKanaToKanji(string: String) -> [String] {
+    func toKanji(kana string: String) -> Result {
         if let converted = kanakanjiDic[string] {
-            return [converted]
+            return (converted, "")
         }
         for i in 1...kMaxParticleLength {
             let len = string.count - i
             if len <= 0 { break }
             let index = string.index(string.startIndex, offsetBy: len)
             let particle = String(string[index...])
-            if particleDic[particle] == true {
-                if let converted = kanakanjiDic[ String(string[..<index]) ] {
-                    return [converted, particle]
-                }
+            if particleDic[particle] == true, let converted = kanakanjiDic[ String(string[..<index]) ] {
+                return (converted, particle)
             }
         }
-        return ["", string]
+        return ("", string)
     }
     
-    func convertHiraToKata(string: String) -> String {
+    func toKatakana(hiragana string: String) -> String {
         let buf = NSMutableString(string: string)
         CFStringTransform(buf, nil, kCFStringTransformHiraganaKatakana, false)
         return buf as String
     }
     
-    func convert(string: String) -> [String] {
-        let kana = convertRomanToKana(string: string)
-        let converted = convertKanaToKanji(string: kana[0])
-        if kana.count == 1 {
-            return converted
-        } else {
-            if converted.count == 1 {
-                return [ converted[0], kana[1]]
-            } else {
-                return [ converted[0], "\(converted[1])\(kana[1])"]
-            }
-        }
+    func toKanji(roman string: String) -> Result {
+        let kana = toKana(roman: string)
+        let kanji = toKanji(kana: kana.candidate)
+        return (candidate: kanji.candidate, remainder: kanji.remainder + kana.remainder)
     }
     
     func isSymbol(_ string: String) -> Bool {
         return symbolDic[string] == true
     }
     
-    private func loadPlist<T>(name: String) -> T? {
-        guard let url = Bundle.main.url(forResource: name, withExtension: "plist"), let data = try? Data(contentsOf: url) else { return nil }
-        do {
-            return try PropertyListSerialization.propertyList(from: data, options: [], format: nil) as? T
-        } catch {
-            print("BUG: \(error)")
+    private func loadPlist<T>(name: String) -> [String: T] {
+        var result = [String: T]()
+        
+        guard let url = Bundle.main.url(forResource: name, withExtension: "plist") else {
+            NSLog("BUG: \(name) is not bundled")
+            return result
         }
-        return nil
+        
+        do {
+            let data = try Data(contentsOf: url)
+            let object = try PropertyListSerialization.propertyList(from: data, options: [], format: nil)
+            if let dict = object as? [String: T] {
+                result = dict
+            }
+        } catch {
+            NSLog("BUG: \(error)")
+        }
+        
+        NSLog("\(name): \(result.count) entries")
+        return result
     }
 
 }

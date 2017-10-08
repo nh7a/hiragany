@@ -11,6 +11,7 @@ open class InputController: IMKInputController {
     public override init!(server: IMKServer!, delegate: Any!, client inputClient: Any!) {
         super.init(server: server, delegate: delegate, client: inputClient)
         isKakamanyMode = UserDefaults.standard.bool(forKey: "kakamany")
+        NSLog("InputController got initialized")
     }
     
     override open func inputText(_ string: String!, key keyCode: Int, modifiers flags: Int, client sender: Any!) -> Bool {
@@ -20,58 +21,43 @@ open class InputController: IMKInputController {
         
         let flags = NSEvent.ModifierFlags(rawValue: UInt(flags))
         if flags.contains(.command) || flags.contains(.control) {
+            commitComposition(client: client)
             return false
         }
         
-        let scanner = Scanner(string: string)
         let charset = CharacterSet.alphanumerics.union(.punctuationCharacters).union(.symbols)
-        if !scanner.scanCharacters(from: charset, into: nil) {
+        if !Scanner(string: string).scanCharacters(from: charset, into: nil) {
             NSLog("control code!")
             if romanBuffer.isEmpty, kanaBuffer.isEmpty { return false }
-            var handled = false
+            var handled = true
             switch keyCode {
-            case 0x28:  // 'k'
-                fixTrailingN(sender: client)
-                kanaBuffer = AppDelegate.converter.convertHiraToKata(string: kanaBuffer)
-                handled = true
             case 0x33:  // delete key
-                deleteBackward(sender: client)
+                deleteBackward(client: client)
                 return true
             case 0x24:  // enter key
-                if romanBuffer.isEmpty, kanaBuffer.isEmpty {
-                    return false
-                }
+                handled = false
             case 0x31:  // space
-                appendString(string: " ", sender: client)
-                handled = true
+                receive(string: " ", client: client)
             case 0x30:  // tab key
-                fixTrailingN(sender: client)
-                handled = true
+                fixTrailingN(client: client)
             default:
                 NSLog("Unexpected Input: keyCode(%lX) flags(%lX)", keyCode, flags.rawValue)
+                handled = false
             }
-            commitComposition(sender: client)
+            commitComposition(client: client)
             return handled
         }
         
-        let converter = AppDelegate.converter
-        if !converter.isKatakana {
-            let firstChar = string.first!
-            if "A" <= firstChar, firstChar <= "Z" {  // kludge!
-                converter.isKatakana = true
-            }
-        }
-        
-        if appendString(string: string, sender: client) {
+        if receive(string: string, client: client) {
             return true
         }
+        
         NSLog("buffer: %@,%@,%@", kanjiBuffer, kanaBuffer, romanBuffer)
-        if converter.isSymbol(string) {
+        if ConversionEngine.shared.isSymbol(string) {
             NSLog("flush: symbol")
-            converter.isKatakana = false
-            commitComposition(sender: client)
+            commitComposition(client: client)
         } else {
-            showPreedit(sender: client)
+            showPreedit(client: client)
         }
         return true
     }
@@ -82,102 +68,68 @@ open class InputController: IMKInputController {
         item.state = isKakamanyMode ? .on : .off
         return m
     }
-
-    @objc private func toggleKakamany() {
-        isKakamanyMode = !isKakamanyMode
-        UserDefaults.standard.set(isKakamanyMode, forKey: "kakamany")
-    }
 }
 
 private extension InputController {
     @discardableResult
-    func appendString(string: String, sender: IMKTextInput) -> Bool {
-        let converter = AppDelegate.converter
-    
-        romanBuffer += string
-        let arr = converter.convertRomanToKana(string: romanBuffer)
-        if arr.count == 1 {
-            romanBuffer = ""
+    func receive(string: String, client: IMKTextInput) -> Bool {
+        let kana = ConversionEngine.shared.toKana(roman: romanBuffer + string)
+        kanaBuffer += kana.candidate
+        romanBuffer = kana.remainder
+        
+        if isKakamanyMode {
+            let kanji = ConversionEngine.shared.toKanji(kana: kanaBuffer)
+            kanjiBuffer = kanji.candidate + kanji.remainder
         } else {
-            romanBuffer = arr[1]
-        }
-        kanaBuffer += arr[0]
-        if !isKakamanyMode {
             if romanBuffer.isEmpty {
-                commitComposition(sender: sender)
+                commitComposition(client: client)
                 return true
-            }
-        } else {
-            let arr = converter.convertKanaToKanji(string: kanaBuffer)
-            kanjiBuffer = arr[0]
-            if arr.count == 2 {
-                kanjiBuffer += arr[1]
             }
         }
         return false
     }
 
-    func commitComposition(sender: IMKTextInput) {
+    func commitComposition(client: IMKTextInput) {
         let text = getPreedit()
         if !text.isEmpty {
-            sender.insertText(text, replacementRange: NSMakeRange(NSNotFound, NSNotFound))
+            NSLog("commit: \(text)")
+            client.insertText(text, replacementRange: NSMakeRange(NSNotFound, NSNotFound))
             romanBuffer = ""
             kanaBuffer = ""
             kanjiBuffer = ""
         }
-        AppDelegate.converter.isKatakana = false
     }
     
-    func deleteBackward(sender: IMKTextInput) {
+    func deleteBackward(client: IMKTextInput) {
         if !romanBuffer.isEmpty {
             romanBuffer.removeLast()
         } else if !kanaBuffer.isEmpty {
             kanaBuffer.removeLast()
         }
-        if !kanaBuffer.isEmpty {
-            let arr = AppDelegate.converter.convertKanaToKanji(string: kanaBuffer)
-            kanjiBuffer = arr[0]
-            if arr.count == 2 {
-                kanjiBuffer += arr[1]
-            }
-        } else {
-            kanjiBuffer = ""
-        }
-        showPreedit(sender: sender)
+        
+        let kanji = ConversionEngine.shared.toKanji(kana: kanaBuffer)
+        kanjiBuffer = kanji.candidate + kanji.remainder
+        
+        showPreedit(client: client)
     }
 
     func getPreedit() -> String {
-        var text = ""
-        if !kanjiBuffer.isEmpty {
-            if !romanBuffer.isEmpty {
-                text = "\(kanjiBuffer)\(romanBuffer)"
-            } else {
-                text = kanjiBuffer
-            }
-        } else if !kanaBuffer.isEmpty {
-            if !romanBuffer.isEmpty {
-                text = "\(kanaBuffer)\(romanBuffer)"
-            } else {
-                text = kanaBuffer
-            }
-        } else {
-            text = romanBuffer
-        }
-        return text
+        return (kanjiBuffer.isEmpty ? kanaBuffer : kanjiBuffer) + romanBuffer
     }
     
-    func showPreedit(sender: IMKTextInput) {
+    func showPreedit(client: IMKTextInput) {
         let text = getPreedit()
-        if text.isEmpty {
-            AppDelegate.converter.isKatakana = false
-        }
-        
-        sender.setMarkedText(text, selectionRange: NSMakeRange(0, text.count), replacementRange: NSMakeRange(NSNotFound, NSNotFound))
+        client.setMarkedText(text, selectionRange: NSMakeRange(0, text.count), replacementRange: NSMakeRange(NSNotFound, NSNotFound))
     }
     
-    func fixTrailingN(sender: IMKTextInput) {
+    func fixTrailingN(client: IMKTextInput) {
         if romanBuffer == "n" || romanBuffer == "N" {
-            appendString(string: romanBuffer, sender: sender)
+            receive(string: romanBuffer, client: client)
         }
+    }
+    
+    @objc func toggleKakamany() {
+        isKakamanyMode = !isKakamanyMode
+        UserDefaults.standard.set(isKakamanyMode, forKey: "kakamany")
     }
 }
