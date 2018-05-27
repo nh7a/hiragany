@@ -1,4 +1,4 @@
-Hiragany ver 0.2 - ひらがなせいかつ せんよう IME
+Hiragany ver 0.3 - ひらがなせいかつ せんよう IME
 
 
 This is yet another Japanese IME (Input Method Environment) for Mac OS X (10.5 or better).  If you are looking for an ordinary Japanese IME, I'd suggest you to go to http://www.google.com/intl/ja/ime right away.  Hiragany is not an ordinary IME by any means.
@@ -9,7 +9,7 @@ Since you don't worry about Kanji conversion at all, you don't hit Space or Ente
 
 
 * Download
-The latest binary should be found at http://github.com/nh7a/hiragany/downloads
+The latest binary should be found at https://github.com/nh7a/hiragany/releases
 
 
 * Install
@@ -32,4 +32,4 @@ Should you have any questions or suggestions, please follow and ask @Hiragany.
 
 Enjoy ひらがなせいかつ!
 
-Copyright 2010 Naoki Hiroshima
+Copyright 2010-2018 Naoki Hiroshima
