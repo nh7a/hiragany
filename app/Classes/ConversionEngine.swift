@@ -84,7 +84,7 @@ class ConversionEngine {
             if len <= 0 { break }
             let index = string.index(string.startIndex, offsetBy: len)
             let particle = String(string[index...])
-            if particleDic[particle] == true, let converted = kanakanjiDic[ String(string[..<index]) ] {
+            if particleDic[particle, default: false], let converted = kanakanjiDic[ String(string[..<index]) ] {
                 return (converted, particle)
             }
         }
@@ -104,7 +104,7 @@ class ConversionEngine {
     }
     
     func isSymbol(_ string: String) -> Bool {
-        return symbolDic[string] == true
+        return symbolDic[string, default: false]
     }
     
     private func loadPlist<T>(name: String) -> [String: T] {
